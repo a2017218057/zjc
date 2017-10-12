@@ -262,7 +262,7 @@ public class CANTool {
 
 	public void returnTheInfo(int flag,String message)
 	{
-		if(flag==1)
+		if(flag == 1)
 		{
 			message = message + "\r";
 		}

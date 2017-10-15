@@ -30,7 +30,7 @@ public class CheckFormat {
 		
 		map.put("1541", "-281474976710656");
 		map.put("1792", "-1");
-		map.put("1536", "-1");
+		 map.put("1536", "-1");
 		map.put("1537", "0");
 		map.put("1543", "0");
 		map.put("1542", "0");

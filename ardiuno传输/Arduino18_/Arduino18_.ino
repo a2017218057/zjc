@@ -21,7 +21,8 @@ void loop() {
     inputString = "";
     stringComplete = false;
   }
-    int n =digitalRead(2);                   //创建一个变量n，将2号数字口的状态采集出来赋值给他。
+    int n =digitalRead(2);                   
+    //创建一个变量n，将2号数字口的状态采集出来赋值给他。
   if (n==LOW)                             //判断n是否为高电平，如果是执行下面的语句，不是则跳过。
   {
 
@@ -34,7 +35,9 @@ void loop() {
 }
 
 /*
-  SerialEvent在arduino板上的RX引脚收到数据时会被系统自动调用。在系统内部，它是在每次loop函数执行时连带执行的。因此如果再loop使用delay,serialEvent的调用也会被延迟，这样就有可能一次收到>=2个字符。
+  SerialEvent在arduino板上的RX引脚收到数据时会被系统自动调用。
+  在系统内部，它是在每次loop函数执行时连带执行的。因此如果再loop使用delay,serialEvent的调用也会被延迟，
+  这样就有可能一次收到>=2个字符。
  */
 void serialEvent() {
   while (Serial.available()) {

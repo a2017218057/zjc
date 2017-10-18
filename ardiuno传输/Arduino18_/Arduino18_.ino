@@ -5,6 +5,10 @@ void setup() {
   Serial.begin(115200);//cantoolApp要求的频率
  // 初始化串口:
   // 将inputString反转200个字符:
+  Serial.println("hello");
+  pinMode(2,INPUT);                 //将2号数字口设置为输入状态，13号数字口设置为输出状态
+                                    //(板上连接GND__D2两个点模拟总线发送标准帧和扩展帧的事件)
+  digitalWrite(2,HIGH);
   inputString.reserve(200);
 }
 
@@ -17,6 +21,16 @@ void loop() {
     inputString = "";
     stringComplete = false;
   }
+    int n =digitalRead(2);                   //创建一个变量n，将2号数字口的状态采集出来赋值给他。
+  if (n==LOW)                             //判断n是否为高电平，如果是执行下面的语句，不是则跳过。
+  {
+
+    delay(1000);
+    Serial.println("something happened");
+    digitalWrite(2,HIGH);
+}
+
+
 }
 
 /*

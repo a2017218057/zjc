@@ -11,6 +11,9 @@ void setup() {
   pinMode(2,INPUT);                 //将2号数字口设置为输入状态，13号数字口设置为输出状态
                                     //(板上连接GND__D2两个点模拟总线发送标准帧和扩展帧的事件)
   digitalWrite(2,HIGH);
+  pinMode(5,INPUT);                 //将2号数字口设置为输入状态，13号数字口设置为输出状态
+                                    //(板上连接GND__D2两个点模拟总线发送标准帧和扩展帧的事件)
+  digitalWrite(5,HIGH);
   inputString.reserve(200);
 }
 
@@ -34,11 +37,23 @@ void loop() {
     //创建一个变量n，将2号数字口的状态采集出来赋值给他。
   if (n==LOW)                             //判断n是否为高电平，如果是执行下面的语句，不是则跳过。
   {
-
-    delay(1000);
-    Serial.println("something happened");
+    delay(1000);//避免颤抖
+    //这里假装总线发了一个标准帧
+    //Serial.println("something happened");
+    sendStdFrame_ctapp();
     digitalWrite(2,HIGH);
-}
+  }
+
+  int m =digitalRead(5);                   
+    //创建一个变量n，将2号数字口的状态采集出来赋值给他。
+  if (m==LOW)                             //判断n是否为高电平，如果是执行下面的语句，不是则跳过。
+  {
+    delay(1000);//避免颤抖
+    //这里假装总线发了一个标准帧
+    //Serial.println("something happened");
+    sendExdFrame_ctapp();
+    digitalWrite(5,HIGH);
+  }
 /****************************************************/
 
 
@@ -80,8 +95,8 @@ void chooseFunction(String message){
         close_cantool();
         break;
         case 'S':
-        if(message[1]=='n'){
-          serial_return();
+        if(message[2]=='\r'){ //这里判断n是不是数字也可以感觉
+          change_rate();
           }
         break;
         }
@@ -94,20 +109,26 @@ void chooseFunction(String message){
     
  }
  
-//处理板子上的电平变化,一个标准帧发送,一个扩展帧发送  或者拆开写两个函数在loop里直接调用
-void sendFrame(String m){
+//处理板子上的电平变化,一个标准帧发送,一个扩展帧发送 给App  或者拆开写两个函数在loop里直接调用
+void sendStdFrame_ctapp(){
+  String stdmsg = "t12380011121314151617";
+  serial_return(stdmsg+"\r");
+  }
+//处理板子上的电平变化,一个标准帧发送,一个扩展帧发送 给App  或者拆开写两个函数在loop里直接调用
+void sendExdFrame_ctapp(){
+  String exdmsg = "T1234567F81122334455667788";
+  serial_return(exdmsg+"\r");
   }
   
 //发送字符串函数(通用) 这里要考虑串口通讯使用一个一个字符传输,时刻牢记字符串最后有个\r
 void serial_return(String message){
-  
- 
+
   int msg_length = message.length();
 //  message.ToCharArray();
   for(int i=0;i<msg_length;i++){
      Serial.println(message[i]);
     }
-   // Serial.println(msg_length);
+    Serial.println(msg_length);
   }
   
 //返回cantool装置信息
@@ -116,6 +137,7 @@ void version_return(){
   msg_rtn = "SV2.5-HV2.0\r";
   serial_return(msg_rtn);
   }
+  
 //打开装置,开始工作 isWork作为flag表示cantool装置是否在运行  
 void open_cantool(){
   if(isWork == false)
@@ -136,6 +158,7 @@ void change_rate(){
   msg_rtn = "\r";
   serial_return(msg_rtn);
   }
+
 
 
 

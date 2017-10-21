@@ -113,6 +113,9 @@ void chooseFunction(String message){
         case 't':
         rec_stdfrm_rtn(message);
         break;
+        case 'T':
+        rec_exdfrm_rtn(message);
+        break;
         }
         }
       }else if(order == 'O'){
@@ -140,7 +143,13 @@ void rec_stdfrm_rtn(String message){
   serial_return(msg_rtn);
   delay(100);//总感觉发太快
   int len = message.length();
+  String send_canmsg = "";
   String timenum = "";
+  
+  for(int i = 0;i<len-5;i++){ //取出要发送给总线的字符串。。虽然并没有地方发送
+    send_canmsg = send_canmsg + message[i];
+    }
+    Serial.println(send_canmsg);
   int k = 0;
   for(int i = 5;i>0;i--){    //取出时间频率
     k = len - i;
@@ -151,6 +160,12 @@ void rec_stdfrm_rtn(String message){
   loopled(t);               //循环播放灯
  // Serial.println(t);
   }
+
+  //接收cantoolapp的扩展帧 复用标准帧的代码
+void rec_exdfrm_rtn(String message){
+  rec_stdfrm_rtn(message);
+  }
+  
 //发送字符串函数(通用) 这里要考虑串口通讯使用一个一个字符传输,时刻牢记字符串最后有个\r
 void serial_return(String message){
 

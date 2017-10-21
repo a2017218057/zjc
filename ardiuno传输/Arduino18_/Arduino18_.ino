@@ -2,6 +2,7 @@ String inputString ="";         // 缓存字符串
 boolean stringComplete = false;  // 是否string已经完成缓存
 boolean isWork = false;//标志cantool虚拟装置是否在运行
 String msg_rtn = "";    //共用返回字符串
+boolean ledisOn = false;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);//cantoolApp要求的频率
@@ -15,6 +16,7 @@ void setup() {
                                     //(板上连接GND__D2两个点模拟总线发送标准帧和扩展帧的事件)
   digitalWrite(5,HIGH);
   inputString.reserve(200);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
@@ -22,6 +24,7 @@ void loop() {
  // 如果缓存string接收完成:
   if (stringComplete) {
    // serial_return(inputString);
+  // rec_stdfrm_rtn(inputString);
     chooseFunction(inputString);
     //Serial.println(inputString.length());
     // 清空String:
@@ -87,21 +90,33 @@ void chooseFunction(String message){
       if(isWork == true){
         switch(order){
         case 'V':
-        if(message[1]=='\r')
-        version_return();
+        if(message[1]=='\r'){
+          ledisOn = false;
+          version_return();
+          }
+        
         break;
         case 'C':
-        if(message[1]=='\r')
-        close_cantool();
+        if(message[1]=='\r'){
+          ledisOn = false;
+          close_cantool();
+          }
+        
         break;
         case 'S':
+        
         if(message[2]=='\r'){ //这里判断n是不是数字也可以感觉
+          ledisOn = false;
           change_rate();
           }
+        break;
+        case 't':
+        rec_stdfrm_rtn(message);
         break;
         }
         }
       }else if(order == 'O'){
+        ledisOn = false;
         open_cantool();
         }
    
@@ -119,7 +134,23 @@ void sendExdFrame_ctapp(){
   String exdmsg = "T1234567F81122334455667788";
   serial_return(exdmsg+"\r");
   }
-  
+//接收cantoolapp的标准帧
+void rec_stdfrm_rtn(String message){
+  msg_rtn = "\r";
+  serial_return(msg_rtn);
+  delay(100);//总感觉发太快
+  int len = message.length();
+  String timenum = "";
+  int k = 0;
+  for(int i = 5;i>0;i--){    //取出时间频率
+    k = len - i;
+    timenum = timenum + message[k];
+    }
+  int t = Str_to_num(timenum);
+  ledisOn = true;
+  loopled(t);               //循环播放灯
+ // Serial.println(t);
+  }
 //发送字符串函数(通用) 这里要考虑串口通讯使用一个一个字符传输,时刻牢记字符串最后有个\r
 void serial_return(String message){
 
@@ -159,10 +190,52 @@ void change_rate(){
   serial_return(msg_rtn);
   }
 
+//工具函数,用来将带有时间的16进制字符串转化为数字再转化为10进制
+//将十六进制的字符串转换成整数  
+int Str_to_num(String s)  
+{  
+    int i;  
+    int n = 0;  
+    if (s[0] == '0' && (s[1]=='x' || s[1]=='X'))  
+    {  
+        i = 2;  
+    }  
+    else  
+    {  
+        i = 0;  
+    }  
+    for (; (s[i] >= '0' && s[i] <= '9') || (s[i] >= 'a' && s[i] <= 'z') || (s[i] >='A' && s[i] <= 'Z');++i)  
+    {  
+        if (tolower(s[i]) > '9')  
+        {  
+            n = 16 * n + (10 + tolower(s[i]) - 'a');  
+        }  
+        else  
+        {  
+            n = 16 * n + (tolower(s[i]) - '0');  
+        }  
+    }  
+    return n;  
+}  
 
-
-
-
+//控制板子上的灯
+void closeLed(){
+   ledisOn = false;
+   digitalWrite(LED_BUILTIN, LOW);   // 关灯
+  }
+//循环播放灯 参数为时间间隔
+void loopled(int delta){
+  if(ledisOn == true){
+   for ( int i = 0;i<30;i++){
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(delta);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(delta);   
+      }
+     
+    }
+         
+  }
 
 
 

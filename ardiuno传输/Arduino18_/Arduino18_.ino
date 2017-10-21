@@ -149,7 +149,7 @@ void rec_stdfrm_rtn(String message){
   for(int i = 0;i<len-5;i++){ //取出要发送给总线的字符串。。虽然并没有地方发送
     send_canmsg = send_canmsg + message[i];
     }
-    Serial.println(send_canmsg);
+ //   Serial.println(send_canmsg);
   int k = 0;
   for(int i = 5;i>0;i--){    //取出时间频率
     k = len - i;
@@ -174,7 +174,7 @@ void serial_return(String message){
   for(int i=0;i<msg_length;i++){
      Serial.println(message[i]);
     }
-    Serial.println(msg_length);
+   // Serial.println(msg_length);
   }
   
 //返回cantool装置信息

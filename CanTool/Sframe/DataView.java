@@ -8,6 +8,7 @@ import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Label;
+import java.awt.TextField;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -44,11 +45,12 @@ public class DataView extends Frame {
 	
 	private Label tem = new Label("暂无数据", Label.CENTER);	//温度
 	private Label hum = new Label("暂无数据", Label.CENTER);	//湿度
-	private Label pa = new Label("暂无数据", Label.CENTER);	//压强
+	private TextField tx1 = new TextField(10);
+	/*private Label pa = new Label("暂无数据", Label.CENTER);	//压强
 	private Label rain = new Label("暂无数据", Label.CENTER);	//雨量
 	private Label win_sp = new Label("暂无数据", Label.CENTER);	//风速
 	private Label win_dir = new Label("暂无数据", Label.CENTER);	//风向
-	
+*/	
 	private Choice commChoice = new Choice();	//串口选择（下拉框）
 	private Choice bpsChoice = new Choice();	//波特率选择
 	
@@ -103,7 +105,13 @@ public class DataView extends Frame {
 		hum.setForeground(Color.white);
 		add(hum);
 		
-		pa.setBounds(140, 193, 225, 50);
+		tx1.setBounds(140, 193, 225, 50);
+		tx1.setBackground(Color.black);
+		tx1.setFont(font);
+		tx1.setForeground(Color.white);
+		add(tx1);
+		
+		/*pa.setBounds(140, 193, 225, 50);
 		pa.setBackground(Color.black);
 		pa.setFont(font);
 		pa.setForeground(Color.white);
@@ -125,7 +133,7 @@ public class DataView extends Frame {
 		win_dir.setBackground(Color.black);
 		win_dir.setFont(font);
 		win_dir.setForeground(Color.white);
-		add(win_dir);
+		add(win_dir);*/
 		
 		//添加串口选择选项
 		commChoice.setBounds(160, 397, 200, 200);
@@ -213,13 +221,13 @@ public class DataView extends Frame {
 		
 		g.setColor(Color.black);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 温度： ", 45, 130);
+		g.drawString(" 信号： ", 45, 130);
 
 		g.setColor(Color.black);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 湿度： ", 425, 130);
+		g.drawString(" 结果： ", 425, 130);
 		
-		g.setColor(Color.black);
+		/*g.setColor(Color.black);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
 		g.drawString(" 压强： ", 45, 220);
 		
@@ -233,7 +241,7 @@ public class DataView extends Frame {
 		
 		g.setColor(Color.black);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 风向： ", 425, 310);
+		g.drawString(" 风向： ", 425, 310);*/
 		
 		g.setColor(Color.gray);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 20));
@@ -412,10 +420,10 @@ public class DataView extends Frame {
 											//System.out.println("win_dir: " + elements[5]);
 											tem.setText(elements[0] + " ℃");
 											hum.setText(elements[1] + " %");
-											pa.setText(elements[2] + " hPa");
+											/*pa.setText(elements[2] + " hPa");
 											rain.setText(elements[3] + " mm");
 											win_sp.setText(elements[4] + " m/s");
-											win_dir.setText(elements[5] + " °");
+											win_dir.setText(elements[5] + " °");*/
 										} catch (ArrayIndexOutOfBoundsException e) {
 											JOptionPane.showMessageDialog(null, "数据解析过程出错，更新界面数据失败！请检查设备或程序！", "错误", JOptionPane.INFORMATION_MESSAGE);
 											System.exit(0);

@@ -1,5 +1,6 @@
 package Sframe;
 
+
 import java.awt.Button;
 import java.awt.Choice;
 import java.awt.Color;
@@ -12,17 +13,23 @@ import java.awt.TextField;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.List;
 import java.util.TooManyListenersException;
 
+import javax.swing.JButton;
 import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 
+import CANTool.CANTool;
 import gnu.io.SerialPort;
 import gnu.io.SerialPortEvent;
 import gnu.io.SerialPortEventListener;
 import serialException.*;
+import serialPort.SerialTool;
 
 /**
  * 监测数据显示类
@@ -45,7 +52,9 @@ public class DataView extends Frame {
 	
 	private Label tem = new Label("暂无数据", Label.CENTER);	//温度
 	private Label hum = new Label("暂无数据", Label.CENTER);	//湿度
-	private TextField tx1 = new TextField(10);
+	private JTextField tx1 = new JTextField(10);
+	private JTextField tx2 = new JTextField(10);
+	private JButton bu1 = new JButton("测试");
 	/*private Label pa = new Label("暂无数据", Label.CENTER);	//压强
 	private Label rain = new Label("暂无数据", Label.CENTER);	//雨量
 	private Label win_sp = new Label("暂无数据", Label.CENTER);	//风速
@@ -66,6 +75,7 @@ public class DataView extends Frame {
 	 * 类的构造方法
 	 * @param client
 	 */
+	
 	public DataView(Client client) {
 		this.client = client;
 		commList = SerialTool.findPort();	//程序初始化时就扫描一次有效串口
@@ -110,6 +120,59 @@ public class DataView extends Frame {
 		tx1.setFont(font);
 		tx1.setForeground(Color.white);
 		add(tx1);
+		
+		tx2.setBounds(520, 193, 225, 50);
+		tx2.setBackground(Color.black);
+		tx2.setFont(font);
+		tx2.setForeground(Color.white);
+		add(tx2);
+		
+		bu1.setBounds(140, 283, 225, 50);
+		//bu1.setBackground(Color.black);
+		bu1.setFont(font);
+		//bu1.setForeground(Color.white);
+		add(bu1);
+		bu1.addMouseListener(new MouseListener(){
+
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				// TODO Auto-generated method stub
+				String temp = tx1.getText() + '\r';
+				try {
+					SerialTool.sendToPort(serialPort, temp.getBytes());
+				} catch (SendDataToSerialPortFailure
+						| SerialPortOutputStreamCloseFailure e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+        });
 		
 		/*pa.setBounds(140, 193, 225, 50);
 		pa.setBackground(Color.black);
@@ -192,7 +255,7 @@ public class DataView extends Frame {
 							//获取指定端口名及波特率的串口对象
 							serialPort = SerialTool.openPort(commName, bps);
 							//在该串口对象上添加监听器
-							SerialTool.addListener(serialPort, new SerialListener());
+							SerialTool.addListener(serialPort, new SerialListener(serialPort,new DataView(client)));
 							//监听成功进行提示
 							JOptionPane.showMessageDialog(null, "监听成功，稍后将显示监测数据！", "提示", JOptionPane.INFORMATION_MESSAGE);
 							
@@ -209,7 +272,7 @@ public class DataView extends Frame {
 		
 		this.setResizable(false);
 		
-		new Thread(new RepaintThread()).start();	//启动重画线程
+		//new Thread(new RepaintThread()).start();	//启动重画线程
 		
 	}
 	
@@ -356,6 +419,16 @@ public class DataView extends Frame {
 		/**
 		 * 处理监控到的串口事件
 		 */
+		    private SerialPort serialPort;
+		    private String buff;
+		    private DataView c;
+		    public SerialListener(SerialPort serialPort,DataView c)
+		    {
+		    	this.serialPort = serialPort;
+		    	buff = "";
+		    	this.c = c;
+		    	
+		    }
 	    public void serialEvent(SerialPortEvent serialPortEvent) {
 	    	
 	        switch (serialPortEvent.getEventType()) {
@@ -384,7 +457,7 @@ public class DataView extends Frame {
 	            case SerialPortEvent.DATA_AVAILABLE: // 1 串口存在可用数据
 	            	
 	            	//System.out.println("found data");
-					byte[] data = null;
+					/*byte[] data = null;
 					
 					try {
 						if (serialPort == null) {
@@ -414,16 +487,16 @@ public class DataView extends Frame {
 									else {
 										try {
 											//更新界面Label值
-											/*for (int i=0; i<elements.length; i++) {
+											for (int i=0; i<elements.length; i++) {
 												System.out.println(elements[i]);
-											}*/
+											}
 											//System.out.println("win_dir: " + elements[5]);
 											tem.setText(elements[0] + " ℃");
 											hum.setText(elements[1] + " %");
-											/*pa.setText(elements[2] + " hPa");
+											pa.setText(elements[2] + " hPa");
 											rain.setText(elements[3] + " mm");
 											win_sp.setText(elements[4] + " m/s");
-											win_dir.setText(elements[5] + " °");*/
+											win_dir.setText(elements[5] + " °");
 										} catch (ArrayIndexOutOfBoundsException e) {
 											JOptionPane.showMessageDialog(null, "数据解析过程出错，更新界面数据失败！请检查设备或程序！", "错误", JOptionPane.INFORMATION_MESSAGE);
 											System.exit(0);
@@ -439,8 +512,53 @@ public class DataView extends Frame {
 						System.exit(0);	//发生读取错误时显示错误信息后退出系统
 					}	
 		            
-					break;
-	
+					break;*/
+	            	byte[] data = null;
+	                
+	                try {
+	                    if (serialPort == null) {
+	                    	System.out.println("串口对象为空！监听失败");
+	                    }
+	                    else {
+	                    	data = SerialTool.readFromPort(serialPort);    //读取数据，存入字节数组
+	                        String dataString = new String(data);	//与缓冲区剩余数据合并
+	                        System.out.println(dataString);
+	                        int len = dataString.length();
+	                        for(int i=0;i<len;i++)
+	                        {
+	                        	char c1= dataString.charAt(i);
+	                        	if(c1=='\r')
+	                        	{
+	                        		buff+="OK";
+	                        		c.tx2.setText(new String(buff));
+	                        		buff="";
+	                        	}
+	                        	else if((int)c1==7)
+	                        	{
+	                        		buff+="ERROR";
+	                        		c.tx2.setText(new String(buff));
+	                        		buff="";
+	                        	}
+	                        	else {
+									buff+=c1;
+								}
+	                        }
+	                        
+	                        
+	                        if(buff.length()>512)
+	                        {
+	                        	c.tx2.setText(new String("ERROR"));
+	                        	buff="";
+	                        }
+	                        
+	                    }
+	                    System.out.println(buff);
+	                    
+	                } catch (Exception e) {
+	                    System.exit(0);
+	                }    
+	                
+	                break;
 	        }
 
 	    }

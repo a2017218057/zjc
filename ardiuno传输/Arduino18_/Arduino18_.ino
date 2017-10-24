@@ -1,8 +1,14 @@
+#include <avr/pgmspace.h>
 String inputString ="";         // 缓存字符串
 boolean stringComplete = false;  // 是否string已经完成缓存
 boolean isWork = false;//标志cantool虚拟装置是否在运行
 String msg_rtn = "";    //共用返回字符串
 boolean ledisOn = false;
+const char sA[] PROGMEM="BO_ 801 HVAC_2: 8 HVAC";
+const PROGMEM char ss[]  = {"BO_ 801 HVAC_2: 8 HVAC SG_ HVAC_RawCabinTemp : 7|8@0+ (0.5,-40) [-40|87.5] \"°C\"  CDU SG_ HVAC_CorrectedCabinTemp : 15|8@0+ (0.5,-40) [-40|87.5] \"°C\"  CDU SG_ HVAC_RawCabinTempVD : 19|1@0+ (1,0) [0|1] \"\"  CDU SG_ HVAC_CompressorComsumpPwr : 17|10@0+ (10,0) [0|8000] \"w\"  BCM SG_ HVAC_PTCPwrAct : 33|10@0+ (10,0) [0|8000] \"w\"  BCM  SG_ HVAC_stPTCAct : 55|3@0+ (1,0) [0|1] \"\"  BCM SG_ HVAC_CorrectedCabinTempVD : 18|1@0+ (1,0) [0|1] \"\" CDU "};
+
+
+char s[] =  "rdfghjklfgfydushijfguerhfdud";
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);//cantoolApp要求的频率
@@ -17,11 +23,18 @@ void setup() {
   digitalWrite(5,HIGH);
   inputString.reserve(200);
   pinMode(LED_BUILTIN, OUTPUT);
+  int numofss = sizeof(ss)/sizeof(char);
+ // read back a char
+ 
+String id = canmsg(ss);
+ Serial.print("id"+id);
 }
+
 
 void loop() {
   // put your main code here, to run repeatedly:
  // 如果缓存string接收完成:
+  
   if (stringComplete) {
    // serial_return(inputString);
   // rec_stdfrm_rtn(inputString);
@@ -30,7 +43,8 @@ void loop() {
     // 清空String:
     inputString ="";
     stringComplete = false;
-    
+   
+   
   }
  
   /******这部分就是希望使用板子上的电平变化来模拟总线输入信息
@@ -253,5 +267,162 @@ void loopled(int delta){
   }
 
 
+//处理字符的巨大数组
+String canmsg(const char msg[]){
+ int pause = 4;
+ String id = "";
+ int len = strlen_P(msg);
+ //求ID
+  for (int k = 4; k < len; k++)
+  {
+    char myChar =  pgm_read_byte_near(msg + k);
+    //Serial.print(myChar);
+    if(isDigit(myChar)){
+      id += myChar;
+      }else{
+       
+        break;
+        }
+  }
+//BO_ 801 HVAC_2: 8 HVAC SG_ HVAC_RawCabinTemp : 7|8@0+ (0.5,-40) [-40|87.5] 
+//SG_ HVAC_RawCabinTemp : 7|8@0+ (0.5,-40) [-40|87.5] \"°C\"  CDU
+  //处理语句
+ // String x = "";
+  String start = "";
+  String lenn = "";
+  String A = "";
+  String B = "";
+  String suanfa = "";
+  String left = "";
+  String right = "";
+  pause = 20;
+  for(;pause<len;pause++){
+   // Serial.print("pause");
+    
+    char myChar4 =  pgm_read_byte_near(msg + pause);
+    if(isDigit(myChar4)){
+     // Serial.print(myChar4);
+      start += myChar4;
+      int next = pause+1;
+      char myChar44 =  pgm_read_byte_near(msg + next);
+      if(isDigit(myChar44)){
+        }else{
+          pause++;
+          break;
+          }
+      }
+    }
+   
+//pause = 14;
+  for(;pause<len;pause++){
+     char myChar =  pgm_read_byte_near(msg + pause);
+     if(isDigit(myChar)){
+      lenn += myChar;
+      int next = pause+1;
+      char myChar55 =  pgm_read_byte_near(msg + next);
+      if(isDigit(myChar55)){
+        }else{
+          pause++;
+          break;
+          }
+      }
+    }
+   for(;pause<len;pause++){
+     char myChar =  pgm_read_byte_near(msg + pause);
+     if(isDigit(myChar)){
+      suanfa += myChar;
+      int next = pause+1;
+      char myChar66 =  pgm_read_byte_near(msg + next);
+      if(isDigit(myChar66)){
+        }else{
+          pause++;
+          break;
+          }
+      }
 
-  
+    }
+   // Serial.print(pause);
+   int finish2 = 0;
+   int finish1 = 0;
+    for(;pause<len;pause++){
+     char myChar =  pgm_read_byte_near(msg + pause);
+     if(myChar == '('){
+      
+      pause =pause+1;
+      for( ;pause<len;pause++){
+        char myChar1 =  pgm_read_byte_near(msg + pause);
+        if(myChar1 == ','){
+         //Serial.print("p"+pause);
+         pause++;         
+         break;
+          }else{
+         //   Serial.print(myChar1);
+            A += myChar1;
+            } 
+        }
+     //  Serial.print("pse"+pause);
+      for( ;pause<len;pause++){
+       // Serial.print(pause);
+        char myChar2 =  pgm_read_byte_near(msg + pause);
+        if(myChar2 == ')'){
+            pause++;
+            finish2 = 1;
+            break;
+          }else{
+            B += myChar2;
+            } 
+        }
+        
+      }else if(finish2 == 1){
+        break;
+        }
+      
+    } 
+//求 区间
+  for(;pause<len;pause++){
+     char myChar =  pgm_read_byte_near(msg + pause);
+     if(myChar == '['){
+      
+      pause =pause+1;
+      for( ;pause<len;pause++){
+        char myChar1 =  pgm_read_byte_near(msg + pause);
+        if(myChar1 == '|'){
+         //Serial.print("p"+pause);
+         pause++;         
+         break;
+          }else{
+         //   Serial.print(myChar1);
+            left += myChar1;
+            } 
+        }
+     //  Serial.print("pse"+pause);
+      for( ;pause<len;pause++){
+       // Serial.print(pause);
+        char myChar2 =  pgm_read_byte_near(msg + pause);
+        if(myChar2 == ']'){
+            pause++;
+            finish1 = 1;
+            break;
+          }else{
+            right += myChar2;
+            } 
+        }
+        
+      }else if(finish1 == 1){
+        break;
+        }
+      
+    } 
+      
+    Serial.println(start.toInt());
+    Serial.println(lenn.toInt());
+    Serial.println(A.toInt());
+    Serial.println(B.toInt());
+    Serial.println(suanfa.toInt());
+    Serial.println(left.toInt());
+    Serial.println(right.toInt());
+  return id; 
+ 
+  }
+
+  //

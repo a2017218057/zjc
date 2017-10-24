@@ -288,6 +288,35 @@ String canmsg(const char msg[]){
 //SG_ HVAC_RawCabinTemp : 7|8@0+ (0.5,-40) [-40|87.5] \"°C\"  CDU
   //处理语句
  // String x = "";
+ for(;pause<len;pause++){
+  if(pause<len-1){
+    int next = pause+1;
+    char myChar =  pgm_read_byte_near(msg + pause);
+    char myChar1 =  pgm_read_byte_near(msg + next);
+    if((myChar == 'S')&&(myChar1 == 'G')){
+      for(;pause<len;pause++){
+        char myChar22 =  pgm_read_byte_near(msg + pause);
+          if(myChar22 ==':'){
+         Serial.println(pause);
+         dotheline(pause,len,msg);
+         Serial.println();
+      }
+        }
+    
+      }
+    }
+
+    
+  }
+ //dotheline(114,len,msg);
+//dotheline(45,len,msg); 
+ return id; 
+ 
+  }
+
+  //
+  int dotheline(int pause,int len,const char msg[]){
+    
   String start = "";
   String lenn = "";
   String A = "";
@@ -295,7 +324,7 @@ String canmsg(const char msg[]){
   String suanfa = "";
   String left = "";
   String right = "";
-  pause = 20;
+//  pause = 20;
   for(;pause<len;pause++){
    // Serial.print("pause");
     
@@ -414,15 +443,13 @@ String canmsg(const char msg[]){
       
     } 
       
-    Serial.println(start.toInt());
-    Serial.println(lenn.toInt());
-    Serial.println(A.toInt());
-    Serial.println(B.toInt());
-    Serial.println(suanfa.toInt());
-    Serial.println(left.toInt());
-    Serial.println(right.toInt());
-  return id; 
- 
-  }
+    Serial.print(start);
+    Serial.print(lenn);
+    Serial.print(A);//float.Parse(s)
+    Serial.print(B);
+    Serial.print(suanfa);
+    Serial.print(left);
+    Serial.print(right);
 
-  //
+  //  return pause;
+    }

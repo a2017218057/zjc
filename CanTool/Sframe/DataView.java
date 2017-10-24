@@ -54,6 +54,7 @@ public class DataView extends Frame {
 	private Label hum = new Label("暂无数据", Label.CENTER);	//湿度
 	private JTextField tx1 = new JTextField(10);
 	private JTextField tx2 = new JTextField(10);
+
 	private JButton bu1 = new JButton("测试");
 	/*private Label pa = new Label("暂无数据", Label.CENTER);	//压强
 	private Label rain = new Label("暂无数据", Label.CENTER);	//雨量

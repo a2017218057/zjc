@@ -6,9 +6,14 @@ String msg_rtn = "";    //共用返回字符串
 boolean ledisOn = false;
 const char sA[] PROGMEM="BO_ 801 HVAC_2: 8 HVAC";
 const PROGMEM char ss[]  = {"BO_ 801 HVAC_2: 8 HVAC SG_ HVAC_RawCabinTemp : 7|8@0+ (0.5,-40) [-40|87.5] \"°C\"  CDU SG_ HVAC_CorrectedCabinTemp : 15|8@0+ (0.5,-40) [-40|87.5] \"°C\"  CDU SG_ HVAC_RawCabinTempVD : 19|1@0+ (1,0) [0|1] \"\"  CDU SG_ HVAC_CompressorComsumpPwr : 17|10@0+ (10,0) [0|8000] \"w\"  BCM SG_ HVAC_PTCPwrAct : 33|10@0+ (10,0) [0|8000] \"w\"  BCM  SG_ HVAC_stPTCAct : 55|3@0+ (1,0) [0|1] \"\"  BCM SG_ HVAC_CorrectedCabinTempVD : 18|1@0+ (1,0) [0|1] \"\" CDU "};
-
-
+const PROGMEM char stdtt[] = {"t31D80100000000000000t320880478C2F05A1D29At360800402418E4000000t39380000381403000000t03D80D00000000000000t42B84215640000000001t3208094697860945675Dt320838D1DB1304806D85t31880300000000000000t34580000000006CA0000t31D80200000000000000t31880100000000000000t03D83000000000000000t32180F23042701722000t36489476B18400000000t39380000070701000000t36380C51C0521B0090D9t03D80200000000000000t42080332510000000000t345800000000075F0000t31D80600000000000000t393800002B3521000000t03D82800000000000000t31880100000000000000t39380000362001000000t36382150014720000009t39380000030D22000000t3638441F413B5600908Dt42082802860000000000t3588423C5015130EE000t31D80300000000000000t31880200000000000000t320810F35FB10762018At36483274950000000000t31D80600000000000000t364879328CC200000000t03D83400000000000000t31D80300000000000000t3608043D0622AE000000t03D83200000000000000t3218AF090E1602850000t3458000000002BF00000t42B81F33A30000000000t3208F0EE8D2303035783t4208E233D40000000001t393800003A0510000000t35884B10B06F17100000t31D80200000000000000t31D80500000000000000t03D83000000000000000t31D80500000000000000t3648C44D930400000000t31D80400000000000000t42084017D70000000001t42B83703C90000000001t31D80600000000000000t345800000000280B0000t3648D637328700000000t360807462D1EC7000000t42B89632F50000000001t3208B978B34B04A715C1t363819A7406546008012t31880100000000000000t3218A6F90C7300DB0000t36380C1980A01400508Ct32184FE1096F00540000t42082A34E90000000001t393800001D3320000000t3608024A323EBA000000t36480453270200000000t31D80000000000000000t31D80000000000000000t32189A25002B02042000t3588892C001B140CB000t42B87B373F0000000001t345800000000212F0000t3208615350C50C4645B6t3608073B2639A7000000t3588423C74111604F000t31D80300000000000000t42088D20800000000001t3458000000000D3A0000t31D80400000000000000t42B85F125E0000000000t03D80700000000000000t360804103E15FB000000t36382D5580BA460080F3t36080704255DAD000000t320871AD8DAD05831CC7t31880200000000000000t393800000A1723000000t31880300000000000000t42081606020000000001t3208809D240703C4869At32184CE602DC017F2000t42B8FD12570000000001t39380000302023000000"};
+int readmsg_tt = 0;
 char s[] =  "rdfghjklfgfydushijfguerhfdud";
+String p[7];
+boolean sendmsg_tt = false;
+boolean reread = false;
+int timeled = 0;
+int delta =0;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);//cantoolApp要求的频率
@@ -26,8 +31,8 @@ void setup() {
   int numofss = sizeof(ss)/sizeof(char);
  // read back a char
  
-String id = canmsg(ss);
- Serial.print("id"+id);
+//String id = canmsg(ss);
+ //Serial.print("id"+id);
 }
 
 
@@ -50,14 +55,17 @@ void loop() {
   /******这部分就是希望使用板子上的电平变化来模拟总线输入信息
           需要考虑标准帧和扩展帧两种情况需要两个数字口的变化(都与GND)           待写
   ******/
-  int n =digitalRead(2);                   
+  if(isWork){
+    int n =digitalRead(2);                   
     //创建一个变量n，将2号数字口的状态采集出来赋值给他。
   if (n==LOW)                             //判断n是否为高电平，如果是执行下面的语句，不是则跳过。
   {
     delay(1000);//避免颤抖
     //这里假装总线发了一个标准帧
     //Serial.println("something happened");
-    sendStdFrame_ctapp();
+    //sendStdFrame_ctapp();
+    sendmsg_tt = !sendmsg_tt;
+  //  Serial.println(sendmsg_tt);
     digitalWrite(2,HIGH);
   }
 
@@ -72,7 +80,24 @@ void loop() {
     digitalWrite(5,HIGH);
   }
 /****************************************************/
-
+if(sendmsg_tt){
+  delay(1000);
+  sendStdFrame_ctapp(stdtt);
+  //Serial.println(readmsg_tt);
+  }
+if(ledisOn){
+  if(timeled<30)
+  timeled+=1;
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(delta);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(delta);  
+  }else{
+    timeled =0;
+    ledisOn =false;
+    }
+    }
+  
 
 }
 
@@ -142,9 +167,39 @@ void chooseFunction(String message){
  }
  
 //处理板子上的电平变化,一个标准帧发送,一个扩展帧发送 给App  或者拆开写两个函数在loop里直接调用
-void sendStdFrame_ctapp(){
-  String stdmsg = "t12380011121314151617";
-  serial_return(stdmsg+"\r");
+void sendStdFrame_ctapp(const char tt[]){
+  
+  int tlen = strlen_P(tt);
+  //Serial.println(tlen);
+  String msg = "";
+  for(;readmsg_tt<tlen;readmsg_tt++){
+      int next = readmsg_tt+1;
+      char currentC =  pgm_read_byte_near(tt + readmsg_tt);
+    if(next<tlen){
+     
+       char nextC =  pgm_read_byte_near(tt + next);
+
+       if(nextC=='t'){
+          msg += currentC;
+          readmsg_tt++;   
+          //Serial.println(readmsg_tt);
+          break;
+          }else{
+            msg += currentC; 
+            }
+      }else{
+        msg += currentC;
+        readmsg_tt=0;
+       // reread = true;
+       break;
+        }
+
+     
+   
+    }
+  
+ // String stdmsg = "t12380011121314151617";
+  serial_return(msg+"\r");
   }
 //处理板子上的电平变化,一个标准帧发送,一个扩展帧发送 给App  或者拆开写两个函数在loop里直接调用
 void sendExdFrame_ctapp(){
@@ -171,6 +226,7 @@ void rec_stdfrm_rtn(String message){
     }
   int t = Str_to_num(timenum);
   ledisOn = true;
+  delta = t;
   loopled(t);               //循环播放灯
  // Serial.println(t);
   }
@@ -182,13 +238,13 @@ void rec_exdfrm_rtn(String message){
   
 //发送字符串函数(通用) 这里要考虑串口通讯使用一个一个字符传输,时刻牢记字符串最后有个\r
 void serial_return(String message){
-
+  
   int msg_length = message.length();
 //  message.ToCharArray();
   for(int i=0;i<msg_length;i++){
-     Serial.println(message[i]);
+     Serial.print(message[i]);
     }
-   // Serial.println(msg_length);
+    Serial.println();
   }
   
 //返回cantool装置信息
@@ -255,12 +311,12 @@ void closeLed(){
 //循环播放灯 参数为时间间隔
 void loopled(int delta){
   if(ledisOn == true){
-   for ( int i = 0;i<30;i++){
+   /*for ( int i = 0;i<30;i++){
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(delta);                       // wait for a second
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(delta);   
-      }
+      } */
      
     }
          
@@ -299,7 +355,7 @@ String canmsg(const char msg[]){
           if(myChar22 ==':'){
          Serial.println(pause);
          dotheline(pause,len,msg);
-         Serial.println();
+         Serial.println(p[3]);
       }
         }
     
@@ -315,15 +371,18 @@ String canmsg(const char msg[]){
   }
 
   //
-  int dotheline(int pause,int len,const char msg[]){
+  void dotheline(int pause,int len,const char msg[]){
     
-  String start = "";
+  /*String start = "";
   String lenn = "";
   String A = "";
   String B = "";
   String suanfa = "";
   String left = "";
-  String right = "";
+  String right = "";*/
+  for(int i = 0;i<7;i++){
+    p[i]="";
+    }
 //  pause = 20;
   for(;pause<len;pause++){
    // Serial.print("pause");
@@ -331,7 +390,7 @@ String canmsg(const char msg[]){
     char myChar4 =  pgm_read_byte_near(msg + pause);
     if(isDigit(myChar4)){
      // Serial.print(myChar4);
-      start += myChar4;
+      p[0] += myChar4;
       int next = pause+1;
       char myChar44 =  pgm_read_byte_near(msg + next);
       if(isDigit(myChar44)){
@@ -346,7 +405,7 @@ String canmsg(const char msg[]){
   for(;pause<len;pause++){
      char myChar =  pgm_read_byte_near(msg + pause);
      if(isDigit(myChar)){
-      lenn += myChar;
+      p[1] += myChar;
       int next = pause+1;
       char myChar55 =  pgm_read_byte_near(msg + next);
       if(isDigit(myChar55)){
@@ -359,7 +418,7 @@ String canmsg(const char msg[]){
    for(;pause<len;pause++){
      char myChar =  pgm_read_byte_near(msg + pause);
      if(isDigit(myChar)){
-      suanfa += myChar;
+      p[2] += myChar;
       int next = pause+1;
       char myChar66 =  pgm_read_byte_near(msg + next);
       if(isDigit(myChar66)){
@@ -386,7 +445,7 @@ String canmsg(const char msg[]){
          break;
           }else{
          //   Serial.print(myChar1);
-            A += myChar1;
+            p[3] += myChar1;
             } 
         }
      //  Serial.print("pse"+pause);
@@ -398,7 +457,7 @@ String canmsg(const char msg[]){
             finish2 = 1;
             break;
           }else{
-            B += myChar2;
+            p[4] += myChar2;
             } 
         }
         
@@ -421,7 +480,7 @@ String canmsg(const char msg[]){
          break;
           }else{
          //   Serial.print(myChar1);
-            left += myChar1;
+            p[5] += myChar1;
             } 
         }
      //  Serial.print("pse"+pause);
@@ -433,7 +492,7 @@ String canmsg(const char msg[]){
             finish1 = 1;
             break;
           }else{
-            right += myChar2;
+            p[6] += myChar2;
             } 
         }
         
@@ -443,13 +502,7 @@ String canmsg(const char msg[]){
       
     } 
       
-    Serial.print(start);
-    Serial.print(lenn);
-    Serial.print(A);//float.Parse(s)
-    Serial.print(B);
-    Serial.print(suanfa);
-    Serial.print(left);
-    Serial.print(right);
+   
 
   //  return pause;
     }

@@ -21,6 +21,7 @@ import java.util.List;
 import java.util.TooManyListenersException;
 
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
@@ -50,12 +51,13 @@ public class DataView extends Frame {
 	
 	private Font font = new Font("微软雅黑", Font.BOLD, 25);
 	
-	private Label tem = new Label("暂无数据", Label.CENTER);	//温度
-	private Label hum = new Label("暂无数据", Label.CENTER);	//湿度
-	private JTextField tx1 = new JTextField(10);
-	private JTextField tx2 = new JTextField(10);
-
-	private JButton bu1 = new JButton("测试");
+	private Label tx1 = new Label("暂无数据", Label.CENTER);	//温度
+	private Label tx2 = new Label("暂无数据", Label.CENTER);	//湿度
+	private Label tx3 = new Label("暂无数据", Label.CENTER);
+	private Label tx4 = new Label("暂无数据", Label.CENTER);
+	private TextField tx5 = new TextField(10);
+	
+	private Button bu1 = new Button("测试");
 	/*private Label pa = new Label("暂无数据", Label.CENTER);	//压强
 	private Label rain = new Label("暂无数据", Label.CENTER);	//雨量
 	private Label win_sp = new Label("暂无数据", Label.CENTER);	//风速
@@ -104,31 +106,37 @@ public class DataView extends Frame {
 			
 		});
 		
-		tem.setBounds(140, 103, 225, 50);
-		tem.setBackground(Color.black);
-		tem.setFont(font);
-		tem.setForeground(Color.white);
-		add(tem);
-		
-		hum.setBounds(520, 103, 225, 50);
-		hum.setBackground(Color.black);
-		hum.setFont(font);
-		hum.setForeground(Color.white);
-		add(hum);
-		
-		tx1.setBounds(140, 193, 225, 50);
+		tx1.setBounds(140, 103, 225, 50);
 		tx1.setBackground(Color.black);
 		tx1.setFont(font);
 		tx1.setForeground(Color.white);
 		add(tx1);
 		
-		tx2.setBounds(520, 193, 225, 50);
+		tx2.setBounds(520, 103, 225, 50);
 		tx2.setBackground(Color.black);
 		tx2.setFont(font);
 		tx2.setForeground(Color.white);
 		add(tx2);
 		
-		bu1.setBounds(140, 283, 225, 50);
+		tx3.setBounds(140, 193, 225, 50);
+		tx3.setBackground(Color.black);
+		tx3.setFont(font);
+		tx3.setForeground(Color.white);
+		add(tx3);
+		
+		tx4.setBounds(520, 193, 225, 50);
+		tx4.setBackground(Color.black);
+		tx4.setFont(font);
+		tx4.setForeground(Color.white);
+		add(tx4);
+		
+		tx5.setBounds(140, 283, 225, 50);
+		tx5.setBackground(Color.black);
+		tx5.setFont(font);
+		tx5.setForeground(Color.white);
+		add(tx5);
+		
+		bu1.setBounds(520, 283, 225, 50);
 		//bu1.setBackground(Color.black);
 		bu1.setFont(font);
 		//bu1.setForeground(Color.white);
@@ -139,6 +147,7 @@ public class DataView extends Frame {
 			public void mouseClicked(MouseEvent arg0) {
 				// TODO Auto-generated method stub
 				String temp = tx1.getText() + '\r';
+				System.out.println("串口写入数据为"+temp);
 				try {
 					SerialTool.sendToPort(serialPort, temp.getBytes());
 				} catch (SendDataToSerialPortFailure
@@ -284,26 +293,26 @@ public class DataView extends Frame {
 		Color c = g.getColor();
 		
 		g.setColor(Color.black);
-		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 信号： ", 45, 130);
+		g.setFont(new Font("微软雅黑", Font.BOLD, 22));
+		g.drawString(" ID： ", 45, 130);
 
 		g.setColor(Color.black);
-		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 结果： ", 425, 130);
+		g.setFont(new Font("微软雅黑", Font.BOLD, 22));
+		g.drawString(" LEN： ", 425, 130);
+		
+		g.setColor(Color.black);
+		g.setFont(new Font("微软雅黑", Font.BOLD, 22));
+		g.drawString(" DATA： ", 45, 220);
+		
+		g.setColor(Color.black);
+		g.setFont(new Font("微软雅黑", Font.BOLD, 22));
+		g.drawString(" T： ", 425, 220);
+		
+		g.setColor(Color.black);
+		g.setFont(new Font("微软雅黑", Font.BOLD, 22));
+		g.drawString(" 输入： ", 45, 310);
 		
 		/*g.setColor(Color.black);
-		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 压强： ", 45, 220);
-		
-		g.setColor(Color.black);
-		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 雨量： ", 425, 220);
-		
-		g.setColor(Color.black);
-		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 风速： ", 45, 310);
-		
-		g.setColor(Color.black);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
 		g.drawString(" 风向： ", 425, 310);*/
 		
@@ -457,7 +466,8 @@ public class DataView extends Frame {
 	            
 	            case SerialPortEvent.DATA_AVAILABLE: // 1 串口存在可用数据
 	            	
-	            	//System.out.println("found data");
+	            	System.out.println("found data");
+	            	
 					/*byte[] data = null;
 					
 					try {
@@ -466,7 +476,7 @@ public class DataView extends Frame {
 						}
 						else {
 							data = SerialTool.readFromPort(serialPort);	//读取数据，存入字节数组
-							//System.out.println(new String(data));
+							System.out.println(new String(data));
 							
 							//自定义解析过程
 							if (data == null || data.length < 1) {	//检查数据是否读取正确	
@@ -474,6 +484,8 @@ public class DataView extends Frame {
 								System.exit(0);
 							}
 							else {
+								System.out.println("come in");
+								
 								String dataOriginal = new String(data);	//将字节数组数据转换位为保存了原始数据的字符串
 								String dataValid = "";	//有效数据（用来保存原始数据字符串去除最开头*号以后的字符串）
 								String[] elements = null;	//用来保存按空格拆分原始字符串后得到的字符串数组	
@@ -492,8 +504,8 @@ public class DataView extends Frame {
 												System.out.println(elements[i]);
 											}
 											//System.out.println("win_dir: " + elements[5]);
-											tem.setText(elements[0] + " ℃");
-											hum.setText(elements[1] + " %");
+											tem.setText(" ℃");
+											//hum.setText(elements[1] + " %");
 											pa.setText(elements[2] + " hPa");
 											rain.setText(elements[3] + " mm");
 											win_sp.setText(elements[4] + " m/s");
@@ -524,33 +536,55 @@ public class DataView extends Frame {
 	                    	data = SerialTool.readFromPort(serialPort);    //读取数据，存入字节数组
 	                        String dataString = new String(data);	//与缓冲区剩余数据合并
 	                        System.out.println(dataString);
-	                        int len = dataString.length();
-	                        for(int i=0;i<len;i++)
+	                        
+	                        //String dataValid = "";	//有效数据（用来保存原始数据字符串去除最开头*号以后的字符串）
+	                        if(dataString.length()>=24)
 	                        {
-	                        	char c1= dataString.charAt(i);
-	                        	if(c1=='\r')
-	                        	{
-	                        		buff+="OK";
-	                        		c.tx2.setText(new String(buff));
-	                        		buff="";
-	                        	}
-	                        	else if((int)c1==7)
-	                        	{
-	                        		buff+="ERROR";
-	                        		c.tx2.setText(new String(buff));
-	                        		buff="";
-	                        	}
-	                        	else {
-									buff+=c1;
-								}
+	                        	String[] elements = null;	//用来保存按空格拆分原始字符串后得到的字符串数组	
+							elements = dataString.split(" ");
+							for (int i=0; i<elements.length; i++) {
+								System.out.println(i+"、"+elements[i]);
+							}
+							tx1.setText(elements[0]);
+							tx2.setText(elements[1]);
+							tx3.setText(elements[2]);
+							tx4.setText(elements[3]);
 	                        }
 	                        
-	                        
-	                        if(buff.length()>512)
+	                        /*tx2.setText(dataString);
+	                        String aaa = c.tx2.getText();
+	                        System.out.println("aaa为："+dataString);*/
+	                        else
 	                        {
-	                        	c.tx2.setText(new String("ERROR"));
-	                        	buff="";
+	                        	int len = dataString.length();
+		                        for(int i=0;i<len;i++)
+		                        {
+		                        	char c1= dataString.charAt(i);
+		                        	if(c1=='\r')
+		                        	{
+		                        		buff+="OK";
+		                        		JOptionPane.showMessageDialog(null, buff, "正确", JOptionPane.INFORMATION_MESSAGE);
+		                        		buff="";
+		                        	}
+		                        	else if((int)c1==7)
+		                        	{
+		                        		buff+="ERROR";
+		                        		tx2.setText(new String(buff));
+		                        		buff="";
+		                        	}
+		                        	else {
+										buff+=c1;
+									}
+		                        }
+		                        
+		                        
+		                        if(buff.length()>512)
+		                        {
+		                        	tx2.setText(new String("ERROR"));
+		                        	buff="";
+		                        }
 	                        }
+	                        
 	                        
 	                    }
 	                    System.out.println(buff);

@@ -94,13 +94,13 @@ public class SerialTool {
                 SerialPort serialPort = (SerialPort) commPort;
                 
                 try {                    	
-                    //设置一下串口的波特率等参数
+                    //设置一下串口的波特率、数据位、停止位、奇偶校验等参数
                     serialPort.setSerialPortParams(baudrate, SerialPort.DATABITS_8, SerialPort.STOPBITS_1, SerialPort.PARITY_NONE);                              
                 } catch (UnsupportedCommOperationException e) {  
                 	throw new SerialPortParameterFailure();
                 }
                 
-                //System.out.println("Open " + portName + " sucessfully !");
+                System.out.println("Open " + portName + " sucessfully !");
                 return serialPort;
             
             }        

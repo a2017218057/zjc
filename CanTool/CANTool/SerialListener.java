@@ -1,4 +1,4 @@
-package CANTool;
+﻿package CANTool;
 import javax.swing.JOptionPane;
 
 import gnu.io.SerialPort;
@@ -46,7 +46,7 @@ public class SerialListener implements SerialPortEventListener {
             
             case SerialPortEvent.DATA_AVAILABLE: // 1 串口存在可用数据
                 
-                //System.out.println("found data");
+                System.out.println("Cantool found data");
                 byte[] data = null;
                 
                 try {
@@ -55,11 +55,14 @@ public class SerialListener implements SerialPortEventListener {
                     }
                     else {
                         data = SerialTool.readFromPort(serialPort);    //读取数据，存入字节数组
+                        System.out.println("CanTool读取数据："+data);
                         String dataString = buff + new String(data);	//与缓冲区剩余数据合并
+                        System.out.println(dataString);
                         
                         String[] elements = null;
                         elements = dataString.split("\r");
                         int len = elements.length;
+                        System.out.println(len);
                         if(dataString.charAt(dataString.length()-1)!='\r')
                         {
                         	buff = elements[len-1];
@@ -71,7 +74,8 @@ public class SerialListener implements SerialPortEventListener {
                         }
                         for(int i=0;i<len;i++)
                         {
-                        	elements[i] = elements[i] + "\r";
+                        	elements[i] = elements[i] + "\r"; 
+                        	System.out.println(elements[i]);
                         	tool.readCommand(elements[i]);
                         }
                         if(buff.length()>512)

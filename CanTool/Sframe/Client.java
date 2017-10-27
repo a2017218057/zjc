@@ -74,7 +74,7 @@ public class Client extends Frame{
 	 */
 	public void launchFrame() {
 		this.setBounds(LOC_X, LOC_Y, WIDTH, HEIGHT);	//设定程序在桌面出现的位置
-		this.setTitle("CDIO工程项目");	//设置程序标题
+		this.setTitle("CANTOOL测试");	//设置程序标题
 		//this.setIconImage(icon);
 		this.setBackground(Color.white);	//设置背景色
 		
@@ -102,15 +102,27 @@ public class Client extends Frame{
 		
 		g.setFont(new Font("微软雅黑", Font.BOLD, 40));
 		g.setColor(Color.black);
-		g.drawString("欢迎使用上位机实时监控系统", 45, 190);
+		g.drawString("欢迎使用CANTOOL测试机", 45, 190);
+		
+		g.setFont(new Font("微软雅黑", Font.BOLD, 26));
+		g.setColor(Color.BLACK);
+		g.drawString("---Version：3.0", 530, 260);
 		
 		g.setFont(new Font("微软雅黑", Font.ITALIC, 26));
 		g.setColor(Color.BLACK);
-		g.drawString("Version：1.0   Powered By：ZhongLei", 280, 260);
+		g.drawString("18组成员：   张金琛  马驰", 275, 320);
+		
+		g.setFont(new Font("微软雅黑", Font.ITALIC, 26));
+		g.setColor(Color.BLACK);
+		g.drawString("李子祺  新尼", 430, 360);
+		
+		g.setFont(new Font("微软雅黑", Font.ITALIC, 26));
+		g.setColor(Color.BLACK);
+		g.drawString("赵莹", 430, 400);
 		
 		g.setFont(new Font("微软雅黑", Font.BOLD, 30));
 		g.setColor(color);
-		g.drawString("————点击Enter键进入主界面————", 100, 480);
+		g.drawString("————点击Enter键进入主界面————", 100, 500);
 		//使文字 "————点击Enter键进入主界面————" 黑白闪烁
 		if (color == Color.WHITE)	color = Color.black;
 		else if (color == color.BLACK)	color = Color.white;

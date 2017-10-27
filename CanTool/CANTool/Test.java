@@ -13,7 +13,7 @@ public class Test {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		SerialPort serialPort = SerialTool.openPort("COM4", 115200);
-		CANTool tool = new CANTool(serialPort);
+		Icantool tool = new Icantool(serialPort);
 		SerialListener listener = new SerialListener(serialPort,tool);
 		tool.addListener(listener);
 		InputStream in1 = new FileInputStream(new File("test1.txt"));

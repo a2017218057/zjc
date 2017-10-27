@@ -10,8 +10,8 @@ import serialPort.SerialTool;
 public class SerialListener implements SerialPortEventListener {
     private SerialPort serialPort;
     private String buff;
-    private CANTool tool;
-    public SerialListener(SerialPort serialPort,CANTool tool)
+    private Icantool tool;
+    public SerialListener(SerialPort serialPort,Icantool tool)
     {
     	this.serialPort = serialPort;
     	buff = "";

@@ -90,7 +90,7 @@ public class DataView extends Frame {
 	 */
 	public void dataFrame() {
 		this.setBounds(client.LOC_X, client.LOC_Y, client.WIDTH, client.HEIGHT);
-		this.setTitle("CDIO工程项目");
+		this.setTitle("CANTOOL测试");
 		//this.setIconImage(icon);
 		this.setBackground(Color.white);
 		this.setLayout(null);
@@ -132,8 +132,9 @@ public class DataView extends Frame {
 		
 		tx5.setBounds(140, 283, 225, 50);
 		tx5.setBackground(Color.black);
-		tx5.setFont(font);
+		//tx5.setFont(font);
 		tx5.setForeground(Color.white);
+		tx5.setFont(new Font("标楷体", Font.BOLD, 14));
 		add(tx5);
 		
 		bu1.setBounds(520, 283, 225, 50);
@@ -146,7 +147,7 @@ public class DataView extends Frame {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
 				// TODO Auto-generated method stub
-				String temp = tx1.getText() + '\r';
+				String temp = tx5.getText() + '\r';
 				System.out.println("串口写入数据为"+temp);
 				try {
 					SerialTool.sendToPort(serialPort, temp.getBytes());
@@ -248,6 +249,7 @@ public class DataView extends Frame {
 				//获取波特率
 				String bpsStr = bpsChoice.getSelectedItem();
 				
+				
 				//检查串口名称是否获取正确
 				if (commName == null || commName.equals("")) {
 					JOptionPane.showMessageDialog(null, "没有搜索到有效串口！", "错误", JOptionPane.INFORMATION_MESSAGE);			
@@ -264,8 +266,9 @@ public class DataView extends Frame {
 							
 							//获取指定端口名及波特率的串口对象
 							serialPort = SerialTool.openPort(commName, bps);
+							CANTool tool = new CANTool(serialPort,tx1,tx2,tx3,tx4);
 							//在该串口对象上添加监听器
-							SerialTool.addListener(serialPort, new SerialListener(serialPort,new DataView(client)));
+							SerialTool.addListener(serialPort, new SerialListener(serialPort,tool));
 							//监听成功进行提示
 							JOptionPane.showMessageDialog(null, "监听成功，稍后将显示监测数据！", "提示", JOptionPane.INFORMATION_MESSAGE);
 							
@@ -431,12 +434,13 @@ public class DataView extends Frame {
 		 */
 		    private SerialPort serialPort;
 		    private String buff;
-		    private DataView c;
-		    public SerialListener(SerialPort serialPort,DataView c)
+		    private CANTool tool;
+		    
+		    public SerialListener(SerialPort serialPort,CANTool tool)
 		    {
 		    	this.serialPort = serialPort;
 		    	buff = "";
-		    	this.c = c;
+		    	this.tool = tool;
 		    	
 		    }
 	    public void serialEvent(SerialPortEvent serialPortEvent) {
@@ -467,6 +471,7 @@ public class DataView extends Frame {
 	            case SerialPortEvent.DATA_AVAILABLE: // 1 串口存在可用数据
 	            	
 	            	System.out.println("found data");
+	            	//System.out.println(serialPort);
 	            	
 					/*byte[] data = null;
 					
@@ -529,31 +534,37 @@ public class DataView extends Frame {
 	            	byte[] data = null;
 	                
 	                try {
-	                    if (serialPort == null) {
+	                	
+	                   /* if (serialPort == null) {
 	                    	System.out.println("串口对象为空！监听失败");
 	                    }
 	                    else {
 	                    	data = SerialTool.readFromPort(serialPort);    //读取数据，存入字节数组
 	                        String dataString = new String(data);	//与缓冲区剩余数据合并
-	                        System.out.println(dataString);
+	                        //System.out.println(dataString);
+	                        System.out.println("牛批");
+	                        String[] dd = dataString.split("/r");
 	                        
+	                        
+	                        tool.readCommand(dd[0]);
 	                        //String dataValid = "";	//有效数据（用来保存原始数据字符串去除最开头*号以后的字符串）
 	                        if(dataString.length()>=24)
 	                        {
 	                        	String[] elements = null;	//用来保存按空格拆分原始字符串后得到的字符串数组	
-							elements = dataString.split(" ");
+	                        	elements = dataString.split(" ");
 							for (int i=0; i<elements.length; i++) {
 								System.out.println(i+"、"+elements[i]);
 							}
-							tx1.setText(elements[0]);
-							tx2.setText(elements[1]);
-							tx3.setText(elements[2]);
-							tx4.setText(elements[3]);
+							//tx1.setText(elements[0]);
+							//tx2.setText(elements[1]);
+							//tx3.setText(elements[2]);
+							//tx4.setText(elements[3]);
+							
 	                        }
 	                        
-	                        /*tx2.setText(dataString);
+	                        tx2.setText(dataString);
 	                        String aaa = c.tx2.getText();
-	                        System.out.println("aaa为："+dataString);*/
+	                        System.out.println("aaa为："+dataString);
 	                        else
 	                        {
 	                        	int len = dataString.length();
@@ -569,7 +580,7 @@ public class DataView extends Frame {
 		                        	else if((int)c1==7)
 		                        	{
 		                        		buff+="ERROR";
-		                        		tx2.setText(new String(buff));
+		                        		JOptionPane.showMessageDialog(null, buff, "错误", JOptionPane.ERROR_MESSAGE);
 		                        		buff="";
 		                        	}
 		                        	else {
@@ -580,15 +591,51 @@ public class DataView extends Frame {
 		                        
 		                        if(buff.length()>512)
 		                        {
-		                        	tx2.setText(new String("ERROR"));
+		                        	JOptionPane.showMessageDialog(null, buff, "错误", JOptionPane.ERROR_MESSAGE);
 		                        	buff="";
 		                        }
 	                        }
 	                        
 	                        
 	                    }
-	                    System.out.println(buff);
-	                    
+	                    //System.out.println(buff);
+*/	                    
+	                	if (serialPort == null) {
+	                    	System.out.println("串口对象为空！监听失败");
+	                    }
+	                    else {
+	                        data = SerialTool.readFromPort(serialPort);    //读取数据，存入字节数组
+	                        System.out.println("CanTool读取数据："+data);
+	                        String dataString = buff + new String(data);	//与缓冲区剩余数据合并
+	                        System.out.println(dataString);
+	                        
+	                        String[] elements = null;
+	                        elements = dataString.split("\r");
+	                        int len = elements.length;
+	                        System.out.println(len);
+	                        if(dataString.charAt(dataString.length()-1)!='\r')
+	                        {
+	                        	buff = elements[len-1];
+	                        	len--;
+	                        }
+	                        else
+	                        {
+	                        	buff = "";
+	                        }
+	                        for(int i=0;i<len;i++)
+	                        {
+	                        	elements[i] = elements[i] + "\r"; 
+	                        	tool.readCommand(elements[i]);
+	                        }
+	                        if(buff.length()>512)
+	                        {
+	                        	tool.returnTheInfo(0, "");
+	                        	buff = "";
+	                        }
+	                        //System.out.println(new String(data));
+	                        //JOptionPane.showInputDialog(new String(data));
+	                        //String dataOriginal = new String(data);    //将字节数组数据转换位为保存了原始数据的字符串
+	                    }                 
 	                } catch (Exception e) {
 	                    System.exit(0);
 	                }    

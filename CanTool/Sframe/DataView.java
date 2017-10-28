@@ -17,7 +17,12 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.List;
+import java.util.Scanner;
 import java.util.TooManyListenersException;
 
 import javax.swing.JButton;
@@ -65,7 +70,9 @@ public class DataView extends Frame {
 */	
 	private Choice commChoice = new Choice();	//串口选择（下拉框）
 	private Choice bpsChoice = new Choice();	//波特率选择
+	private Choice fileChoice = new Choice();
 	
+	private Button bu2 = new Button("发送文档");
 	private Button openSerialButton = new Button("打开串口");
 	
 	Image offScreen = null;	//重画时的画布
@@ -142,6 +149,23 @@ public class DataView extends Frame {
 		bu1.setFont(font);
 		//bu1.setForeground(Color.white);
 		add(bu1);
+		
+		fileChoice.setBounds(160, 378, 200, 200);
+		fileChoice.setFont(new Font("标楷体", Font.BOLD, 16));
+		fileChoice.add("test1");
+		fileChoice.add("test2");
+		fileChoice.add("test3");
+		fileChoice.add("test4");
+		add(fileChoice);
+		
+		bu2.setBounds(520, 365, 225, 50);
+		//bu1.setBackground(Color.black);
+		bu2.setFont(font);
+		//bu1.setForeground(Color.white);
+		add(bu2);
+		
+		
+				
 		bu1.addMouseListener(new MouseListener(){
 
 			@Override
@@ -149,8 +173,10 @@ public class DataView extends Frame {
 				// TODO Auto-generated method stub
 				String temp = tx5.getText() + '\r';
 				System.out.println("串口写入数据为"+temp);
+				System.out.println(serialPort);
 				try {
 					SerialTool.sendToPort(serialPort, temp.getBytes());
+					System.out.println("串口写入数据为"+temp);
 				} catch (SendDataToSerialPortFailure
 						| SerialPortOutputStreamCloseFailure e) {
 					// TODO Auto-generated catch block
@@ -158,6 +184,8 @@ public class DataView extends Frame {
 				}
 				
 			}
+		
+		
 
 			@Override
 			public void mousePressed(MouseEvent e) {
@@ -185,6 +213,69 @@ public class DataView extends Frame {
 			
         });
 		
+		bu2.addMouseListener(new MouseListener(){
+
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				// TODO Auto-generated method stub
+				String test = fileChoice.getSelectedItem();
+				String file = test+".txt";
+				System.out.println(file);
+				String fileString;
+				Thread thread = new Thread();
+				InputStream in1 = null;
+				try {
+					in1 = new FileInputStream(new File(file));
+				} catch (FileNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				Scanner scan1 = new Scanner(in1);
+				try {
+					for(int i = 0 ; i<500; i++)
+					{
+						fileString = scan1.next()+"\r";
+						System.out.println("串口写入数据为"+fileString);
+						SerialTool.sendToPort(serialPort, test.getBytes());
+						thread.sleep(200);
+					}
+					
+				} catch (InterruptedException | SendDataToSerialPortFailure | SerialPortOutputStreamCloseFailure e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+		
+		
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+        });
+		
+		
 		/*pa.setBounds(140, 193, 225, 50);
 		pa.setBackground(Color.black);
 		pa.setFont(font);
@@ -210,7 +301,7 @@ public class DataView extends Frame {
 		add(win_dir);*/
 		
 		//添加串口选择选项
-		commChoice.setBounds(160, 397, 200, 200);
+		commChoice.setBounds(160, 460, 200, 200);
 		//检查是否有可用串口，有则加入选项中
 		if (commList == null || commList.size()<1) {
 			JOptionPane.showMessageDialog(null, "没有搜索到有效串口！", "错误", JOptionPane.INFORMATION_MESSAGE);
@@ -223,7 +314,7 @@ public class DataView extends Frame {
 		add(commChoice);
 		
 		//添加波特率选项
-		bpsChoice.setBounds(526, 396, 200, 200);
+		bpsChoice.setBounds(526, 460, 200, 200);
 		bpsChoice.add("1200");
 		bpsChoice.add("2400");
 		bpsChoice.add("4800");
@@ -234,7 +325,7 @@ public class DataView extends Frame {
 		add(bpsChoice);
 		
 		//添加打开串口按钮
-		openSerialButton.setBounds(250, 490, 300, 50);
+		openSerialButton.setBounds(250, 530, 300, 50);
 		openSerialButton.setBackground(Color.lightGray);
 		openSerialButton.setFont(new Font("微软雅黑", Font.BOLD, 20));
 		openSerialButton.setForeground(Color.darkGray);
@@ -315,17 +406,17 @@ public class DataView extends Frame {
 		g.setFont(new Font("微软雅黑", Font.BOLD, 22));
 		g.drawString(" 输入： ", 45, 310);
 		
-		/*g.setColor(Color.black);
-		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 风向： ", 425, 310);*/
+		g.setColor(Color.black);
+		g.setFont(new Font("微软雅黑", Font.BOLD, 20));
+		g.drawString(" 文件选择： ", 45, 393);
 		
 		g.setColor(Color.gray);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 20));
-		g.drawString(" 串口选择： ", 45, 410);
+		g.drawString(" 串口选择： ", 45, 473);
 		
 		g.setColor(Color.gray);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 20));
-		g.drawString(" 波特率： ", 425, 410);
+		g.drawString(" 波特率： ", 425, 473);
 		
 	}
 	

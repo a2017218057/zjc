@@ -155,7 +155,7 @@ public class CANTool {
 			returnResult(trans);
 		}
 		
-		if(CheckFormat.check(id,Long.parseUnsignedLong(data_16,16)))
+		/*if(CheckFormat.check(id,Long.parseUnsignedLong(data_16,16)))
 		{
 			//returnTheInfo(1,"");
 			if(time == 0)
@@ -181,7 +181,7 @@ public class CANTool {
 		else
 		{
 			returnTheInfo(0,"else");
-		}
+		}*/
 		
 	}
 
@@ -227,7 +227,7 @@ public class CANTool {
 		}
 		int time = Integer.parseInt(timeString, 16);
 		System.out.println("频率为"+time);
-		if(CheckFormat.check(id,Long.parseUnsignedLong(data_16,16)))
+		/*if(CheckFormat.check(id,Long.parseUnsignedLong(data_16,16)))
 		{
 			returnTheInfo(1,"");
 			if(time == 0)
@@ -253,7 +253,7 @@ public class CANTool {
 		else
 		{
 			returnTheInfo(0,"");
-		}
+		}*/
 		
 		
 	}
@@ -272,13 +272,13 @@ public class CANTool {
 				String sp = "";
 				sp = Integer.toString(speed);
 				System.out.println(speed);
-				returnTheInfo(1,sp);
+				returnTheInfo(1,"Sn = "+sp);
 			}
 			
 		}
 		else
 		{
-			returnTheInfo(0,"");
+			returnTheInfo(0,"开机后无法调速！");
 		}
 		
 	}

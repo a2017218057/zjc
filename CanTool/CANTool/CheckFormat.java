@@ -11,7 +11,7 @@ import java.util.TreeMap;
 
 
 
-public class CheckFormat {
+public class CheckFormat {       //刘敬成
 	CheckFormat()
 	{
 		

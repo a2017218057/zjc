@@ -121,11 +121,11 @@ public class Client extends Frame{
 		g.drawString("赵莹", 430, 400);
 		
 		g.setFont(new Font("微软雅黑", Font.BOLD, 30));
-		g.setColor(color);
+		g.setColor(Color.GREEN);
 		g.drawString("————点击Enter键进入主界面————", 100, 500);
 		//使文字 "————点击Enter键进入主界面————" 黑白闪烁
-		if (color == Color.WHITE)	color = Color.black;
-		else if (color == color.BLACK)	color = Color.white;
+		/*if (color == Color.WHITE)	color = Color.black;
+		else if (color == color.BLACK)	color = Color.white;*/
 		
 		
 	}

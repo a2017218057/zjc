@@ -278,7 +278,7 @@ public class CANTool {
 		}
 		else
 		{
-			returnTheInfo(0,"开机后无法调速！");
+			returnTheInfo(0,"");
 		}
 		
 	}

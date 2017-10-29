@@ -152,10 +152,10 @@ public class DataView extends Frame {
 		
 		fileChoice.setBounds(160, 378, 200, 200);
 		fileChoice.setFont(new Font("标楷体", Font.BOLD, 16));
-		fileChoice.add("test1");
-		fileChoice.add("test2");
-		fileChoice.add("test3");
-		fileChoice.add("test4");
+		fileChoice.add("intel");
+		fileChoice.add("mtla");
+		fileChoice.add("fast");
+		fileChoice.add("quxian");
 		add(fileChoice);
 		
 		bu2.setBounds(520, 365, 225, 50);
@@ -232,14 +232,24 @@ public class DataView extends Frame {
 				}
 				Scanner scan1 = new Scanner(in1);
 				try {
-					for(int i = 0 ; i<500; i++)
+					
+					while(scan1.hasNext())
 					{
 						fileString = scan1.next()+"\r";
 						System.out.println("串口写入数据为"+fileString);
-						SerialTool.sendToPort(serialPort, test.getBytes());
+						SerialTool.sendToPort(serialPort, fileString.getBytes());
 						thread.sleep(200);
 					}
 					
+					/*
+					for(int i = 0 ; i<2; i++)
+					{
+						fileString = scan1.next()+"\r";
+						System.out.println("串口写入数据为"+fileString);
+						SerialTool.sendToPort(serialPort, fileString.getBytes());
+						thread.sleep(200);
+					}
+					*/
 				} catch (InterruptedException | SendDataToSerialPortFailure | SerialPortOutputStreamCloseFailure e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

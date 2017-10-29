@@ -1,0 +1,3428 @@
+1
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+2
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 29.8125""
+t34580000000002120000
+3
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 0""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 5""
+HVAC_WindExitSpd 14""
+CDU_HVAC_DriverTempSelect 20"°„C"
+HVAC_PsnTempSelect 31.5""
+CDU_HVACCtrlModeSt 7""
+CDU_ControlSt 0""
+t3588092C8875041B7000
+4
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80700000000000000
+5
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 38"°„C"
+HVAC_CorrectedCabinTemp 49"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2650"w"
+HVAC_PTCPwrAct 3790"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32189CB20D09017B2000
+6
+1067 CDU_NM:
+8
+CDU_NMDestAddress 204""
+CDU_NMAlive 1""
+CDU_NMRing 1""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 120""
+CDU_NMDataField 0""
+t42B8CC33780000000000
+7
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+8
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 0""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 0""
+HVAC_EngIdleStopProhibitReq 0""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 1""
+HVAC_CorrectedExterTemp 9.5"°„C"
+HVAC_RawExterTemp 53.5"°„C"
+HVAC_TempSelect 25"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 0""
+HVAC_Type 0""
+HVAC_WindExitMode 4""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 2""
+HVAC_AirCirculationSt 1""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 21"°„C"
+HVAC_IonMode 0""
+HVAC_WindExitSpd 5""
+HVAC_PsnTempSelect 18.5""
+t32088063BB0E04A20C15
+9
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 0""
+HVAC_ACSt 1""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp 37"°„C"
+HVAC_RawExterTemp 87.5"°„C"
+HVAC_TempSelect 19.5"°„C"
+HVAC_DualSt 1""
+HVAC_AutoSt 1""
+HVAC_Type 1""
+HVAC_WindExitMode 1""
+HVAC_SpdFanReq 1""
+HVAC_TelematicsSt 2""
+HVAC_AirCirculationSt 1""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 31.5"°„C"
+HVAC_IonMode 2""
+HVAC_WindExitSpd 15""
+HVAC_PsnTempSelect 26.5""
+t3208519AFFE309A2B71F
+10
+1067 CDU_NM:
+8
+CDU_NMDestAddress 156""
+CDU_NMAlive 0""
+CDU_NMRing 0""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 181""
+CDU_NMDataField 1""
+t42B89C14B50000000001
+11
+868 PTC_1:
+7
+PTC_ElementError 15""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 0""
+PTC_InternalError 3""
+PTC_Current 24.6"A"
+PTCPwrAct 6980"w"
+PTCActst 5""
+t3648FB7BAE8500000000
+12
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -1.5"°„C"
+HVAC_CorrectedCabinTemp 41.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4540"w"
+HVAC_PTCPwrAct 480"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32184DA309C600300000
+13
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 1""
+t31D80500000000000000
+14
+1056 BCM_NM:
+8
+BCM_NMDestAddress 217""
+BCM_NMAlive 0""
+BCM_NMRing 1""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 89""
+BCM_NMDataField 0""
+t4208D906590000000000
+15
+1067 CDU_NM:
+8
+CDU_NMDestAddress 155""
+CDU_NMAlive 0""
+CDU_NMRing 0""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 199""
+CDU_NMDataField 0""
+t42B89B14C70000000000
+16
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 164.363""
+t3458000000000B6A0000
+17
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 70.3688""
+t34580000000004E30000
+18
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80600000000000000
+19
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -16"°„C"
+HVAC_CorrectedCabinTemp -25.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7680"w"
+HVAC_PTCPwrAct 7360"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218301D0F0002E00000
+20
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 1""
+HVAC_ACPSpeedSet 900""
+HVAC_ACPHighSidePress 2""
+HVAC_PTCPowerRatio 34""
+HVAC_Checksum 192""
+t360803090422C0000000
+21
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 0""
+CDU_HVACOffButtonStVD 1""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 1""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 1""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 1""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 1""
+HVAC_WindExitSpd 15""
+CDU_HVAC_DriverTempSelect 27"°„C"
+HVAC_PsnTempSelect 21.5""
+CDU_HVACCtrlModeSt 6""
+CDU_ControlSt 0""
+t35880E18EC7912076000
+22
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 1""
+t31D80500000000000000
+23
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 1""
+HVAC_RawExterTempVD 0""
+HVAC_EngIdleStopProhibitReq 0""
+HVAC_ACSt 1""
+HVAC_ACmaxSt 1""
+HVAC_CorrectedExterTemp 52"°„C"
+HVAC_RawExterTemp 22"°„C"
+HVAC_TempSelect 20.5"°„C"
+HVAC_DualSt 1""
+HVAC_AutoSt 1""
+HVAC_Type 1""
+HVAC_WindExitMode 0""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 6""
+HVAC_AirCirculationSt 1""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 30"°„C"
+HVAC_IonMode 1""
+HVAC_WindExitSpd 11""
+HVAC_PsnTempSelect 24.5""
+t3208C9B87CE500A670DB
+24
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80200000000000000
+25
+1056 BCM_NM:
+8
+BCM_NMDestAddress 57""
+BCM_NMAlive 1""
+BCM_NMRing 0""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 214""
+BCM_NMDataField 0""
+t42083905D60000000000
+26
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 3""
+HVAC_ACPSpeedSet 8000""
+HVAC_ACPHighSidePress 3.5""
+HVAC_PTCPowerRatio 58""
+HVAC_Checksum 212""
+t36080650073AD4000000
+27
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80600000000000000
+28
+1056 BCM_NM:
+8
+BCM_NMDestAddress 235""
+BCM_NMAlive 0""
+BCM_NMRing 0""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 1""
+BCM_NMWakeupOrignin 103""
+BCM_NMDataField 1""
+t4208EB20670000000001
+29
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 5000"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 1700"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 1""
+VCU_AirCompressorReqVD 1""
+t39380000321131000000
+30
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 1""
+HVAC_ACPSpeedSet 7500""
+HVAC_ACPHighSidePress 28.5""
+HVAC_PTCPowerRatio 37""
+HVAC_Checksum 238""
+t3608024B3925EE000000
+31
+1056 BCM_NM:
+8
+BCM_NMDestAddress 250""
+BCM_NMAlive 0""
+BCM_NMRing 0""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 1""
+BCM_NMWakeupOrignin 19""
+BCM_NMDataField 1""
+t4208FA20130000000001
+32
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 0""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 1""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 4""
+HVAC_WindExitSpd 9""
+CDU_HVAC_DriverTempSelect 28"°„C"
+HVAC_PsnTempSelect 26.5""
+CDU_HVACCtrlModeSt 5""
+CDU_ControlSt 0""
+t3588083CD84C14115000
+33
+1067 CDU_NM:
+8
+CDU_NMDestAddress 137""
+CDU_NMAlive 0""
+CDU_NMRing 1""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 154""
+CDU_NMDataField 0""
+t42B889029A0000000000
+34
+867 ACP_1:
+8
+ACP_Speed 4300""
+ACPComsumpPwr 6030""
+ACP_Current 25.8""
+ACP_MotorTemp -29""
+ACP_HearBeat 2""
+ACP_ExtState 7""
+ACP_FailGrade 3""
+ACP_BaseState 7""
+t36382B96C1020B0020FF
+35
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 5400"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 1700"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 0""
+t39380000361103000000
+36
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 3""
+HVAC_ACPSpeedSet 2900""
+HVAC_ACPHighSidePress 29.5""
+HVAC_PTCPowerRatio 68""
+HVAC_Checksum 191""
+t3608071D3B44BF000000
+37
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 85"°„C"
+HVAC_CorrectedCabinTemp 87.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4510"w"
+HVAC_PTCPwrAct 3920"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218FAFF01C301882000
+38
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 114.806""
+t34580000000027F90000
+39
+61 CDU_4:
+3
+CDU_HVACACCfg 2""
+CDU_HVACAirCirCfg 1""
+CDU_HVACComfortCfg 2""
+t03D82600000000000000
+40
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 1""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp -20.5"°„C"
+HVAC_RawExterTemp 65"°„C"
+HVAC_TempSelect 31.5"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 1""
+HVAC_Type 0""
+HVAC_WindExitMode 5""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 2""
+HVAC_AirCirculationSt 1""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 26.5"°„C"
+HVAC_IonMode 0""
+HVAC_WindExitSpd 1""
+HVAC_PsnTempSelect 24.5""
+t32087127D25B05A222D1
+41
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 0""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 0""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 1""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 1""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 3""
+HVAC_WindExitSpd 7""
+CDU_HVAC_DriverTempSelect 21"°„C"
+HVAC_PsnTempSelect 20.5""
+CDU_HVACCtrlModeSt 1""
+CDU_ControlSt 0""
+t35888120FC3B06051000
+42
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 58.5"°„C"
+HVAC_CorrectedCabinTemp 20"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2490"w"
+HVAC_PTCPwrAct 850"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218C57804F900550000
+43
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 4500"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 3200"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 1""
+t393800002D2022000000
+44
+792 BCM_BCAN_1:
+1
+BCM_KeySt 3""
+t31880300000000000000
+45
+868 PTC_1:
+7
+PTC_ElementError 15""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 1""
+PTC_InternalError 3""
+PTC_Current 18.6"A"
+PTCPwrAct 3030"w"
+PTCActst 0""
+t3648F75D4BC000000000
+46
+867 ACP_1:
+8
+ACP_Speed 800""
+ACPComsumpPwr 4370""
+ACP_Current 45.7""
+ACP_MotorTemp 82""
+ACP_HearBeat 12""
+ACP_ExtState 4""
+ACP_FailGrade 3""
+ACP_BaseState 0""
+t3638086D41C97A00C01C
+47
+1067 CDU_NM:
+8
+CDU_NMDestAddress 159""
+CDU_NMAlive 0""
+CDU_NMRing 1""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 7""
+CDU_NMDataField 0""
+t42B89F12070000000000
+48
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 22.5"°„C"
+HVAC_CorrectedCabinTemp 37.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 190"w"
+HVAC_PTCPwrAct 5930"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32187D9B0C1302512000
+49
+61 CDU_4:
+3
+CDU_HVACACCfg 3""
+CDU_HVACAirCirCfg 0""
+CDU_HVACComfortCfg 3""
+t03D83300000000000000
+50
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -30.5"°„C"
+HVAC_CorrectedCabinTemp -33.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7330"w"
+HVAC_PTCPwrAct 2480"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218130D06DD00F82000
+51
+1056 BCM_NM:
+8
+BCM_NMDestAddress 176""
+BCM_NMAlive 0""
+BCM_NMRing 0""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 113""
+BCM_NMDataField 0""
+t4208B010710000000000
+52
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -29"°„C"
+HVAC_CorrectedCabinTemp -12"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4980"w"
+HVAC_PTCPwrAct 1540"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321816380DF2009A0000
+53
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80600000000000000
+54
+61 CDU_4:
+3
+CDU_HVACACCfg 0""
+CDU_HVACAirCirCfg 0""
+CDU_HVACComfortCfg 0""
+t03D80000000000000000
+55
+1056 BCM_NM:
+8
+BCM_NMDestAddress 195""
+BCM_NMAlive 1""
+BCM_NMRing 0""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 1""
+BCM_NMWakeupOrignin 191""
+BCM_NMDataField 1""
+t4208C321BF0000000001
+56
+867 ACP_1:
+8
+ACP_Speed 2200""
+ACPComsumpPwr 720""
+ACP_Current 32.1""
+ACP_MotorTemp 3""
+ACP_HearBeat 2""
+ACP_ExtState 4""
+ACP_FailGrade 0""
+ACP_BaseState 5""
+t3638161201412B0020A4
+57
+868 PTC_1:
+7
+PTC_ElementError 5""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 0""
+PTC_InternalError 1""
+PTC_Current 23.4"A"
+PTCPwrAct 420"w"
+PTCActst 5""
+t364851750A8500000000
+58
+868 PTC_1:
+7
+PTC_ElementError 15""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 0""
+PTC_InternalError 2""
+PTC_Current 20.2"A"
+PTCPwrAct 460"w"
+PTCActst 1""
+t3648FA650B8100000000
+59
+868 PTC_1:
+7
+PTC_ElementError 4""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 1""
+PTC_InternalError 1""
+PTC_Current 4"A"
+PTCPwrAct 3180"w"
+PTCActst 3""
+t36484D144F8300000000
+60
+1056 BCM_NM:
+8
+BCM_NMDestAddress 44""
+BCM_NMAlive 0""
+BCM_NMRing 0""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 217""
+BCM_NMDataField 1""
+t42082C10D90000000001
+61
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+62
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+63
+868 PTC_1:
+7
+PTC_ElementError 9""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 0""
+PTC_InternalError 0""
+PTC_Current 21.2"A"
+PTCPwrAct 5350"w"
+PTCActst 7""
+t3648906A85C700000000
+64
+1056 BCM_NM:
+8
+BCM_NMDestAddress 165""
+BCM_NMAlive 0""
+BCM_NMRing 1""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 162""
+BCM_NMDataField 1""
+t4208A512A20000000001
+65
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 2""
+HVAC_ACPSpeedSet 8200""
+HVAC_ACPHighSidePress 8""
+HVAC_PTCPowerRatio 87""
+HVAC_Checksum 170""
+t360805521057AA000000
+66
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 63.675""
+t345800000000246C0000
+67
+1056 BCM_NM:
+8
+BCM_NMDestAddress 190""
+BCM_NMAlive 1""
+BCM_NMRing 1""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 206""
+BCM_NMDataField 0""
+t4208BE17CE0000000000
+68
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 4800"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 2100"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 1""
+VCU_AirCompressorReqVD 1""
+t39380000301531000000
+69
+868 PTC_1:
+7
+PTC_ElementError 14""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 1""
+PTC_InternalError 0""
+PTC_Current 24.6"A"
+PTCPwrAct 7560"w"
+PTCActst 2""
+t3648E47BBD0200000000
+70
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+71
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 0""
+HVAC_EngIdleStopProhibitReq 0""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp -12.5"°„C"
+HVAC_RawExterTemp 28"°„C"
+HVAC_TempSelect 23.5"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 1""
+HVAC_Type 1""
+HVAC_WindExitMode 0""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 4""
+HVAC_AirCirculationSt 3""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 30.5"°„C"
+HVAC_IonMode 1""
+HVAC_WindExitSpd 5""
+HVAC_PsnTempSelect 25.5""
+t3208013788CB00E472F5
+72
+1067 CDU_NM:
+8
+CDU_NMDestAddress 44""
+CDU_NMAlive 1""
+CDU_NMRing 0""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 254""
+CDU_NMDataField 0""
+t42B82C25FE0000000000
+73
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 2000"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 5500"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 1""
+t39380000143720000000
+74
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -39"°„C"
+HVAC_CorrectedCabinTemp 32.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4680"w"
+HVAC_PTCPwrAct 2720"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218029105D401102000
+75
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 0""
+HVAC_CorrectedExterTempVD 1""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp -20.5"°„C"
+HVAC_RawExterTemp -30.5"°„C"
+HVAC_TempSelect 22"°„C"
+HVAC_DualSt 1""
+HVAC_AutoSt 0""
+HVAC_Type 0""
+HVAC_WindExitMode 7""
+HVAC_SpdFanReq 1""
+HVAC_TelematicsSt 1""
+HVAC_AirCirculationSt 1""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 31.5"°„C"
+HVAC_IonMode 0""
+HVAC_WindExitSpd 4""
+HVAC_PsnTempSelect 32""
+t3208382713280FA137C4
+76
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+77
+61 CDU_4:
+3
+CDU_HVACACCfg 1""
+CDU_HVACAirCirCfg 3""
+CDU_HVACComfortCfg 2""
+t03D82D00000000000000
+78
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 0""
+HVAC_CorrectedExterTempVD 1""
+HVAC_RawExterTempVD 0""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 1""
+HVAC_ACmaxSt 1""
+HVAC_CorrectedExterTemp 48.5"°„C"
+HVAC_RawExterTemp -35"°„C"
+HVAC_TempSelect 27.5"°„C"
+HVAC_DualSt 1""
+HVAC_AutoSt 1""
+HVAC_Type 0""
+HVAC_WindExitMode 1""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 0""
+HVAC_AirCirculationSt 0""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 26.5"°„C"
+HVAC_IonMode 0""
+HVAC_WindExitSpd 14""
+HVAC_PsnTempSelect 18""
+t3208E8B10A730180220E
+79
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 103.669""
+t34580000000027330000
+80
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 300"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 1000"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 1""
+VCU_AirCompressorReqVD 0""
+t39380000030A12000000
+81
+61 CDU_4:
+3
+CDU_HVACACCfg 3""
+CDU_HVACAirCirCfg 2""
+CDU_HVACComfortCfg 3""
+t03D83B00000000000000
+82
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 0""
+t31D80100000000000000
+83
+868 PTC_1:
+7
+PTC_ElementError 13""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 1""
+PTC_InternalError 3""
+PTC_Current 21.8"A"
+PTCPwrAct 3350"w"
+PTCActst 3""
+t3648DF6D53C300000000
+84
+1067 CDU_NM:
+8
+CDU_NMDestAddress 204""
+CDU_NMAlive 1""
+CDU_NMRing 1""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 206""
+CDU_NMDataField 0""
+t42B8CC37CE0000000000
+85
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 0""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 1""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 1""
+CDU_HVACACMaxButtonSt 0""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 7""
+HVAC_WindExitSpd 0""
+CDU_HVAC_DriverTempSelect 31"°„C"
+HVAC_PsnTempSelect 20""
+CDU_HVACCtrlModeSt 1""
+CDU_ControlSt 1""
+t35880828BC071A049000
+86
+868 PTC_1:
+7
+PTC_ElementError 6""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 0""
+PTC_InternalError 1""
+PTC_Current 15.4"A"
+PTCPwrAct 6600"w"
+PTCActst 6""
+t3648694DA50600000000
+87
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 0""
+HVAC_ACPSpeedSet 5400""
+HVAC_ACPHighSidePress 19""
+HVAC_PTCPowerRatio 71""
+HVAC_Checksum 233""
+t360800362647E9000000
+88
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 43.2563""
+t34580000000003010000
+89
+61 CDU_4:
+3
+CDU_HVACACCfg 3""
+CDU_HVACAirCirCfg 1""
+CDU_HVACComfortCfg 2""
+t03D82700000000000000
+90
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp 42.5"°„C"
+HVAC_RawExterTemp -22"°„C"
+HVAC_TempSelect 22.5"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 1""
+HVAC_Type 1""
+HVAC_WindExitMode 2""
+HVAC_SpdFanReq 1""
+HVAC_TelematicsSt 3""
+HVAC_AirCirculationSt 3""
+HVAC_PopUpDisplayReq 0""
+HVAC_DriverTempSelect 19.5"°„C"
+HVAC_IonMode 1""
+HVAC_WindExitSpd 0""
+HVAC_PsnTempSelect 30""
+t320831A524C90A634780
+91
+792 BCM_BCAN_1:
+1
+BCM_KeySt 3""
+t31880300000000000000
+92
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80600000000000000
+93
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80200000000000000
+94
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 0"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 2200"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 1""
+VCU_AirCompressorReqVD 1""
+t39380000001631000000
+95
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 27.5"°„C"
+HVAC_CorrectedCabinTemp 71"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 850"w"
+HVAC_PTCPwrAct 1770"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321887DE005500B10000
+96
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 1""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 0""
+CDU_HVACModeButtonSt 6""
+HVAC_WindExitSpd 0""
+CDU_HVAC_DriverTempSelect 28.5"°„C"
+HVAC_PsnTempSelect 25""
+CDU_HVACCtrlModeSt 1""
+CDU_ControlSt 1""
+t35884D2C4806150E9000
+97
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+98
+61 CDU_4:
+3
+CDU_HVACACCfg 1""
+CDU_HVACAirCirCfg 1""
+CDU_HVACComfortCfg 2""
+t03D82500000000000000
+99
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 2800"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 5200"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 1""
+VCU_AirCompressorReqVD 0""
+t393800001C3412000000
+100
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 0""
+CDU_HVACOffButtonStVD 1""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 1""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 0""
+CDU_HVACIonButtonSt 1""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 1""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 0""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 4""
+HVAC_WindExitSpd 12""
+CDU_HVAC_DriverTempSelect 26"°„C"
+HVAC_PsnTempSelect 25""
+CDU_HVACCtrlModeSt 6""
+CDU_ControlSt 0""
+t3588CA348C64100E6000
+101
+1067 CDU_NM:
+8
+CDU_NMDestAddress 35""
+CDU_NMAlive 0""
+CDU_NMRing 1""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 211""
+CDU_NMDataField 0""
+t42B82332D30000000000
+102
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 0""
+HVAC_ACPSpeedSet 3500""
+HVAC_ACPHighSidePress 25.5""
+HVAC_PTCPowerRatio 12""
+HVAC_Checksum 194""
+t36080123330CC2000000
+103
+867 ACP_1:
+8
+ACP_Speed 8200""
+ACPComsumpPwr 1010""
+ACP_Current 16.8""
+ACP_MotorTemp -27""
+ACP_HearBeat 15""
+ACP_ExtState 7""
+ACP_FailGrade 1""
+ACP_BaseState 3""
+t3638521940A80D00F06F
+104
+1067 CDU_NM:
+8
+CDU_NMDestAddress 14""
+CDU_NMAlive 1""
+CDU_NMRing 0""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 165""
+CDU_NMDataField 0""
+t42B80E01A50000000000
+105
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 2""
+HVAC_ACPSpeedSet 7900""
+HVAC_ACPHighSidePress 18.5""
+HVAC_PTCPowerRatio 88""
+HVAC_Checksum 204""
+t3608044F2558CC000000
+106
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 5300"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 1800"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 1""
+VCU_AirCompressorReqVD 0""
+t39380000351213000000
+107
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 1""
+t31D80500000000000000
+108
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80200000000000000
+109
+1056 BCM_NM:
+8
+BCM_NMDestAddress 118""
+BCM_NMAlive 0""
+BCM_NMRing 0""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 1""
+BCM_NMWakeupOrignin 140""
+BCM_NMDataField 1""
+t420876348C0000000001
+110
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 73"°„C"
+HVAC_CorrectedCabinTemp 23.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 170"w"
+HVAC_PTCPwrAct 4460"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218E27F041101BE0000
+111
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 2200"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 1400"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 1""
+t39380000160E21000000
+112
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 0""
+HVAC_ACPSpeedSet 600""
+HVAC_ACPHighSidePress 17""
+HVAC_PTCPowerRatio 39""
+HVAC_Checksum 200""
+t360800062227C8000000
+113
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+114
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 1300"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 2900"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 1""
+t393800000D1D21000000
+115
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 4300"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 1800"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 0""
+t393800002B1201000000
+116
+1067 CDU_NM:
+8
+CDU_NMDestAddress 10""
+CDU_NMAlive 0""
+CDU_NMRing 1""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 2""
+CDU_NMDataField 0""
+t42B80A06020000000000
+117
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 1""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp 41"°„C"
+HVAC_RawExterTemp 79"°„C"
+HVAC_TempSelect 26.5"°„C"
+HVAC_DualSt 1""
+HVAC_AutoSt 0""
+HVAC_Type 0""
+HVAC_WindExitMode 4""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 5""
+HVAC_AirCirculationSt 1""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 24"°„C"
+HVAC_IonMode 1""
+HVAC_WindExitSpd 15""
+HVAC_PsnTempSelect 32""
+t320839A2EE3104A559CF
+118
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80300000000000000
+119
+1056 BCM_NM:
+8
+BCM_NMDestAddress 177""
+BCM_NMAlive 1""
+BCM_NMRing 0""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 1""
+BCM_NMWakeupOrignin 90""
+BCM_NMDataField 1""
+t4208B1315A0000000001
+120
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 1""
+HVAC_RawExterTempVD 0""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp -33"°„C"
+HVAC_RawExterTemp -26"°„C"
+HVAC_TempSelect 20"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 1""
+HVAC_Type 0""
+HVAC_WindExitMode 6""
+HVAC_SpdFanReq 1""
+HVAC_TelematicsSt 0""
+HVAC_AirCirculationSt 0""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 31.5"°„C"
+HVAC_IonMode 1""
+HVAC_WindExitSpd 13""
+HVAC_PsnTempSelect 23.5""
+t3208290E1C440E8076BD
+121
+1067 CDU_NM:
+8
+CDU_NMDestAddress 155""
+CDU_NMAlive 1""
+CDU_NMRing 0""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 8""
+CDU_NMDataField 1""
+t42B89B25080000000001
+122
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 1""
+HVAC_ACPSpeedSet 5600""
+HVAC_ACPHighSidePress 6.5""
+HVAC_PTCPowerRatio 40""
+HVAC_Checksum 177""
+t360802380D28B1000000
+123
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+124
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 1""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 0""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 0""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 1""
+CDU_HVACCirculationButtonStVD 0""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 1""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 0""
+CDU_HVACModeButtonSt 1""
+HVAC_WindExitSpd 10""
+CDU_HVAC_DriverTempSelect 23.5"°„C"
+HVAC_PsnTempSelect 23""
+CDU_HVACCtrlModeSt 6""
+CDU_ControlSt 1""
+t3588872474510B0AE000
+125
+1056 BCM_NM:
+8
+BCM_NMDestAddress 26""
+BCM_NMAlive 0""
+BCM_NMRing 1""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 72""
+BCM_NMDataField 0""
+t42081A06480000000000
+126
+868 PTC_1:
+7
+PTC_ElementError 7""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 1""
+PTC_InternalError 2""
+PTC_Current 10"A"
+PTCPwrAct 4940"w"
+PTCActst 0""
+t36487E327B8000000000
+127
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 0""
+t31D80000000000000000
+128
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80700000000000000
+129
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 6000"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 600"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 1""
+t393800003C0620000000
+130
+868 PTC_1:
+7
+PTC_ElementError 9""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 1""
+PTC_InternalError 1""
+PTC_Current 5.2"A"
+PTCPwrAct 7330"w"
+PTCActst 2""
+t3648951AB74200000000
+131
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 0""
+t31D80000000000000000
+132
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 2700"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 1100"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 1""
+VCU_AirCompressorReqVD 0""
+t393800001B0B12000000
+133
+1056 BCM_NM:
+8
+BCM_NMDestAddress 126""
+BCM_NMAlive 0""
+BCM_NMRing 1""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 42""
+BCM_NMDataField 0""
+t42087E022A0000000000
+134
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 43.425""
+t34580000000023040000
+135
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 1""
+t31D80500000000000000
+136
+1067 CDU_NM:
+8
+CDU_NMDestAddress 76""
+CDU_NMAlive 0""
+CDU_NMRing 0""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 86""
+CDU_NMDataField 0""
+t42B84C10560000000000
+137
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+138
+1056 BCM_NM:
+8
+BCM_NMDestAddress 231""
+BCM_NMAlive 0""
+BCM_NMRing 0""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 186""
+BCM_NMDataField 1""
+t4208E700BA0000000001
+139
+1056 BCM_NM:
+8
+BCM_NMDestAddress 36""
+BCM_NMAlive 0""
+BCM_NMRing 0""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 1""
+BCM_NMWakeupOrignin 150""
+BCM_NMDataField 1""
+t42082430960000000001
+140
+1056 BCM_NM:
+8
+BCM_NMDestAddress 1""
+BCM_NMAlive 0""
+BCM_NMRing 0""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 119""
+BCM_NMDataField 0""
+t42080114770000000000
+141
+1067 CDU_NM:
+8
+CDU_NMDestAddress 213""
+CDU_NMAlive 1""
+CDU_NMRing 0""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 71""
+CDU_NMDataField 1""
+t42B8D511470000000001
+142
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 0""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 1""
+HVAC_CorrectedExterTemp 59.5"°„C"
+HVAC_RawExterTemp 3"°„C"
+HVAC_TempSelect 20.5"°„C"
+HVAC_DualSt 1""
+HVAC_AutoSt 1""
+HVAC_Type 0""
+HVAC_WindExitMode 3""
+HVAC_SpdFanReq 1""
+HVAC_TelematicsSt 4""
+HVAC_AirCirculationSt 3""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 25.5"°„C"
+HVAC_IonMode 3""
+HVAC_WindExitSpd 5""
+HVAC_PsnTempSelect 26""
+t320891C756650BE4DF05
+143
+867 ACP_1:
+8
+ACP_Speed 2500""
+ACPComsumpPwr 20""
+ACP_Current 50.7""
+ACP_MotorTemp 83""
+ACP_HearBeat 11""
+ACP_ExtState 0""
+ACP_FailGrade 1""
+ACP_BaseState 1""
+t3638190081FB7B00B028
+144
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80600000000000000
+145
+1067 CDU_NM:
+8
+CDU_NMDestAddress 117""
+CDU_NMAlive 1""
+CDU_NMRing 1""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 217""
+CDU_NMDataField 0""
+t42B87533D90000000000
+146
+867 ACP_1:
+8
+ACP_Speed 7600""
+ACPComsumpPwr 1370""
+ACP_Current 44.1""
+ACP_MotorTemp 55""
+ACP_HearBeat 13""
+ACP_ExtState 4""
+ACP_FailGrade 3""
+ACP_BaseState 7""
+t36384C2241B95F00D0FC
+147
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+148
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 0""
+CDU_HVACOffButtonStVD 1""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 1""
+CDU_HVACCirculationButtonStVD 0""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 0""
+CDU_HVACModeButtonSt 6""
+HVAC_WindExitSpd 12""
+CDU_HVAC_DriverTempSelect 29"°„C"
+HVAC_PsnTempSelect 22""
+CDU_HVACCtrlModeSt 7""
+CDU_ControlSt 1""
+t35880E2844661608F000
+149
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 0""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp 76.5"°„C"
+HVAC_RawExterTemp -10.5"°„C"
+HVAC_TempSelect 25.5"°„C"
+HVAC_DualSt 1""
+HVAC_AutoSt 0""
+HVAC_Type 0""
+HVAC_WindExitMode 7""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 0""
+HVAC_AirCirculationSt 2""
+HVAC_PopUpDisplayReq 0""
+HVAC_DriverTempSelect 28.5"°„C"
+HVAC_IonMode 1""
+HVAC_WindExitSpd 5""
+HVAC_PsnTempSelect 19.5""
+t320830E93B2F07406A35
+150
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 1""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 0""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 5""
+HVAC_WindExitSpd 9""
+CDU_HVAC_DriverTempSelect 23.5"°„C"
+HVAC_PsnTempSelect 27.5""
+CDU_HVACCtrlModeSt 1""
+CDU_ControlSt 1""
+t3588CD0CC04D0B139000
+151
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 1""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 1""
+HVAC_ACmaxSt 1""
+HVAC_CorrectedExterTemp 71"°„C"
+HVAC_RawExterTemp 3.5"°„C"
+HVAC_TempSelect 30"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 0""
+HVAC_Type 0""
+HVAC_WindExitMode 4""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 0""
+HVAC_AirCirculationSt 0""
+HVAC_PopUpDisplayReq 0""
+HVAC_DriverTempSelect 23"°„C"
+HVAC_IonMode 1""
+HVAC_WindExitSpd 6""
+HVAC_PsnTempSelect 20.5""
+t3208F9DE571804005456
+152
+61 CDU_4:
+3
+CDU_HVACACCfg 1""
+CDU_HVACAirCirCfg 0""
+CDU_HVACComfortCfg 0""
+t03D80100000000000000
+153
+867 ACP_1:
+8
+ACP_Speed 2500""
+ACPComsumpPwr 5330""
+ACP_Current 27.1""
+ACP_MotorTemp -27""
+ACP_HearBeat 13""
+ACP_ExtState 7""
+ACP_FailGrade 1""
+ACP_BaseState 2""
+t36381985410F0D00D04F
+154
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 71"°„C"
+HVAC_CorrectedCabinTemp 4"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1800"w"
+HVAC_PTCPwrAct 50"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218DE5804B400050000
+155
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 5400"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 3800"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 0""
+t39380000362600000000
+156
+1056 BCM_NM:
+8
+BCM_NMDestAddress 250""
+BCM_NMAlive 1""
+BCM_NMRing 1""
+BCM_NMLimpHome 0""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 60""
+BCM_NMDataField 1""
+t4208FA133C0000000001
+157
+868 PTC_1:
+7
+PTC_ElementError 6""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 0""
+PTC_InternalError 0""
+PTC_Current 2.6"A"
+PTCPwrAct 6410"w"
+PTCActst 5""
+t3648680DA04500000000
+158
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 187.369""
+t3458000000002D030000
+159
+867 ACP_1:
+8
+ACP_Speed 3700""
+ACPComsumpPwr 6840""
+ACP_Current 8.1""
+ACP_MotorTemp 40""
+ACP_HearBeat 14""
+ACP_ExtState 6""
+ACP_FailGrade 1""
+ACP_BaseState 1""
+t363825AB00515000E02E
+160
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 3""
+HVAC_ACPSpeedSet 7400""
+HVAC_ACPHighSidePress 2""
+HVAC_PTCPowerRatio 69""
+HVAC_Checksum 182""
+t3608074A0445B6000000
+161
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 51.3""
+t34580000000023900000
+162
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 2""
+HVAC_ACPSpeedSet 8200""
+HVAC_ACPHighSidePress 21.5""
+HVAC_PTCPowerRatio 25""
+HVAC_Checksum 210""
+t360805522B19D2000000
+163
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -30.5"°„C"
+HVAC_CorrectedCabinTemp -24.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4860"w"
+HVAC_PTCPwrAct 60"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218131F05E600060000
+164
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 0""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 0""
+HVAC_EngIdleStopProhibitReq 0""
+HVAC_ACSt 1""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp 16"°„C"
+HVAC_RawExterTemp -11"°„C"
+HVAC_TempSelect 19"°„C"
+HVAC_DualSt 1""
+HVAC_AutoSt 0""
+HVAC_Type 0""
+HVAC_WindExitMode 7""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 4""
+HVAC_AirCirculationSt 3""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 23"°„C"
+HVAC_IonMode 1""
+HVAC_WindExitSpd 13""
+HVAC_PsnTempSelect 26""
+t320840703A2207E4550D
+165
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 178.425""
+t3458000000000C640000
+166
+867 ACP_1:
+8
+ACP_Speed 7000""
+ACPComsumpPwr 3730""
+ACP_Current 2.4""
+ACP_MotorTemp 74""
+ACP_HearBeat 6""
+ACP_ExtState 6""
+ACP_FailGrade 1""
+ACP_BaseState 7""
+t3638465D4018720060EE
+167
+1067 CDU_NM:
+8
+CDU_NMDestAddress 237""
+CDU_NMAlive 1""
+CDU_NMRing 0""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 89""
+CDU_NMDataField 1""
+t42B8ED21590000000001
+168
+61 CDU_4:
+3
+CDU_HVACACCfg 3""
+CDU_HVACAirCirCfg 1""
+CDU_HVACComfortCfg 0""
+t03D80700000000000000
+169
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 1""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 0""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 0""
+CDU_HVACIonButtonSt 1""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 1""
+CDU_HVACCirculationButtonStVD 0""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 0""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 1""
+HVAC_WindExitSpd 12""
+CDU_HVAC_DriverTempSelect 27.5"°„C"
+HVAC_PsnTempSelect 20""
+CDU_HVACCtrlModeSt 1""
+CDU_ControlSt 0""
+t35880314846113041000
+170
+868 PTC_1:
+7
+PTC_ElementError 10""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 1""
+PTC_InternalError 1""
+PTC_Current 2.6"A"
+PTCPwrAct 6410"w"
+PTCActst 1""
+t3648AD0DA04100000000
+171
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 0""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 0""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 0""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 0""
+CDU_HVACModeButtonSt 0""
+HVAC_WindExitSpd 3""
+CDU_HVAC_DriverTempSelect 26.5"°„C"
+HVAC_PsnTempSelect 23""
+CDU_HVACCtrlModeSt 4""
+CDU_ControlSt 1""
+t358801005018110AC000
+172
+1067 CDU_NM:
+8
+CDU_NMDestAddress 194""
+CDU_NMAlive 1""
+CDU_NMRing 1""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 152""
+CDU_NMDataField 1""
+t42B8C217980000000001
+173
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+174
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 3300"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 2600"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 0""
+t39380000211A03000000
+175
+1067 CDU_NM:
+8
+CDU_NMDestAddress 20""
+CDU_NMAlive 0""
+CDU_NMRing 0""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 28""
+CDU_NMDataField 0""
+t42B814201C0000000000
+176
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 0""
+HVAC_ACPSpeedSet 2300""
+HVAC_ACPHighSidePress 9.5""
+HVAC_PTCPowerRatio 21""
+HVAC_Checksum 181""
+t360801171315B5000000
+177
+867 ACP_1:
+8
+ACP_Speed 5000""
+ACPComsumpPwr 3790""
+ACP_Current 6.7""
+ACP_MotorTemp 34""
+ACP_HearBeat 15""
+ACP_ExtState 7""
+ACP_FailGrade 1""
+ACP_BaseState 3""
+t3638325EC0434A00F06F
+178
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 1""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 0""
+CDU_HVACFDefrostButtonSt 1""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 1""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 1""
+CDU_HVACCirculationButtonStVD 0""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 2""
+HVAC_WindExitSpd 6""
+CDU_HVAC_DriverTempSelect 30.5"°„C"
+HVAC_PsnTempSelect 23.5""
+CDU_HVACCtrlModeSt 0""
+CDU_ControlSt 1""
+t3588C718D432190B8000
+179
+61 CDU_4:
+3
+CDU_HVACACCfg 2""
+CDU_HVACAirCirCfg 0""
+CDU_HVACComfortCfg 2""
+t03D82200000000000000
+180
+1056 BCM_NM:
+8
+BCM_NMDestAddress 166""
+BCM_NMAlive 0""
+BCM_NMRing 0""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 1""
+BCM_NMWakeupOrignin 222""
+BCM_NMDataField 1""
+t4208A624DE0000000001
+181
+1056 BCM_NM:
+8
+BCM_NMDestAddress 201""
+BCM_NMAlive 1""
+BCM_NMRing 1""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 1""
+BCM_NMWakeupOrignin 162""
+BCM_NMDataField 0""
+t4208C927A20000000000
+182
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80700000000000000
+183
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 3700"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 4700"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 1""
+VCU_AirCompressorReqVD 1""
+t39380000252F32000000
+184
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+185
+1056 BCM_NM:
+8
+BCM_NMDestAddress 141""
+BCM_NMAlive 0""
+BCM_NMRing 1""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 88""
+BCM_NMDataField 0""
+t42088D16580000000000
+186
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 1""
+HVAC_ACPSpeedSet 1800""
+HVAC_ACPHighSidePress 26""
+HVAC_PTCPowerRatio 29""
+HVAC_Checksum 234""
+t36080212341DEA000000
+187
+1067 CDU_NM:
+8
+CDU_NMDestAddress 158""
+CDU_NMAlive 1""
+CDU_NMRing 0""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 51""
+CDU_NMDataField 0""
+t42B89E05330000000000
+188
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 1""
+HVAC_ACmaxSt 1""
+HVAC_CorrectedExterTemp -2.5"°„C"
+HVAC_RawExterTemp 25"°„C"
+HVAC_TempSelect 23.5"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 0""
+HVAC_Type 1""
+HVAC_WindExitMode 1""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 1""
+HVAC_AirCirculationSt 0""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 23.5"°„C"
+HVAC_IonMode 3""
+HVAC_WindExitSpd 15""
+HVAC_PsnTempSelect 29""
+t3208F14B828B0181D76F
+189
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+190
+61 CDU_4:
+3
+CDU_HVACACCfg 1""
+CDU_HVACAirCirCfg 0""
+CDU_HVACComfortCfg 0""
+t03D80100000000000000
+191
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80200000000000000
+192
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+193
+868 PTC_1:
+7
+PTC_ElementError 6""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 0""
+PTC_InternalError 1""
+PTC_Current 2.6"A"
+PTCPwrAct 4220"w"
+PTCActst 5""
+t3648610D698500000000
+194
+61 CDU_4:
+3
+CDU_HVACACCfg 1""
+CDU_HVACAirCirCfg 1""
+CDU_HVACComfortCfg 2""
+t03D82500000000000000
+195
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 2200"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 3700"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 0""
+t39380000162501000000
+196
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 3""
+HVAC_ACPSpeedSet 8400""
+HVAC_ACPHighSidePress 25.5""
+HVAC_PTCPowerRatio 40""
+HVAC_Checksum 224""
+t360806543328E0000000
+197
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80200000000000000
+198
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 0""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 1""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 1""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 0""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 1""
+CDU_HVACACMaxButtonSt 0""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 5""
+HVAC_WindExitSpd 4""
+CDU_HVAC_DriverTempSelect 29.5"°„C"
+HVAC_PsnTempSelect 30""
+CDU_HVACCtrlModeSt 1""
+CDU_ControlSt 1""
+t3588CC18A02517189000
+199
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 179.719""
+t3458000000000C7B0000
+200
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -9.5"°„C"
+HVAC_CorrectedCabinTemp -14"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 620"w"
+HVAC_PTCPwrAct 1780"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32183D34003E00B20000
+201
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80300000000000000
+202
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80700000000000000
+203
+1056 BCM_NM:
+8
+BCM_NMDestAddress 78""
+BCM_NMAlive 1""
+BCM_NMRing 1""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 0""
+BCM_NMSleepAck 1""
+BCM_NMWakeupOrignin 187""
+BCM_NMDataField 0""
+t42084E27BB0000000000
+204
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 49.8375""
+t34580000000003760000
+205
+867 ACP_1:
+8
+ACP_Speed 2500""
+ACPComsumpPwr 3920""
+ACP_Current 47.7""
+ACP_MotorTemp 3""
+ACP_HearBeat 12""
+ACP_ExtState 4""
+ACP_FailGrade 0""
+ACP_BaseState 3""
+t3638196201DD2B00C064
+206
+1067 CDU_NM:
+8
+CDU_NMDestAddress 112""
+CDU_NMAlive 1""
+CDU_NMRing 0""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 90""
+CDU_NMDataField 1""
+t42B870355A0000000001
+207
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 1""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 1""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 1""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 0""
+CDU_HVACModeButtonSt 4""
+HVAC_WindExitSpd 12""
+CDU_HVAC_DriverTempSelect 30.5"°„C"
+HVAC_PsnTempSelect 27""
+CDU_HVACCtrlModeSt 5""
+CDU_ControlSt 0""
+t35888B1C686419125000
+208
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80600000000000000
+209
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 0""
+t31D80100000000000000
+210
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 3""
+HVAC_ACPSpeedSet 6300""
+HVAC_ACPHighSidePress 7.5""
+HVAC_PTCPowerRatio 15""
+HVAC_Checksum 226""
+t3608073F0F0FE2000000
+211
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -8"°„C"
+HVAC_CorrectedCabinTemp -6"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6270"w"
+HVAC_PTCPwrAct 6480"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321840440A7302882000
+212
+1067 CDU_NM:
+8
+CDU_NMDestAddress 192""
+CDU_NMAlive 0""
+CDU_NMRing 0""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 132""
+CDU_NMDataField 1""
+t42B8C030840000000001
+213
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 1""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 0""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 0""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 3""
+HVAC_WindExitSpd 8""
+CDU_HVAC_DriverTempSelect 18"°„C"
+HVAC_PsnTempSelect 18""
+CDU_HVACCtrlModeSt 5""
+CDU_ControlSt 1""
+t3588CD00D0430000D000
+214
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 33.5"°„C"
+HVAC_CorrectedCabinTemp 19"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4480"w"
+HVAC_PTCPwrAct 4550"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321893760DC001C70000
+215
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 1""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 0""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 1""
+HVAC_CorrectedExterTemp -37.5"°„C"
+HVAC_RawExterTemp 53.5"°„C"
+HVAC_TempSelect 24.5"°„C"
+HVAC_DualSt 1""
+HVAC_AutoSt 0""
+HVAC_Type 0""
+HVAC_WindExitMode 2""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 1""
+HVAC_AirCirculationSt 1""
+HVAC_PopUpDisplayReq 0""
+HVAC_DriverTempSelect 26.5"°„C"
+HVAC_IonMode 3""
+HVAC_WindExitSpd 7""
+HVAC_PsnTempSelect 18""
+t32089105BB2D0221E207
+216
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 0""
+t31D80000000000000000
+217
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80300000000000000
+218
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 0""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 0""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 1""
+HVAC_ACmaxSt 1""
+HVAC_CorrectedExterTemp 84"°„C"
+HVAC_RawExterTemp 3.5"°„C"
+HVAC_TempSelect 30"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 0""
+HVAC_Type 0""
+HVAC_WindExitMode 4""
+HVAC_SpdFanReq 1""
+HVAC_TelematicsSt 2""
+HVAC_AirCirculationSt 2""
+HVAC_PopUpDisplayReq 0""
+HVAC_DriverTempSelect 18"°„C"
+HVAC_IonMode 0""
+HVAC_WindExitSpd 6""
+HVAC_PsnTempSelect 21""
+t3208E0F857180C420066
+219
+792 BCM_BCAN_1:
+1
+BCM_KeySt 3""
+t31880300000000000000
+220
+867 ACP_1:
+8
+ACP_Speed 2800""
+ACPComsumpPwr 4100""
+ACP_Current 28.6""
+ACP_MotorTemp 37""
+ACP_HearBeat 13""
+ACP_ExtState 2""
+ACP_FailGrade 2""
+ACP_BaseState 1""
+t36381C66811E4D00D032
+221
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 4700"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 400"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 0""
+t393800002F0400000000
+222
+867 ACP_1:
+8
+ACP_Speed 500""
+ACPComsumpPwr 4960""
+ACP_Current 47.2""
+ACP_MotorTemp 61""
+ACP_HearBeat 1""
+ACP_ExtState 6""
+ACP_FailGrade 3""
+ACP_BaseState 4""
+t3638057C01D86500109E
+223
+1067 CDU_NM:
+8
+CDU_NMDestAddress 82""
+CDU_NMAlive 0""
+CDU_NMRing 1""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 68""
+CDU_NMDataField 1""
+t42B85222440000000001
+224
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 1""
+HVAC_ACPSpeedSet 7700""
+HVAC_ACPHighSidePress 19""
+HVAC_PTCPowerRatio 14""
+HVAC_Checksum 174""
+t3608024D260EAE000000
+225
+61 CDU_4:
+3
+CDU_HVACACCfg 0""
+CDU_HVACAirCirCfg 2""
+CDU_HVACComfortCfg 2""
+t03D82800000000000000
+226
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 0""
+t31D80000000000000000
+227
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80700000000000000
+228
+868 PTC_1:
+7
+PTC_ElementError 10""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 0""
+PTC_InternalError 1""
+PTC_Current 9.8"A"
+PTCPwrAct 3980"w"
+PTCActst 6""
+t3648A931638600000000
+229
+61 CDU_4:
+3
+CDU_HVACACCfg 0""
+CDU_HVACAirCirCfg 3""
+CDU_HVACComfortCfg 0""
+t03D80C00000000000000
+230
+867 ACP_1:
+8
+ACP_Speed 6700""
+ACPComsumpPwr 5090""
+ACP_Current 31.4""
+ACP_MotorTemp -27""
+ACP_HearBeat 1""
+ACP_ExtState 2""
+ACP_FailGrade 1""
+ACP_BaseState 7""
+t3638437F413A0D0010EA
+231
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+232
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+233
+867 ACP_1:
+8
+ACP_Speed 1500""
+ACPComsumpPwr 2350""
+ACP_Current 13""
+ACP_MotorTemp 137""
+ACP_HearBeat 3""
+ACP_ExtState 2""
+ACP_FailGrade 2""
+ACP_BaseState 6""
+t36380F3AC082B10030D2
+234
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 3""
+HVAC_ACPSpeedSet 2800""
+HVAC_ACPHighSidePress 12""
+HVAC_PTCPowerRatio 62""
+HVAC_Checksum 228""
+t3608071C183EE4000000
+235
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 0""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 1""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 0""
+HVAC_CorrectedExterTemp -7"°„C"
+HVAC_RawExterTemp 30.5"°„C"
+HVAC_TempSelect 28"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 1""
+HVAC_Type 0""
+HVAC_WindExitMode 4""
+HVAC_SpdFanReq 1""
+HVAC_TelematicsSt 4""
+HVAC_AirCirculationSt 3""
+HVAC_PopUpDisplayReq 0""
+HVAC_DriverTempSelect 30"°„C"
+HVAC_IonMode 0""
+HVAC_WindExitSpd 3""
+HVAC_PsnTempSelect 20.5""
+t320830428D540C643053
+236
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 3""
+HVAC_WindExitSpd 1""
+CDU_HVAC_DriverTempSelect 19.5"°„C"
+HVAC_PsnTempSelect 31.5""
+CDU_HVACCtrlModeSt 6""
+CDU_ControlSt 0""
+t3588890CD80B031B6000
+237
+868 PTC_1:
+7
+PTC_ElementError 9""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 1""
+PTC_InternalError 2""
+PTC_Current 12.8"A"
+PTCPwrAct 4530"w"
+PTCActst 3""
+t36489640714300000000
+238
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+239
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 42"°„C"
+HVAC_CorrectedCabinTemp -5.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3560"w"
+HVAC_PTCPwrAct 5960"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218A445016402540000
+240
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 2100"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 1500"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 0""
+t39380000150F03000000
+241
+868 PTC_1:
+7
+PTC_ElementError 14""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 1""
+PTC_InternalError 2""
+PTC_Current 1.8"A"
+PTCPwrAct 870"w"
+PTCActst 1""
+t3648EE0915C100000000
+242
+867 ACP_1:
+8
+ACP_Speed 1200""
+ACPComsumpPwr 160""
+ACP_Current 29.7""
+ACP_MotorTemp 71""
+ACP_HearBeat 9""
+ACP_ExtState 3""
+ACP_FailGrade 1""
+ACP_BaseState 2""
+t36380C0401296F00904B
+243
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+244
+61 CDU_4:
+3
+CDU_HVACACCfg 3""
+CDU_HVACAirCirCfg 0""
+CDU_HVACComfortCfg 2""
+t03D82300000000000000
+245
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 201.656""
+t3458000000002E010000
+246
+1067 CDU_NM:
+8
+CDU_NMDestAddress 226""
+CDU_NMAlive 0""
+CDU_NMRing 1""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 0""
+CDU_NMWakeupOrignin 114""
+CDU_NMDataField 0""
+t42B8E206720000000000
+247
+867 ACP_1:
+8
+ACP_Speed 7400""
+ACPComsumpPwr 1420""
+ACP_Current 5.4""
+ACP_MotorTemp 17""
+ACP_HearBeat 8""
+ACP_ExtState 7""
+ACP_FailGrade 3""
+ACP_BaseState 5""
+t36384A238036390080BF
+248
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+249
+867 ACP_1:
+8
+ACP_Speed 3000""
+ACPComsumpPwr 550""
+ACP_Current 35.5""
+ACP_MotorTemp 50""
+ACP_HearBeat 1""
+ACP_ExtState 1""
+ACP_FailGrade 2""
+ACP_BaseState 3""
+t36381E0DC1635A001071
+250
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 68.9625""
+t34580000000024CA0000
+251
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 0""
+HVAC_ComfortCfgSt 0""
+t31D80000000000000000
+252
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 54.5"°„C"
+HVAC_CorrectedCabinTemp 38"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2740"w"
+HVAC_PTCPwrAct 6890"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218BD9C0D1202B12000
+253
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 1""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 1""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 1""
+CDU_HVACModeButtonSt 0""
+HVAC_WindExitSpd 4""
+CDU_HVAC_DriverTempSelect 21.5"°„C"
+HVAC_PsnTempSelect 30.5""
+CDU_HVACCtrlModeSt 4""
+CDU_ControlSt 1""
+t3588CD28CC200719C000
+254
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 0""
+HVAC_ACPSpeedSet 4300""
+HVAC_ACPHighSidePress 5.5""
+HVAC_PTCPowerRatio 25""
+HVAC_Checksum 157""
+t3608012B0B199D000000
+255
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+256
+867 ACP_1:
+8
+ACP_Speed 2400""
+ACPComsumpPwr 3490""
+ACP_Current 33.6""
+ACP_MotorTemp 58""
+ACP_HearBeat 4""
+ACP_ExtState 6""
+ACP_FailGrade 3""
+ACP_BaseState 5""
+t363818574150620040BE
+257
+868 PTC_1:
+7
+PTC_ElementError 9""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 1""
+PTC_InternalError 3""
+PTC_Current 6.8"A"
+PTCPwrAct 5810"w"
+PTCActst 6""
+t36489F22914600000000
+258
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 2""
+HVAC_ACPSpeedSet 4100""
+HVAC_ACPHighSidePress 17.5""
+HVAC_PTCPowerRatio 97""
+HVAC_Checksum 230""
+t360805292361E6000000
+259
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 69.5"°„C"
+HVAC_CorrectedCabinTemp 5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7640"w"
+HVAC_PTCPwrAct 3200"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218DB5A02FC01402000
+260
+61 CDU_4:
+3
+CDU_HVACACCfg 2""
+CDU_HVACAirCirCfg 3""
+CDU_HVACComfortCfg 0""
+t03D80E00000000000000
+261
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 59"°„C"
+HVAC_CorrectedCabinTemp 79.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4920"w"
+HVAC_PTCPwrAct 6770"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218C6EF05EC02A50000
+262
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -9.5"°„C"
+HVAC_CorrectedCabinTemp 61"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4590"w"
+HVAC_PTCPwrAct 2870"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32183DCA09CB011F2000
+263
+868 PTC_1:
+7
+PTC_ElementError 5""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 0""
+PTC_InternalError 1""
+PTC_Current 24.2"A"
+PTCPwrAct 2120"w"
+PTCActst 4""
+t36485179350400000000
+264
+1067 CDU_NM:
+8
+CDU_NMDestAddress 87""
+CDU_NMAlive 1""
+CDU_NMRing 1""
+CDU_NMLimpHome 1""
+CDU_NMSleepInd 1""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 19""
+CDU_NMDataField 1""
+t42B85737130000000001
+265
+1067 CDU_NM:
+8
+CDU_NMDestAddress 179""
+CDU_NMAlive 0""
+CDU_NMRing 1""
+CDU_NMLimpHome 0""
+CDU_NMSleepInd 0""
+CDU_NMSleepAck 1""
+CDU_NMWakeupOrignin 103""
+CDU_NMDataField 0""
+t42B8B322670000000000
+266
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80700000000000000
+267
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 121.219""
+t345800000000086B0000
+268
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 141.469""
+t34580000000009D30000
+269
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 0""
+ESC_VehSpd 56.9813""
+t34580000000003F50000
+270
+1056 BCM_NM:
+8
+BCM_NMDestAddress 130""
+BCM_NMAlive 0""
+BCM_NMRing 1""
+BCM_NMLimpHome 1""
+BCM_NMSleepInd 1""
+BCM_NMSleepAck 0""
+BCM_NMWakeupOrignin 127""
+BCM_NMDataField 0""
+t420882167F0000000000
+271
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -8"°„C"
+HVAC_CorrectedCabinTemp 6"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6200"w"
+HVAC_PTCPwrAct 6440"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218405C066C02840000
+272
+868 PTC_1:
+7
+PTC_ElementError 0""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 0""
+PTC_InternalError 3""
+PTC_Current 8"A"
+PTCPwrAct 840"w"
+PTCActst 2""
+t36480328150200000000
+273
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 1""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 1""
+CDU_HVACFDefrostButtonStVD 1""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 0""
+CDU_HVACACButtonStVD 1""
+CDU_HVACACMaxButtonSt 0""
+CDU_HVACACMaxButtonStVD 0""
+CDU_HVACModeButtonSt 5""
+HVAC_WindExitSpd 2""
+CDU_HVAC_DriverTempSelect 21.5"°„C"
+HVAC_PsnTempSelect 22.5""
+CDU_HVACCtrlModeSt 5""
+CDU_ControlSt 1""
+t3588CD0C28150709D000
+274
+800 HVAC_1:
+21
+HVAC_AirCompressorSt 0""
+HVAC_CorrectedExterTempVD 0""
+HVAC_RawExterTempVD 0""
+HVAC_EngIdleStopProhibitReq 1""
+HVAC_ACSt 0""
+HVAC_ACmaxSt 1""
+HVAC_CorrectedExterTemp -5"°„C"
+HVAC_RawExterTemp -7.5"°„C"
+HVAC_TempSelect 22.5"°„C"
+HVAC_DualSt 0""
+HVAC_AutoSt 0""
+HVAC_Type 0""
+HVAC_WindExitMode 7""
+HVAC_SpdFanReq 0""
+HVAC_TelematicsSt 0""
+HVAC_AirCirculationSt 1""
+HVAC_PopUpDisplayReq 1""
+HVAC_DriverTempSelect 24.5"°„C"
+HVAC_IonMode 3""
+HVAC_WindExitSpd 0""
+HVAC_PsnTempSelect 22""
+t3208A046410907A0DA80
+275
+868 PTC_1:
+7
+PTC_ElementError 4""
+PTC_TemperatureOver 1""
+PTC_VoltageFault 0""
+PTC_InternalError 3""
+PTC_Current 19"A"
+PTCPwrAct 7410"w"
+PTCActst 6""
+t36484B5FB94600000000
+276
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+277
+797 HVAC_3:
+3
+HVAC_ACCfgSt 0""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80200000000000000
+278
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 2""
+HVAC_ACPSpeedSet 7900""
+HVAC_ACPHighSidePress 24.5""
+HVAC_PTCPowerRatio 37""
+HVAC_Checksum 236""
+t3608054F3125EC000000
+279
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 0""
+t31D80300000000000000
+280
+792 BCM_BCAN_1:
+1
+BCM_KeySt 1""
+t31880100000000000000
+281
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 34.0312""
+t345800000000225D0000
+282
+797 HVAC_3:
+3
+HVAC_ACCfgSt 1""
+HVAC_AirCirCfgSt 1""
+HVAC_ComfortCfgSt 1""
+t31D80700000000000000
+283
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 1600"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 1700"w"
+VCU_PTCrPwrLimitAct 1""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 0""
+t39380000101102000000
+284
+867 ACP_1:
+8
+ACP_Speed 900""
+ACPComsumpPwr 7760""
+ACP_Current 8.3""
+ACP_MotorTemp 103""
+ACP_HearBeat 15""
+ACP_ExtState 5""
+ACP_FailGrade 0""
+ACP_BaseState 6""
+t363809C200538F00F0C5
+285
+792 BCM_BCAN_1:
+1
+BCM_KeySt 2""
+t31880200000000000000
+286
+867 ACP_1:
+8
+ACP_Speed 6500""
+ACPComsumpPwr 4330""
+ACP_Current 28""
+ACP_MotorTemp 106""
+ACP_HearBeat 7""
+ACP_ExtState 2""
+ACP_FailGrade 1""
+ACP_BaseState 0""
+t3638416C41189200700A
+287
+868 PTC_1:
+7
+PTC_ElementError 3""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 1""
+PTC_InternalError 2""
+PTC_Current 20"A"
+PTCPwrAct 7940"w"
+PTCActst 6""
+t36483664C68600000000
+288
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 0""
+CDU_HVACOffButtonStVD 0""
+CDU_HVACAutoModeButtonSt 0""
+CDU_HVACAutoModeButtonStVD 0""
+CDU_HVACFDefrostButtonSt 1""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 1""
+CDU_HVACDualButtonStVD 1""
+CDU_HVACIonButtonSt 1""
+CDU_HVACIonButtonStVD 0""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 0""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 1""
+CDU_HVACACMaxButtonSt 1""
+CDU_HVACACMaxButtonStVD 0""
+CDU_HVACModeButtonSt 2""
+HVAC_WindExitSpd 7""
+CDU_HVAC_DriverTempSelect 30"°„C"
+HVAC_PsnTempSelect 28""
+CDU_HVACCtrlModeSt 5""
+CDU_ControlSt 1""
+t3588401C703A1814D000
+289
+856 CDU_1:
+22
+CDU_HVACOffButtonSt 0""
+CDU_HVACOffButtonStVD 1""
+CDU_HVACAutoModeButtonSt 1""
+CDU_HVACAutoModeButtonStVD 1""
+CDU_HVACFDefrostButtonSt 0""
+CDU_HVACFDefrostButtonStVD 0""
+CDU_HVACDualButtonSt 0""
+CDU_HVACDualButtonStVD 0""
+CDU_HVACIonButtonSt 0""
+CDU_HVACIonButtonStVD 1""
+CDU_HVACCirculationButtonSt 0""
+CDU_HVACCirculationButtonStVD 1""
+CDU_HVACACButtonSt 1""
+CDU_HVACACButtonStVD 0""
+CDU_HVACACMaxButtonSt 0""
+CDU_HVACACMaxButtonStVD 0""
+CDU_HVACModeButtonSt 7""
+HVAC_WindExitSpd 7""
+CDU_HVAC_DriverTempSelect 18"°„C"
+HVAC_PsnTempSelect 32""
+CDU_HVACCtrlModeSt 0""
+CDU_ControlSt 0""
+t35880E20183F001C0000
+290
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 66.5"°„C"
+HVAC_CorrectedCabinTemp 72.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3800"w"
+HVAC_PTCPwrAct 4840"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218D5E1017C01E42000
+291
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -20.5"°„C"
+HVAC_CorrectedCabinTemp 13"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3640"w"
+HVAC_PTCPwrAct 1970"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218276A016C00C50000
+292
+792 BCM_BCAN_1:
+1
+BCM_KeySt 3""
+t31880300000000000000
+293
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 2900"w"
+VCU_CompressorPwrLimitAct 1""
+VCU_PTCPwrLimit 2500"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 1""
+VCU_AirCompressorReqVD 1""
+t393800001D1931000000
+294
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 43"°„C"
+HVAC_CorrectedCabinTemp 57"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4970"w"
+HVAC_PTCPwrAct 7000"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218A6C20DF102BC2000
+295
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 1""
+HVAC_ACPCommand 0""
+HVAC_ACPSpeedSet 8000""
+HVAC_ACPHighSidePress 9""
+HVAC_PTCPowerRatio 99""
+HVAC_Checksum 219""
+t360801501263DB000000
+296
+837 BCM_ESC_2:
+2
+ESC_VehSpdVD 1""
+ESC_VehSpd 157.725""
+t3458000000002AF40000
+297
+792 BCM_BCAN_1:
+1
+BCM_KeySt 3""
+t31880300000000000000
+298
+864 HVAC_4:
+6
+HVAC_ACPCommandVD 0""
+HVAC_ACPCommand 3""
+HVAC_ACPSpeedSet 6200""
+HVAC_ACPHighSidePress 8.5""
+HVAC_PTCPowerRatio 24""
+HVAC_Checksum 230""
+t3608063E1118E6000000
+299
+915 BCM_VCU_2:
+6
+VCU_CompressorPwrLimit 1000"w"
+VCU_CompressorPwrLimitAct 0""
+VCU_PTCPwrLimit 5100"w"
+VCU_PTCrPwrLimitAct 0""
+VCU_AirCompressorReq 0""
+VCU_AirCompressorReqVD 1""
+t393800000A3320000000
+300
+868 PTC_1:
+7
+PTC_ElementError 4""
+PTC_TemperatureOver 0""
+PTC_VoltageFault 1""
+PTC_InternalError 2""
+PTC_Current 22.6"A"
+PTCPwrAct 5780"w"
+PTCActst 3""
+t36484671908300000000

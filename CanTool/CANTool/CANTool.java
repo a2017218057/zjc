@@ -51,15 +51,11 @@ public class CANTool {
 		if(command == null || command.length() == 0)
 			returnTheInfo(0,"");
 		char type = command.charAt(0);
-		//System.out.println(type);
-/*		boolean a = type=='V';
-		System.out.println(a);*/
 		command = command.substring(0,command.length()-1);
-		//System.out.println(serialPort);
-		//System.out.println(command.length());
 		if(type=='V' && command.length() == 1)
 		{
 			System.out.println("进来了！！");
+			JOptionPane.showMessageDialog(null, "SV2.5-HV2.0", "提示", JOptionPane.INFORMATION_MESSAGE);
 			returnTheInfo(1,"SV2.5-HV2.0");
 		}
 		else if(type=='O' && command.charAt(1) == '1' && command.length() == 2)
@@ -105,7 +101,8 @@ public class CANTool {
 		System.out.println("传入数据为"+command);
 		if(state == 0)
 		{
-			returnTheInfo(0,"NOT OPEN");
+			JOptionPane.showMessageDialog(null, "NOT OPEN", "提示", JOptionPane.INFORMATION_MESSAGE);
+			returnTheInfo(0,"");
 			return;
 		}
 		int templen = command.length();
@@ -114,13 +111,15 @@ public class CANTool {
 			char tempchar = command.charAt(i);
 			if(!((tempchar>='0'&&tempchar<='9')||(tempchar>='A'&&tempchar<='F')))
 			{
-				returnTheInfo(0,"Error");
+				JOptionPane.showMessageDialog(null, "格式不对！", "提示", JOptionPane.INFORMATION_MESSAGE);
+				returnTheInfo(0,"");
 				return;
 			}
 		}
 		if(templen<=4)
 		{
-			returnTheInfo(0,"<4");
+			JOptionPane.showMessageDialog(null, "格式不对！", "提示", JOptionPane.INFORMATION_MESSAGE);
+			returnTheInfo(0,"");
 			return;
 		}
 		String idString = command.substring(1, 4);
@@ -134,7 +133,8 @@ public class CANTool {
 		if(len<=0||len>8||templen!=9+len*2)
 		{
 			System.out.println("出错啦，可能是长度不对哦！");
-			returnTheInfo(0,"Error");
+			JOptionPane.showMessageDialog(null, "长度不对！", "提示", JOptionPane.INFORMATION_MESSAGE);
+			returnTheInfo(0,"");
 			return;
 		}
 		String data_16 = command.substring(5, 5+len*2);
@@ -272,7 +272,8 @@ public class CANTool {
 				String sp = "";
 				sp = Integer.toString(speed);
 				System.out.println(speed);
-				returnTheInfo(1,"Sn = "+sp);
+				JOptionPane.showMessageDialog(null, sp, "提示", JOptionPane.INFORMATION_MESSAGE);
+				returnTheInfo(1,"");
 			}
 			
 		}
@@ -288,7 +289,8 @@ public class CANTool {
 		if(state == 1)
 		{
 			state = 0;
-			returnTheInfo(1,"Close");
+			JOptionPane.showMessageDialog(null, "CLOSE", "提示", JOptionPane.INFORMATION_MESSAGE);
+			returnTheInfo(1,"");
 		}
 		else
 		{
@@ -304,7 +306,8 @@ public class CANTool {
 		{
 			state = 1;
 			System.out.println("Open sucess");
-			returnTheInfo(1,"OPEN");
+			JOptionPane.showMessageDialog(null, "OPEN", "提示", JOptionPane.INFORMATION_MESSAGE);
+			returnTheInfo(1,"");
 		}
 		else
 		{
@@ -321,13 +324,14 @@ public class CANTool {
 		{
 			message = message + "\r";
 			System.out.println("message"+message);
+			
 		}
 		else
 		{
 			message = message + (char)(0x07);
 		}
 		try {
-			JOptionPane.showMessageDialog(null, message, "提示", JOptionPane.INFORMATION_MESSAGE);
+			
 			SerialTool.sendToPort(serialPort, message.getBytes());
 		} catch (SendDataToSerialPortFailure
 				| SerialPortOutputStreamCloseFailure e) {

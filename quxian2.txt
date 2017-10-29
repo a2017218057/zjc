@@ -1,0 +1,3300 @@
+1
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 5.5"°„C"
+HVAC_CorrectedCabinTemp 52"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5890"w"
+HVAC_PTCPwrAct 3490"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32185BB80A4D015D0000
+2
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -19"°„C"
+HVAC_CorrectedCabinTemp -37"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 20"w"
+HVAC_PTCPwrAct 640"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32182A06040200402000
+3
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 45"°„C"
+HVAC_CorrectedCabinTemp 32"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2120"w"
+HVAC_PTCPwrAct 1710"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218AA9000D400AB0000
+4
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 83"°„C"
+HVAC_CorrectedCabinTemp 62.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4080"w"
+HVAC_PTCPwrAct 6920"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218F6CD059802B42000
+5
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 26"°„C"
+HVAC_CorrectedCabinTemp 32"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 890"w"
+HVAC_PTCPwrAct 1850"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32188490085900B90000
+6
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 77"°„C"
+HVAC_CorrectedCabinTemp 27.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5370"w"
+HVAC_PTCPwrAct 3090"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218EA870A1901350000
+7
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 54.5"°„C"
+HVAC_CorrectedCabinTemp 32.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 170"w"
+HVAC_PTCPwrAct 6990"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218BD91081102BB2000
+8
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 22"°„C"
+HVAC_CorrectedCabinTemp 30"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 830"w"
+HVAC_PTCPwrAct 4040"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32187C8C0C5301942000
+9
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -23"°„C"
+HVAC_CorrectedCabinTemp 42.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6850"w"
+HVAC_PTCPwrAct 2580"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321822A50AAD01022000
+10
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 86.5"°„C"
+HVAC_CorrectedCabinTemp -28.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4150"w"
+HVAC_PTCPwrAct 1530"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218FD17059F00992000
+11
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -18"°„C"
+HVAC_CorrectedCabinTemp 36"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1400"w"
+HVAC_PTCPwrAct 2100"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32182C98048C00D22000
+12
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 46"°„C"
+HVAC_CorrectedCabinTemp 66.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 580"w"
+HVAC_PTCPwrAct 890"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218ACD5083A00590000
+13
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 2"°„C"
+HVAC_CorrectedCabinTemp 72"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7080"w"
+HVAC_PTCPwrAct 2700"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321854E002C4010E0000
+14
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 63.5"°„C"
+HVAC_CorrectedCabinTemp 72"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1340"w"
+HVAC_PTCPwrAct 7550"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218CFE00C8602F30000
+15
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 85"°„C"
+HVAC_CorrectedCabinTemp 39.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 770"w"
+HVAC_PTCPwrAct 2970"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218FA9F0C4D01290000
+16
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -12"°„C"
+HVAC_CorrectedCabinTemp -2"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2480"w"
+HVAC_PTCPwrAct 4300"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218384C0CF801AE2000
+17
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -33.5"°„C"
+HVAC_CorrectedCabinTemp 49.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7090"w"
+HVAC_PTCPwrAct 7380"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32180DB30AC502E20000
+18
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 56"°„C"
+HVAC_CorrectedCabinTemp 37"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2450"w"
+HVAC_PTCPwrAct 560"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218C09A0CF500380000
+19
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 87"°„C"
+HVAC_CorrectedCabinTemp -28"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5030"w"
+HVAC_PTCPwrAct 2440"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218FE1805F700F42000
+20
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 38"°„C"
+HVAC_CorrectedCabinTemp 42.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3100"w"
+HVAC_PTCPwrAct 5640"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32189CA5053602340000
+21
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 41"°„C"
+HVAC_CorrectedCabinTemp -38.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4710"w"
+HVAC_PTCPwrAct 6260"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218A20309D702720000
+22
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 38.5"°„C"
+HVAC_CorrectedCabinTemp 75"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4260"w"
+HVAC_PTCPwrAct 1120"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32189DE605AA00702000
+23
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -32.5"°„C"
+HVAC_CorrectedCabinTemp 20"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3280"w"
+HVAC_PTCPwrAct 7320"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32180F780D4802DC0000
+24
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 51"°„C"
+HVAC_CorrectedCabinTemp -22"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5170"w"
+HVAC_PTCPwrAct 4550"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218B624060501C70000
+25
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 36.5"°„C"
+HVAC_CorrectedCabinTemp 2.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6960"w"
+HVAC_PTCPwrAct 2400"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218995506B800F02000
+26
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 8"°„C"
+HVAC_CorrectedCabinTemp 77.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6570"w"
+HVAC_PTCPwrAct 5230"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321860EB0E91020B2000
+27
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 17.5"°„C"
+HVAC_CorrectedCabinTemp -39.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7930"w"
+HVAC_PTCPwrAct 6110"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321873010B1902632000
+28
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 45.5"°„C"
+HVAC_CorrectedCabinTemp 5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6440"w"
+HVAC_PTCPwrAct 3850"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218AB5A068401812000
+29
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 47"°„C"
+HVAC_CorrectedCabinTemp -10"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4190"w"
+HVAC_PTCPwrAct 7900"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218AE3C01A303162000
+30
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -19"°„C"
+HVAC_CorrectedCabinTemp -16"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1910"w"
+HVAC_PTCPwrAct 5200"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32182A3004BF02082000
+31
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 26"°„C"
+HVAC_CorrectedCabinTemp 63"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1970"w"
+HVAC_PTCPwrAct 4980"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321884CE04C501F22000
+32
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 83.5"°„C"
+HVAC_CorrectedCabinTemp -25.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2500"w"
+HVAC_PTCPwrAct 1000"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218F71D08FA00642000
+33
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -20"°„C"
+HVAC_CorrectedCabinTemp -39.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6540"w"
+HVAC_PTCPwrAct 4390"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321828010A8E01B70000
+34
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 23"°„C"
+HVAC_CorrectedCabinTemp 53.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2300"w"
+HVAC_PTCPwrAct 7550"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32187EBB0CE602F30000
+35
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 41.5"°„C"
+HVAC_CorrectedCabinTemp -22"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7060"w"
+HVAC_PTCPwrAct 7790"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218A32402C2030B2000
+36
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 66"°„C"
+HVAC_CorrectedCabinTemp 59.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7510"w"
+HVAC_PTCPwrAct 7360"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218D4C70AEF02E00000
+37
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 6.5"°„C"
+HVAC_CorrectedCabinTemp 33.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6540"w"
+HVAC_PTCPwrAct 1510"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32185D93028E00972000
+38
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 57"°„C"
+HVAC_CorrectedCabinTemp 12.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3740"w"
+HVAC_PTCPwrAct 5680"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218C269097602382000
+39
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 8"°„C"
+HVAC_CorrectedCabinTemp 82.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5090"w"
+HVAC_PTCPwrAct 7810"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321860F50DFD030D2000
+40
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 64"°„C"
+HVAC_CorrectedCabinTemp 48.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5720"w"
+HVAC_PTCPwrAct 2110"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218D0B1023C00D30000
+41
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 25"°„C"
+HVAC_CorrectedCabinTemp 47.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1560"w"
+HVAC_PTCPwrAct 3010"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321882AF009C012D0000
+42
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 81"°„C"
+HVAC_CorrectedCabinTemp 31.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 800"w"
+HVAC_PTCPwrAct 300"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218F28F0050001E2000
+43
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 76.5"°„C"
+HVAC_CorrectedCabinTemp 51.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6350"w"
+HVAC_PTCPwrAct 7560"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218E9B7067B02F40000
+44
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 44"°„C"
+HVAC_CorrectedCabinTemp 80.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3140"w"
+HVAC_PTCPwrAct 7850"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218A8F1093A03110000
+45
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 51"°„C"
+HVAC_CorrectedCabinTemp 1"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5170"w"
+HVAC_PTCPwrAct 6990"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218B6520E0502BB2000
+46
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 42.5"°„C"
+HVAC_CorrectedCabinTemp 64.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5890"w"
+HVAC_PTCPwrAct 4570"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218A5D1024D01C92000
+47
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 49"°„C"
+HVAC_CorrectedCabinTemp 11"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7060"w"
+HVAC_PTCPwrAct 1800"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218B2660AC200B40000
+48
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 12.5"°„C"
+HVAC_CorrectedCabinTemp 0.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3360"w"
+HVAC_PTCPwrAct 1600"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321869510D5000A02000
+49
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 0"°„C"
+HVAC_CorrectedCabinTemp 6.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6470"w"
+HVAC_PTCPwrAct 30"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218505D0E8700030000
+50
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -5.5"°„C"
+HVAC_CorrectedCabinTemp -8"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4100"w"
+HVAC_PTCPwrAct 4320"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321845400D9A01B00000
+51
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 10.5"°„C"
+HVAC_CorrectedCabinTemp 66.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4270"w"
+HVAC_PTCPwrAct 1960"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321865D505AB00C42000
+52
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 59.5"°„C"
+HVAC_CorrectedCabinTemp 33"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5480"w"
+HVAC_PTCPwrAct 2830"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218C7920A24011B0000
+53
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 11.5"°„C"
+HVAC_CorrectedCabinTemp 28.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7570"w"
+HVAC_PTCPwrAct 2470"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218678906F500F70000
+54
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 28"°„C"
+HVAC_CorrectedCabinTemp 52.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 850"w"
+HVAC_PTCPwrAct 490"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321888B9005500310000
+55
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -34.5"°„C"
+HVAC_CorrectedCabinTemp -10"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 150"w"
+HVAC_PTCPwrAct 4450"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32180B3C040F01BD2000
+56
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 55.5"°„C"
+HVAC_CorrectedCabinTemp 72.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1880"w"
+HVAC_PTCPwrAct 3380"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218BFE100BC01520000
+57
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 40.5"°„C"
+HVAC_CorrectedCabinTemp 30.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2630"w"
+HVAC_PTCPwrAct 3620"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218A18D0D07016A2000
+58
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -14"°„C"
+HVAC_CorrectedCabinTemp 21.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6430"w"
+HVAC_PTCPwrAct 2920"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218347B068301242000
+59
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 21"°„C"
+HVAC_CorrectedCabinTemp 86.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 550"w"
+HVAC_PTCPwrAct 7870"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32187AFD003703130000
+60
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 13"°„C"
+HVAC_CorrectedCabinTemp 36.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 850"w"
+HVAC_PTCPwrAct 1370"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32186A99005500892000
+61
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -9"°„C"
+HVAC_CorrectedCabinTemp 30"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3330"w"
+HVAC_PTCPwrAct 2420"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32183E8C054D00F22000
+62
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -31"°„C"
+HVAC_CorrectedCabinTemp -35.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 380"w"
+HVAC_PTCPwrAct 2830"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321812090026011B2000
+63
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -40"°„C"
+HVAC_CorrectedCabinTemp 51.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4650"w"
+HVAC_PTCPwrAct 2860"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321800B70DD1011E0000
+64
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -22.5"°„C"
+HVAC_CorrectedCabinTemp -11.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3140"w"
+HVAC_PTCPwrAct 1550"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321823390D3A009B2000
+65
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 11.5"°„C"
+HVAC_CorrectedCabinTemp 57.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3250"w"
+HVAC_PTCPwrAct 140"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321867C30945000E2000
+66
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -15.5"°„C"
+HVAC_CorrectedCabinTemp -7.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6730"w"
+HVAC_PTCPwrAct 3710"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321831410EA101732000
+67
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 0"°„C"
+HVAC_CorrectedCabinTemp 32"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 870"w"
+HVAC_PTCPwrAct 6630"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32185090085702970000
+68
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 69.5"°„C"
+HVAC_CorrectedCabinTemp 43"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6230"w"
+HVAC_PTCPwrAct 840"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218DBA60E6F00540000
+69
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 49"°„C"
+HVAC_CorrectedCabinTemp 17"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2140"w"
+HVAC_PTCPwrAct 440"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218B27208D6002C2000
+70
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 7.5"°„C"
+HVAC_CorrectedCabinTemp 53.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3310"w"
+HVAC_PTCPwrAct 6700"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32185FBB094B029E2000
+71
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 45.5"°„C"
+HVAC_CorrectedCabinTemp 55"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6570"w"
+HVAC_PTCPwrAct 7870"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218ABBE0A9103130000
+72
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 53"°„C"
+HVAC_CorrectedCabinTemp 42"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 940"w"
+HVAC_PTCPwrAct 4230"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218BAA4085E01A72000
+73
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 84"°„C"
+HVAC_CorrectedCabinTemp -35.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6360"w"
+HVAC_PTCPwrAct 7740"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218F8090A7C03062000
+74
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 74"°„C"
+HVAC_CorrectedCabinTemp 11"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6710"w"
+HVAC_PTCPwrAct 3990"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218E466069F018F0000
+75
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 0.5"°„C"
+HVAC_CorrectedCabinTemp 3"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2820"w"
+HVAC_PTCPwrAct 320"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32185156091A00202000
+76
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 84.5"°„C"
+HVAC_CorrectedCabinTemp 32.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5920"w"
+HVAC_PTCPwrAct 4700"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218F991065001D62000
+77
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 5"°„C"
+HVAC_CorrectedCabinTemp 35"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5840"w"
+HVAC_PTCPwrAct 1080"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32185A960648006C0000
+78
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 23.5"°„C"
+HVAC_CorrectedCabinTemp 7.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 600"w"
+HVAC_PTCPwrAct 3890"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32187F5F043C01852000
+79
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -19.5"°„C"
+HVAC_CorrectedCabinTemp 3.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2060"w"
+HVAC_PTCPwrAct 6310"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218295704CE02770000
+80
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 87"°„C"
+HVAC_CorrectedCabinTemp 9"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6240"w"
+HVAC_PTCPwrAct 5850"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218FE620E7002492000
+81
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 32"°„C"
+HVAC_CorrectedCabinTemp 14.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 330"w"
+HVAC_PTCPwrAct 7800"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218906D0821030C0000
+82
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 42"°„C"
+HVAC_CorrectedCabinTemp -30.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1820"w"
+HVAC_PTCPwrAct 3410"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218A4130CB601550000
+83
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 47"°„C"
+HVAC_CorrectedCabinTemp 83.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1710"w"
+HVAC_PTCPwrAct 3560"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218AEF708AB01642000
+84
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 51.5"°„C"
+HVAC_CorrectedCabinTemp 73"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4090"w"
+HVAC_PTCPwrAct 7630"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218B7E2059902FB2000
+85
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 17.5"°„C"
+HVAC_CorrectedCabinTemp -28"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 180"w"
+HVAC_PTCPwrAct 1610"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32187318041200A10000
+86
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 82.5"°„C"
+HVAC_CorrectedCabinTemp 36"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3190"w"
+HVAC_PTCPwrAct 1840"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218F598093F00B80000
+87
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -26.5"°„C"
+HVAC_CorrectedCabinTemp -16.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 280"w"
+HVAC_PTCPwrAct 5320"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32181B2F081C02142000
+88
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -11"°„C"
+HVAC_CorrectedCabinTemp -20"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7660"w"
+HVAC_PTCPwrAct 1960"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32183A2806FE00C40000
+89
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 62"°„C"
+HVAC_CorrectedCabinTemp 24"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3890"w"
+HVAC_PTCPwrAct 7630"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218CC80098502FB0000
+90
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -40"°„C"
+HVAC_CorrectedCabinTemp -5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 840"w"
+HVAC_PTCPwrAct 3930"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32180046005401892000
+91
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 68.5"°„C"
+HVAC_CorrectedCabinTemp 26"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3810"w"
+HVAC_PTCPwrAct 430"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218D9840D7D002B0000
+92
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 38"°„C"
+HVAC_CorrectedCabinTemp 4"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2490"w"
+HVAC_PTCPwrAct 6370"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32189C5804F9027D0000
+93
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 6.5"°„C"
+HVAC_CorrectedCabinTemp 5.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3670"w"
+HVAC_PTCPwrAct 5290"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32185D5B096F02112000
+94
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -11"°„C"
+HVAC_CorrectedCabinTemp 37.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1610"w"
+HVAC_PTCPwrAct 0"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32183A9B00A100000000
+95
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -20.5"°„C"
+HVAC_CorrectedCabinTemp -28.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2600"w"
+HVAC_PTCPwrAct 7560"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32182717010402F40000
+96
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -32"°„C"
+HVAC_CorrectedCabinTemp 38.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4290"w"
+HVAC_PTCPwrAct 430"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218109D09AD002B0000
+97
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -17"°„C"
+HVAC_CorrectedCabinTemp 67.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 710"w"
+HVAC_PTCPwrAct 2800"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32182ED7084701180000
+98
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -10.5"°„C"
+HVAC_CorrectedCabinTemp -0.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7030"w"
+HVAC_PTCPwrAct 6160"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32183B4F02BF02682000
+99
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -35"°„C"
+HVAC_CorrectedCabinTemp 79"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 490"w"
+HVAC_PTCPwrAct 670"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32180AEE003100432000
+100
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -7"°„C"
+HVAC_CorrectedCabinTemp 10"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5340"w"
+HVAC_PTCPwrAct 6350"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321842640616027B2000
+101
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -26"°„C"
+HVAC_CorrectedCabinTemp 27"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5140"w"
+HVAC_PTCPwrAct 6430"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32181C86060202832000
+102
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -11"°„C"
+HVAC_CorrectedCabinTemp 50.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2160"w"
+HVAC_PTCPwrAct 7030"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32183AB504D802BF0000
+103
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 19"°„C"
+HVAC_CorrectedCabinTemp 25"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4450"w"
+HVAC_PTCPwrAct 2720"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321876820DBD01102000
+104
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 82"°„C"
+HVAC_CorrectedCabinTemp 70"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3730"w"
+HVAC_PTCPwrAct 6040"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218F4DC0575025C0000
+105
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 39"°„C"
+HVAC_CorrectedCabinTemp 29.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2260"w"
+HVAC_PTCPwrAct 5280"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32189E8B0CE202102000
+106
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 60.5"°„C"
+HVAC_CorrectedCabinTemp 2"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6720"w"
+HVAC_PTCPwrAct 5210"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218C95406A002092000
+107
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 54"°„C"
+HVAC_CorrectedCabinTemp 29.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 20"w"
+HVAC_PTCPwrAct 7930"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218BC8B0C0203190000
+108
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 68"°„C"
+HVAC_CorrectedCabinTemp 46.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1070"w"
+HVAC_PTCPwrAct 110"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218D8AD046B000B0000
+109
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 68"°„C"
+HVAC_CorrectedCabinTemp -37.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1250"w"
+HVAC_PTCPwrAct 2510"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218D8050C7D00FB0000
+110
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 65.5"°„C"
+HVAC_CorrectedCabinTemp 58"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5080"w"
+HVAC_PTCPwrAct 2160"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218D3C40DFC00D80000
+111
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -13.5"°„C"
+HVAC_CorrectedCabinTemp -35"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5380"w"
+HVAC_PTCPwrAct 2780"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218350A0A1A01162000
+112
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 48"°„C"
+HVAC_CorrectedCabinTemp 83.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7950"w"
+HVAC_PTCPwrAct 2950"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218B0F70B1B01270000
+113
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 74.5"°„C"
+HVAC_CorrectedCabinTemp 53.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3920"w"
+HVAC_PTCPwrAct 6920"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218E5BB0D8802B40000
+114
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 66.5"°„C"
+HVAC_CorrectedCabinTemp 62"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6920"w"
+HVAC_PTCPwrAct 6430"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218D5CC0EB402830000
+115
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -16.5"°„C"
+HVAC_CorrectedCabinTemp 35"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6480"w"
+HVAC_PTCPwrAct 4220"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32182F96068801A60000
+116
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 41"°„C"
+HVAC_CorrectedCabinTemp 30"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1030"w"
+HVAC_PTCPwrAct 7820"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218A28C0067030E0000
+117
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 7.5"°„C"
+HVAC_CorrectedCabinTemp -36.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 730"w"
+HVAC_PTCPwrAct 5120"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32185F070C4902002000
+118
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 5.5"°„C"
+HVAC_CorrectedCabinTemp 53"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1840"w"
+HVAC_PTCPwrAct 880"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32185BBA08B800582000
+119
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -29"°„C"
+HVAC_CorrectedCabinTemp 77"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4060"w"
+HVAC_PTCPwrAct 6980"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321816EA0D9602BA0000
+120
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 72"°„C"
+HVAC_CorrectedCabinTemp 16"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 730"w"
+HVAC_PTCPwrAct 2970"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218E070044901292000
+121
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -15"°„C"
+HVAC_CorrectedCabinTemp -36.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 160"w"
+HVAC_PTCPwrAct 580"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321832070810003A0000
+122
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 54.5"°„C"
+HVAC_CorrectedCabinTemp -38"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4630"w"
+HVAC_PTCPwrAct 1930"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218BD0405CF00C10000
+123
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 74.5"°„C"
+HVAC_CorrectedCabinTemp 47"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 180"w"
+HVAC_PTCPwrAct 2240"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218E5AE0C1200E02000
+124
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 19.5"°„C"
+HVAC_CorrectedCabinTemp 31.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5620"w"
+HVAC_PTCPwrAct 2160"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218778F023200D82000
+125
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 40.5"°„C"
+HVAC_CorrectedCabinTemp -40"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3950"w"
+HVAC_PTCPwrAct 40"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218A1000D8B00040000
+126
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -27.5"°„C"
+HVAC_CorrectedCabinTemp -24"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5290"w"
+HVAC_PTCPwrAct 1320"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32181920061100840000
+127
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 63"°„C"
+HVAC_CorrectedCabinTemp 26"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4350"w"
+HVAC_PTCPwrAct 1030"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218CE8409B300672000
+128
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 18.5"°„C"
+HVAC_CorrectedCabinTemp 56"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5990"w"
+HVAC_PTCPwrAct 2210"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321875C0025700DD2000
+129
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 35.5"°„C"
+HVAC_CorrectedCabinTemp -30"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7970"w"
+HVAC_PTCPwrAct 1540"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321897140B1D009A0000
+130
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 33"°„C"
+HVAC_CorrectedCabinTemp 39.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 790"w"
+HVAC_PTCPwrAct 7760"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218929F084F03080000
+131
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -20"°„C"
+HVAC_CorrectedCabinTemp 2"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 690"w"
+HVAC_PTCPwrAct 5490"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32182854084502252000
+132
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -8"°„C"
+HVAC_CorrectedCabinTemp 84.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5440"w"
+HVAC_PTCPwrAct 6690"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321840F90220029D0000
+133
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -15.5"°„C"
+HVAC_CorrectedCabinTemp -20.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3170"w"
+HVAC_PTCPwrAct 7290"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321831270D3D02D90000
+134
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 60.5"°„C"
+HVAC_CorrectedCabinTemp 31.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 20"w"
+HVAC_PTCPwrAct 840"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218C98F0C0200542000
+135
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 36"°„C"
+HVAC_CorrectedCabinTemp 69.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6230"w"
+HVAC_PTCPwrAct 6900"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321898DB026F02B20000
+136
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -14"°„C"
+HVAC_CorrectedCabinTemp 65"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2800"w"
+HVAC_PTCPwrAct 4170"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321834D20D1801A12000
+137
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 29.5"°„C"
+HVAC_CorrectedCabinTemp -33.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2350"w"
+HVAC_PTCPwrAct 7850"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32188B0D04EB03110000
+138
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 37.5"°„C"
+HVAC_CorrectedCabinTemp -32"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3400"w"
+HVAC_PTCPwrAct 6630"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32189B10095402972000
+139
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 24.5"°„C"
+HVAC_CorrectedCabinTemp 16"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5400"w"
+HVAC_PTCPwrAct 480"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321881700E1C00300000
+140
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 23"°„C"
+HVAC_CorrectedCabinTemp -9"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 970"w"
+HVAC_PTCPwrAct 7350"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32187E3E0C6102DF2000
+141
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 60.5"°„C"
+HVAC_CorrectedCabinTemp 83.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 370"w"
+HVAC_PTCPwrAct 2290"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218C9F7042500E52000
+142
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -26.5"°„C"
+HVAC_CorrectedCabinTemp -13"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7130"w"
+HVAC_PTCPwrAct 5370"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32181B360AC902190000
+143
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 47"°„C"
+HVAC_CorrectedCabinTemp -28.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7150"w"
+HVAC_PTCPwrAct 2310"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218AE170ACB00E72000
+144
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -13"°„C"
+HVAC_CorrectedCabinTemp 27"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6610"w"
+HVAC_PTCPwrAct 860"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32183686029500560000
+145
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 11.5"°„C"
+HVAC_CorrectedCabinTemp -25"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5570"w"
+HVAC_PTCPwrAct 7500"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218671E062D02EE2000
+146
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 64.5"°„C"
+HVAC_CorrectedCabinTemp -24"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2530"w"
+HVAC_PTCPwrAct 3620"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218D1200CFD016A0000
+147
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -8"°„C"
+HVAC_CorrectedCabinTemp 61.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1180"w"
+HVAC_PTCPwrAct 6810"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321840CB087602A92000
+148
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 57"°„C"
+HVAC_CorrectedCabinTemp 28.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1220"w"
+HVAC_PTCPwrAct 4520"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218C2890C7A01C42000
+149
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 58"°„C"
+HVAC_CorrectedCabinTemp 47.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7090"w"
+HVAC_PTCPwrAct 4660"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218C4AF0EC501D20000
+150
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -14.5"°„C"
+HVAC_CorrectedCabinTemp 4.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2840"w"
+HVAC_PTCPwrAct 4810"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32183359011C01E10000
+151
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 66.5"°„C"
+HVAC_CorrectedCabinTemp -37"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2100"w"
+HVAC_PTCPwrAct 680"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218D5060CD200442000
+152
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 12"°„C"
+HVAC_CorrectedCabinTemp -15.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6490"w"
+HVAC_PTCPwrAct 2800"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32186831068901180000
+153
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 77.5"°„C"
+HVAC_CorrectedCabinTemp 84.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3430"w"
+HVAC_PTCPwrAct 3990"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218EBF90157018F0000
+154
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 9"°„C"
+HVAC_CorrectedCabinTemp 14.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2270"w"
+HVAC_PTCPwrAct 4230"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218626D0CE301A72000
+155
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 84.5"°„C"
+HVAC_CorrectedCabinTemp 33.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2410"w"
+HVAC_PTCPwrAct 6360"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218F99300F1027C0000
+156
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -14"°„C"
+HVAC_CorrectedCabinTemp -12.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5090"w"
+HVAC_PTCPwrAct 6460"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321834370DFD02860000
+157
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 41.5"°„C"
+HVAC_CorrectedCabinTemp 66"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1500"w"
+HVAC_PTCPwrAct 6990"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218A3D4049602BB0000
+158
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -20"°„C"
+HVAC_CorrectedCabinTemp 63"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1900"w"
+HVAC_PTCPwrAct 6150"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321828CE04BE02672000
+159
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 64"°„C"
+HVAC_CorrectedCabinTemp 35.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2790"w"
+HVAC_PTCPwrAct 940"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218D0970117005E0000
+160
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -34.5"°„C"
+HVAC_CorrectedCabinTemp -27"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7390"w"
+HVAC_PTCPwrAct 2940"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32180B1A06E301262000
+161
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 52.5"°„C"
+HVAC_CorrectedCabinTemp 1.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1390"w"
+HVAC_PTCPwrAct 1960"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218B953088B00C40000
+162
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -16"°„C"
+HVAC_CorrectedCabinTemp 75.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6210"w"
+HVAC_PTCPwrAct 4910"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321830E70A6D01EB2000
+163
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -39"°„C"
+HVAC_CorrectedCabinTemp 70"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2480"w"
+HVAC_PTCPwrAct 2480"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321802DC08F800F80000
+164
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -33"°„C"
+HVAC_CorrectedCabinTemp 5.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7000"w"
+HVAC_PTCPwrAct 3090"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32180E5B02BC01350000
+165
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 29.5"°„C"
+HVAC_CorrectedCabinTemp 46"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4320"w"
+HVAC_PTCPwrAct 1430"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32188BAC05B0008F0000
+166
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 27.5"°„C"
+HVAC_CorrectedCabinTemp 24"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2730"w"
+HVAC_PTCPwrAct 380"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32188780051100260000
+167
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 76.5"°„C"
+HVAC_CorrectedCabinTemp 7.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4570"w"
+HVAC_PTCPwrAct 5150"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218E95F01C902032000
+168
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -14.5"°„C"
+HVAC_CorrectedCabinTemp 86.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 540"w"
+HVAC_PTCPwrAct 560"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321833FD0C3600380000
+169
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 67"°„C"
+HVAC_CorrectedCabinTemp 11"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1550"w"
+HVAC_PTCPwrAct 2560"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218D666049B01000000
+170
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 0.5"°„C"
+HVAC_CorrectedCabinTemp 1.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3910"w"
+HVAC_PTCPwrAct 2790"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32185153058701170000
+171
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 84"°„C"
+HVAC_CorrectedCabinTemp -26.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4210"w"
+HVAC_PTCPwrAct 2710"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218F81B05A5010F0000
+172
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -24"°„C"
+HVAC_CorrectedCabinTemp -10.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 430"w"
+HVAC_PTCPwrAct 560"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218203B042B00380000
+173
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 57.5"°„C"
+HVAC_CorrectedCabinTemp 57.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7800"w"
+HVAC_PTCPwrAct 580"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218C3C3030C003A2000
+174
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 63.5"°„C"
+HVAC_CorrectedCabinTemp 79"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2060"w"
+HVAC_PTCPwrAct 3330"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218CFEE00CE014D0000
+175
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 15"°„C"
+HVAC_CorrectedCabinTemp -29"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5230"w"
+HVAC_PTCPwrAct 2920"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32186E16020B01242000
+176
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -3"°„C"
+HVAC_CorrectedCabinTemp 28.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7500"w"
+HVAC_PTCPwrAct 7770"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32184A890EEE03090000
+177
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -16.5"°„C"
+HVAC_CorrectedCabinTemp 15"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 960"w"
+HVAC_PTCPwrAct 1160"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32182F6E006000740000
+178
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 31.5"°„C"
+HVAC_CorrectedCabinTemp 61"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7720"w"
+HVAC_PTCPwrAct 7700"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32188FCA0F0403020000
+179
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -11"°„C"
+HVAC_CorrectedCabinTemp 46"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3770"w"
+HVAC_PTCPwrAct 4760"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32183AAC097901DC0000
+180
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -1.5"°„C"
+HVAC_CorrectedCabinTemp 63.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1410"w"
+HVAC_PTCPwrAct 530"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32184DCF088D00352000
+181
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -11.5"°„C"
+HVAC_CorrectedCabinTemp 12"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3320"w"
+HVAC_PTCPwrAct 300"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32183968014C001E0000
+182
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 82"°„C"
+HVAC_CorrectedCabinTemp 45.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5210"w"
+HVAC_PTCPwrAct 6170"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218F4AB020902692000
+183
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -16.5"°„C"
+HVAC_CorrectedCabinTemp -27.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5090"w"
+HVAC_PTCPwrAct 3950"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32182F1905FD018B0000
+184
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 30"°„C"
+HVAC_CorrectedCabinTemp 74"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4330"w"
+HVAC_PTCPwrAct 3850"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32188CE40DB101812000
+185
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -32.5"°„C"
+HVAC_CorrectedCabinTemp -17"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6860"w"
+HVAC_PTCPwrAct 4830"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32180F2E02AE01E32000
+186
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 76"°„C"
+HVAC_CorrectedCabinTemp -11.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6860"w"
+HVAC_PTCPwrAct 5670"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218E8390AAE02370000
+187
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 13.5"°„C"
+HVAC_CorrectedCabinTemp -2.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3240"w"
+HVAC_PTCPwrAct 4420"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32186B4B0D4401BA2000
+188
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -34.5"°„C"
+HVAC_CorrectedCabinTemp -4.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6550"w"
+HVAC_PTCPwrAct 100"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32180B470A8F000A2000
+189
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 86"°„C"
+HVAC_CorrectedCabinTemp -17"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6800"w"
+HVAC_PTCPwrAct 1750"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218FC2E02A800AF0000
+190
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 71"°„C"
+HVAC_CorrectedCabinTemp 71"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6140"w"
+HVAC_PTCPwrAct 4220"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218DEDE0E6601A60000
+191
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -38.5"°„C"
+HVAC_CorrectedCabinTemp 76"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7990"w"
+HVAC_PTCPwrAct 960"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321803E8071F00602000
+192
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 29"°„C"
+HVAC_CorrectedCabinTemp -22.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3150"w"
+HVAC_PTCPwrAct 6930"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32188A230D3B02B50000
+193
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 46"°„C"
+HVAC_CorrectedCabinTemp 13.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3960"w"
+HVAC_PTCPwrAct 600"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218AC6B098C003C2000
+194
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -33.5"°„C"
+HVAC_CorrectedCabinTemp 72"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1690"w"
+HVAC_PTCPwrAct 7680"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32180DE004A903000000
+195
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 81"°„C"
+HVAC_CorrectedCabinTemp 38.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2180"w"
+HVAC_PTCPwrAct 4400"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218F29D08DA01B80000
+196
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 74"°„C"
+HVAC_CorrectedCabinTemp 26"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3770"w"
+HVAC_PTCPwrAct 640"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218E484057900402000
+197
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 56"°„C"
+HVAC_CorrectedCabinTemp 15"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7960"w"
+HVAC_PTCPwrAct 2970"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218C06E0F1C01290000
+198
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 76.5"°„C"
+HVAC_CorrectedCabinTemp 56.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 300"w"
+HVAC_PTCPwrAct 290"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218E9C1001E001D2000
+199
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -7"°„C"
+HVAC_CorrectedCabinTemp 44"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7790"w"
+HVAC_PTCPwrAct 7730"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321842A8030B03050000
+200
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 44.5"°„C"
+HVAC_CorrectedCabinTemp 66.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4310"w"
+HVAC_PTCPwrAct 6850"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218A9D505AF02AD2000
+201
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 36.5"°„C"
+HVAC_CorrectedCabinTemp 15"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7940"w"
+HVAC_PTCPwrAct 3190"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218996E0F1A013F2000
+202
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 74"°„C"
+HVAC_CorrectedCabinTemp 66.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 2520"w"
+HVAC_PTCPwrAct 7000"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218E4D504FC02BC0000
+203
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 21.5"°„C"
+HVAC_CorrectedCabinTemp 43"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3260"w"
+HVAC_PTCPwrAct 5170"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32187BA6054602050000
+204
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 84.5"°„C"
+HVAC_CorrectedCabinTemp 38"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4990"w"
+HVAC_PTCPwrAct 10"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218F99C05F300010000
+205
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 8"°„C"
+HVAC_CorrectedCabinTemp 56.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6400"w"
+HVAC_PTCPwrAct 5940"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321860C1068002522000
+206
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 10.5"°„C"
+HVAC_CorrectedCabinTemp -22"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 690"w"
+HVAC_PTCPwrAct 4660"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32186524044501D20000
+207
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -3"°„C"
+HVAC_CorrectedCabinTemp 40"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5130"w"
+HVAC_PTCPwrAct 4880"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32184AA00A0101E82000
+208
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 41"°„C"
+HVAC_CorrectedCabinTemp 19.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4120"w"
+HVAC_PTCPwrAct 7340"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218A277099C02DE2000
+209
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 1.5"°„C"
+HVAC_CorrectedCabinTemp 26"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7650"w"
+HVAC_PTCPwrAct 6840"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218538406FD02AC0000
+210
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -36"°„C"
+HVAC_CorrectedCabinTemp 24.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4610"w"
+HVAC_PTCPwrAct 2100"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321808810DCD00D20000
+211
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 18.5"°„C"
+HVAC_CorrectedCabinTemp 1"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5680"w"
+HVAC_PTCPwrAct 3940"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321875520238018A2000
+212
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 22"°„C"
+HVAC_CorrectedCabinTemp 4"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7660"w"
+HVAC_PTCPwrAct 2510"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32187C5806FE00FB2000
+213
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 2.5"°„C"
+HVAC_CorrectedCabinTemp 28.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6310"w"
+HVAC_PTCPwrAct 7820"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321855890677030E0000
+214
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -29"°„C"
+HVAC_CorrectedCabinTemp 76.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5270"w"
+HVAC_PTCPwrAct 5350"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321816E9060F02172000
+215
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 86.5"°„C"
+HVAC_CorrectedCabinTemp 54.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4470"w"
+HVAC_PTCPwrAct 5220"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218FDBD09BF020A2000
+216
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -39"°„C"
+HVAC_CorrectedCabinTemp 87.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6280"w"
+HVAC_PTCPwrAct 7320"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321802FF067402DC0000
+217
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 51.5"°„C"
+HVAC_CorrectedCabinTemp 24"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2880"w"
+HVAC_PTCPwrAct 680"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218B780092000442000
+218
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -5.5"°„C"
+HVAC_CorrectedCabinTemp -24.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1860"w"
+HVAC_PTCPwrAct 7480"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218451F04BA02EC2000
+219
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 33.5"°„C"
+HVAC_CorrectedCabinTemp 79.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7510"w"
+HVAC_PTCPwrAct 2660"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321893EF06EF010A2000
+220
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -14.5"°„C"
+HVAC_CorrectedCabinTemp 52"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6750"w"
+HVAC_PTCPwrAct 570"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321833B802A300392000
+221
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -7"°„C"
+HVAC_CorrectedCabinTemp 11.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7790"w"
+HVAC_PTCPwrAct 5490"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32184267030B02252000
+222
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 49.5"°„C"
+HVAC_CorrectedCabinTemp 28"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 930"w"
+HVAC_PTCPwrAct 5560"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218B388005D022C2000
+223
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -8.5"°„C"
+HVAC_CorrectedCabinTemp -32"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5640"w"
+HVAC_PTCPwrAct 7930"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32183F10023403192000
+224
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 45"°„C"
+HVAC_CorrectedCabinTemp 2"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1600"w"
+HVAC_PTCPwrAct 7050"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218AA5404A002C12000
+225
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 27.5"°„C"
+HVAC_CorrectedCabinTemp -13.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3780"w"
+HVAC_PTCPwrAct 3880"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32188735057A01840000
+226
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -24.5"°„C"
+HVAC_CorrectedCabinTemp -7"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3690"w"
+HVAC_PTCPwrAct 540"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32181F420D7100362000
+227
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -1"°„C"
+HVAC_CorrectedCabinTemp 47.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 890"w"
+HVAC_PTCPwrAct 5870"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32184EAF0C59024B2000
+228
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 85"°„C"
+HVAC_CorrectedCabinTemp 13.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6890"w"
+HVAC_PTCPwrAct 7600"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218FA6B02B102F80000
+229
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 13"°„C"
+HVAC_CorrectedCabinTemp 58"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2610"w"
+HVAC_PTCPwrAct 3130"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32186AC4090501392000
+230
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 12.5"°„C"
+HVAC_CorrectedCabinTemp 29"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4080"w"
+HVAC_PTCPwrAct 160"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218698A019800102000
+231
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 21.5"°„C"
+HVAC_CorrectedCabinTemp -2"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2090"w"
+HVAC_PTCPwrAct 3090"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32187B4C08D101352000
+232
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -1"°„C"
+HVAC_CorrectedCabinTemp 65"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3870"w"
+HVAC_PTCPwrAct 6490"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32184ED2058302890000
+233
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 77.5"°„C"
+HVAC_CorrectedCabinTemp 87"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5630"w"
+HVAC_PTCPwrAct 6410"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218EBFE0E3302810000
+234
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -2.5"°„C"
+HVAC_CorrectedCabinTemp -1"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4670"w"
+HVAC_PTCPwrAct 6960"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32184B4E09D302B82000
+235
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 7.5"°„C"
+HVAC_CorrectedCabinTemp -20"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4670"w"
+HVAC_PTCPwrAct 4290"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32185F2809D301AD0000
+236
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -8"°„C"
+HVAC_CorrectedCabinTemp 4.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5540"w"
+HVAC_PTCPwrAct 2180"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t321840590A2A00DA0000
+237
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -13"°„C"
+HVAC_CorrectedCabinTemp -2.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4510"w"
+HVAC_PTCPwrAct 2600"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218364B01C301042000
+238
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 3.5"°„C"
+HVAC_CorrectedCabinTemp -32"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3170"w"
+HVAC_PTCPwrAct 2550"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32185710053D00FF0000
+239
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -25.5"°„C"
+HVAC_CorrectedCabinTemp -2.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4070"w"
+HVAC_PTCPwrAct 2660"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32181D4B0197010A0000
+240
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 83.5"°„C"
+HVAC_CorrectedCabinTemp 60.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5110"w"
+HVAC_PTCPwrAct 3830"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218F7C90DFF017F2000
+241
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 78"°„C"
+HVAC_CorrectedCabinTemp -12"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1730"w"
+HVAC_PTCPwrAct 1690"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218EC3800AD00A90000
+242
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -15"°„C"
+HVAC_CorrectedCabinTemp 86"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1790"w"
+HVAC_PTCPwrAct 2140"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321832FC04B300D60000
+243
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -4"°„C"
+HVAC_CorrectedCabinTemp 66.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 940"w"
+HVAC_PTCPwrAct 2980"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321848D50C5E012A0000
+244
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 27"°„C"
+HVAC_CorrectedCabinTemp -26"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4820"w"
+HVAC_PTCPwrAct 4260"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218861C05E201AA2000
+245
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 49"°„C"
+HVAC_CorrectedCabinTemp 13"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6050"w"
+HVAC_PTCPwrAct 4810"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218B26A025D01E12000
+246
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -31.5"°„C"
+HVAC_CorrectedCabinTemp -2.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6850"w"
+HVAC_PTCPwrAct 6230"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218114B02AD026F0000
+247
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -29"°„C"
+HVAC_CorrectedCabinTemp 28.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2260"w"
+HVAC_PTCPwrAct 1720"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321816890CE200AC2000
+248
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 25.5"°„C"
+HVAC_CorrectedCabinTemp 86"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3120"w"
+HVAC_PTCPwrAct 6620"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t321883FC0D3802960000
+249
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 84.5"°„C"
+HVAC_CorrectedCabinTemp 58.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5830"w"
+HVAC_PTCPwrAct 4090"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218F9C50A4701990000
+250
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 17.5"°„C"
+HVAC_CorrectedCabinTemp 68.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5940"w"
+HVAC_PTCPwrAct 1310"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321873D90E5200832000
+251
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 61"°„C"
+HVAC_CorrectedCabinTemp 34.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7320"w"
+HVAC_PTCPwrAct 4430"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218CA9502DC01BB2000
+252
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 75"°„C"
+HVAC_CorrectedCabinTemp 24"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5240"w"
+HVAC_PTCPwrAct 2250"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218E6800A0C00E12000
+253
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -33"°„C"
+HVAC_CorrectedCabinTemp 67.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 480"w"
+HVAC_PTCPwrAct 1890"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32180ED7043000BD0000
+254
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -24"°„C"
+HVAC_CorrectedCabinTemp -38.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6530"w"
+HVAC_PTCPwrAct 3280"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32182003068D01482000
+255
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 6.5"°„C"
+HVAC_CorrectedCabinTemp 42.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6630"w"
+HVAC_PTCPwrAct 4710"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32185DA5029701D70000
+256
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -23"°„C"
+HVAC_CorrectedCabinTemp -21.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2240"w"
+HVAC_PTCPwrAct 6600"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321822250CE002942000
+257
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 10"°„C"
+HVAC_CorrectedCabinTemp 28.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3540"w"
+HVAC_PTCPwrAct 1150"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32186489056200732000
+258
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 8"°„C"
+HVAC_CorrectedCabinTemp 58.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 7080"w"
+HVAC_PTCPwrAct 2740"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321860C50AC401122000
+259
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 15"°„C"
+HVAC_CorrectedCabinTemp -19.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3040"w"
+HVAC_PTCPwrAct 6600"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32186E290D3002942000
+260
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 28"°„C"
+HVAC_CorrectedCabinTemp -35.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4730"w"
+HVAC_PTCPwrAct 4020"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218880909D901920000
+261
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -24"°„C"
+HVAC_CorrectedCabinTemp -36.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1570"w"
+HVAC_PTCPwrAct 7390"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32182007009D02E30000
+262
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 23"°„C"
+HVAC_CorrectedCabinTemp -30.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3100"w"
+HVAC_PTCPwrAct 6730"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32187E13013602A10000
+263
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 13.5"°„C"
+HVAC_CorrectedCabinTemp 74.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4630"w"
+HVAC_PTCPwrAct 7420"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32186BE505CF02E60000
+264
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 68.5"°„C"
+HVAC_CorrectedCabinTemp 14.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1200"w"
+HVAC_PTCPwrAct 2120"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218D96D007800D42000
+265
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 74"°„C"
+HVAC_CorrectedCabinTemp 79"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7160"w"
+HVAC_PTCPwrAct 7880"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218E4EE06CC03142000
+266
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 23"°„C"
+HVAC_CorrectedCabinTemp 19"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2920"w"
+HVAC_PTCPwrAct 4810"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32187E760D2401E10000
+267
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 87.5"°„C"
+HVAC_CorrectedCabinTemp 52.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 760"w"
+HVAC_PTCPwrAct 3850"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218FFB9044C01812000
+268
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -18"°„C"
+HVAC_CorrectedCabinTemp 13.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 810"w"
+HVAC_PTCPwrAct 1560"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32182C6B0C51009C0000
+269
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 71.5"°„C"
+HVAC_CorrectedCabinTemp 51"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 5440"w"
+HVAC_PTCPwrAct 6520"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218DFB60E20028C0000
+270
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -26"°„C"
+HVAC_CorrectedCabinTemp 76.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3290"w"
+HVAC_PTCPwrAct 7540"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32181CE9094902F20000
+271
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 54"°„C"
+HVAC_CorrectedCabinTemp 48.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1110"w"
+HVAC_PTCPwrAct 1720"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218BCB10C6F00AC0000
+272
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -39.5"°„C"
+HVAC_CorrectedCabinTemp 83"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 5870"w"
+HVAC_PTCPwrAct 4680"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321801F6024B01D42000
+273
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -30.5"°„C"
+HVAC_CorrectedCabinTemp 8.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 4490"w"
+HVAC_PTCPwrAct 4020"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218136109C101922000
+274
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -36.5"°„C"
+HVAC_CorrectedCabinTemp 82"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3700"w"
+HVAC_PTCPwrAct 1920"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t321807F4097200C02000
+275
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -34.5"°„C"
+HVAC_CorrectedCabinTemp -1"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4350"w"
+HVAC_PTCPwrAct 5640"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32180B4E01B302342000
+276
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 42.5"°„C"
+HVAC_CorrectedCabinTemp -31"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 870"w"
+HVAC_PTCPwrAct 2720"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218A512045701100000
+277
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 75.5"°„C"
+HVAC_CorrectedCabinTemp 10"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 570"w"
+HVAC_PTCPwrAct 6410"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t3218E764043902812000
+278
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 7"°„C"
+HVAC_CorrectedCabinTemp -35.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 6000"w"
+HVAC_PTCPwrAct 3120"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32185E09065801380000
+279
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 1.5"°„C"
+HVAC_CorrectedCabinTemp -30"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7470"w"
+HVAC_PTCPwrAct 2370"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218531406EB00ED0000
+280
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 59.5"°„C"
+HVAC_CorrectedCabinTemp 1.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7320"w"
+HVAC_PTCPwrAct 1940"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218C75302DC00C20000
+281
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 79.5"°„C"
+HVAC_CorrectedCabinTemp 66.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4620"w"
+HVAC_PTCPwrAct 3990"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218EFD501CE018F2000
+282
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 13"°„C"
+HVAC_CorrectedCabinTemp -25.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1550"w"
+HVAC_PTCPwrAct 4850"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32186A1D089B01E50000
+283
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 12"°„C"
+HVAC_CorrectedCabinTemp 3.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 320"w"
+HVAC_PTCPwrAct 4440"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t32186857002001BC2000
+284
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 5"°„C"
+HVAC_CorrectedCabinTemp 36.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2140"w"
+HVAC_PTCPwrAct 4850"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32185A990CD601E50000
+285
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 84.5"°„C"
+HVAC_CorrectedCabinTemp 66.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 2760"w"
+HVAC_PTCPwrAct 4940"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218F9D50D1401EE0000
+286
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 37.5"°„C"
+HVAC_CorrectedCabinTemp 28.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 3410"w"
+HVAC_PTCPwrAct 7850"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32189B89095503110000
+287
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -13.5"°„C"
+HVAC_CorrectedCabinTemp -7.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4770"w"
+HVAC_PTCPwrAct 1140"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218354101DD00720000
+288
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 46"°„C"
+HVAC_CorrectedCabinTemp -34"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 6590"w"
+HVAC_PTCPwrAct 6190"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218AC0C0E93026B0000
+289
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 5"°„C"
+HVAC_CorrectedCabinTemp -9"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4540"w"
+HVAC_PTCPwrAct 7660"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t32185A3E05C602FE2000
+290
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 59.5"°„C"
+HVAC_CorrectedCabinTemp -23.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1850"w"
+HVAC_PTCPwrAct 1400"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218C72104B9008C0000
+291
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 45.5"°„C"
+HVAC_CorrectedCabinTemp -21.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1790"w"
+HVAC_PTCPwrAct 5680"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218AB2504B302380000
+292
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 58.5"°„C"
+HVAC_CorrectedCabinTemp 2.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3050"w"
+HVAC_PTCPwrAct 3700"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218C555013101722000
+293
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 21"°„C"
+HVAC_CorrectedCabinTemp 31"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 3640"w"
+HVAC_PTCPwrAct 490"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t32187A8E056C00310000
+294
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 40"°„C"
+HVAC_CorrectedCabinTemp 34"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 440"w"
+HVAC_PTCPwrAct 4040"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218A0940C2C01940000
+295
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 77.5"°„C"
+HVAC_CorrectedCabinTemp -35"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 7500"w"
+HVAC_PTCPwrAct 5620"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218EB0A06EE02320000
+296
+801 HVAC_2:
+7
+HVAC_RawCabinTemp -38"°„C"
+HVAC_CorrectedCabinTemp -25.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 4710"w"
+HVAC_PTCPwrAct 240"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t3218041D01D700180000
+297
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 38"°„C"
+HVAC_CorrectedCabinTemp -29.5"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 1810"w"
+HVAC_PTCPwrAct 5830"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 0""
+t32189C1500B502470000
+298
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 18.5"°„C"
+HVAC_CorrectedCabinTemp -37.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 950"w"
+HVAC_PTCPwrAct 6170"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 1""
+t321875050C5F02692000
+299
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 48.5"°„C"
+HVAC_CorrectedCabinTemp 16.5"°„C"
+HVAC_RawCabinTempVD 1""
+HVAC_CompressorComsumpPwr 1730"w"
+HVAC_PTCPwrAct 5440"w"
+HVAC_stPTCAct 0""
+HVAC_CorrectedCabinTempVD 1""
+t3218B1710CAD02200000
+300
+801 HVAC_2:
+7
+HVAC_RawCabinTemp 83"°„C"
+HVAC_CorrectedCabinTemp 61"°„C"
+HVAC_RawCabinTempVD 0""
+HVAC_CompressorComsumpPwr 340"w"
+HVAC_PTCPwrAct 3090"w"
+HVAC_stPTCAct 1""
+HVAC_CorrectedCabinTempVD 0""
+t3218F6CA002201352000

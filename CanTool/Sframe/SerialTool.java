@@ -136,7 +136,7 @@ public class SerialTool {
     public static void sendToPort(SerialPort serialPort, byte[] order) throws SendDataToSerialPortFailure, SerialPortOutputStreamCloseFailure {
 
     	OutputStream out = null;
-    	
+    
         try {
         	
             out = serialPort.getOutputStream();

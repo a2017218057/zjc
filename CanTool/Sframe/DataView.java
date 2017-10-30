@@ -17,7 +17,12 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.List;
+import java.util.Scanner;
 import java.util.TooManyListenersException;
 
 import javax.swing.JButton;
@@ -65,7 +70,9 @@ public class DataView extends Frame {
 */	
 	private Choice commChoice = new Choice();	//串口选择（下拉框）
 	private Choice bpsChoice = new Choice();	//波特率选择
+	private Choice fileChoice = new Choice();
 	
+	private Button bu2 = new Button("发送文档");
 	private Button openSerialButton = new Button("打开串口");
 	
 	Image offScreen = null;	//重画时的画布
@@ -90,7 +97,7 @@ public class DataView extends Frame {
 	 */
 	public void dataFrame() {
 		this.setBounds(client.LOC_X, client.LOC_Y, client.WIDTH, client.HEIGHT);
-		this.setTitle("CDIO工程项目");
+		this.setTitle("CANTOOL测试");
 		//this.setIconImage(icon);
 		this.setBackground(Color.white);
 		this.setLayout(null);
@@ -132,8 +139,9 @@ public class DataView extends Frame {
 		
 		tx5.setBounds(140, 283, 225, 50);
 		tx5.setBackground(Color.black);
-		tx5.setFont(font);
+		//tx5.setFont(font);
 		tx5.setForeground(Color.white);
+		tx5.setFont(new Font("标楷体", Font.BOLD, 14));
 		add(tx5);
 		
 		bu1.setBounds(520, 283, 225, 50);
@@ -141,15 +149,34 @@ public class DataView extends Frame {
 		bu1.setFont(font);
 		//bu1.setForeground(Color.white);
 		add(bu1);
+		
+		fileChoice.setBounds(160, 378, 200, 200);
+		fileChoice.setFont(new Font("标楷体", Font.BOLD, 16));
+		fileChoice.add("intel");
+		fileChoice.add("mtla");
+		fileChoice.add("fast");
+		fileChoice.add("quxian");
+		add(fileChoice);
+		
+		bu2.setBounds(520, 365, 225, 50);
+		//bu1.setBackground(Color.black);
+		bu2.setFont(font);
+		//bu1.setForeground(Color.white);
+		add(bu2);
+		
+		
+				
 		bu1.addMouseListener(new MouseListener(){
 
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
 				// TODO Auto-generated method stub
-				String temp = tx1.getText() + '\r';
+				String temp = tx5.getText() + '\r';
 				System.out.println("串口写入数据为"+temp);
+				System.out.println(serialPort);
 				try {
 					SerialTool.sendToPort(serialPort, temp.getBytes());
+					System.out.println("串口写入数据为"+temp);
 				} catch (SendDataToSerialPortFailure
 						| SerialPortOutputStreamCloseFailure e) {
 					// TODO Auto-generated catch block
@@ -157,6 +184,8 @@ public class DataView extends Frame {
 				}
 				
 			}
+		
+		
 
 			@Override
 			public void mousePressed(MouseEvent e) {
@@ -184,6 +213,79 @@ public class DataView extends Frame {
 			
         });
 		
+		bu2.addMouseListener(new MouseListener(){
+
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				// TODO Auto-generated method stub
+				String test = fileChoice.getSelectedItem();
+				String file = test+".txt";
+				System.out.println(file);
+				String fileString;
+				Thread thread = new Thread();
+				InputStream in1 = null;
+				try {
+					in1 = new FileInputStream(new File(file));
+				} catch (FileNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				Scanner scan1 = new Scanner(in1);
+				try {
+					
+					while(scan1.hasNext())
+					{
+						fileString = scan1.next()+"\r";
+						System.out.println("串口写入数据为"+fileString);
+						SerialTool.sendToPort(serialPort, fileString.getBytes());
+						thread.sleep(200);
+					}
+					
+					/*
+					for(int i = 0 ; i<2; i++)
+					{
+						fileString = scan1.next()+"\r";
+						System.out.println("串口写入数据为"+fileString);
+						SerialTool.sendToPort(serialPort, fileString.getBytes());
+						thread.sleep(200);
+					}
+					*/
+				} catch (InterruptedException | SendDataToSerialPortFailure | SerialPortOutputStreamCloseFailure e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+		
+		
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+        });
+		
+		
 		/*pa.setBounds(140, 193, 225, 50);
 		pa.setBackground(Color.black);
 		pa.setFont(font);
@@ -209,7 +311,7 @@ public class DataView extends Frame {
 		add(win_dir);*/
 		
 		//添加串口选择选项
-		commChoice.setBounds(160, 397, 200, 200);
+		commChoice.setBounds(160, 460, 200, 200);
 		//检查是否有可用串口，有则加入选项中
 		if (commList == null || commList.size()<1) {
 			JOptionPane.showMessageDialog(null, "没有搜索到有效串口！", "错误", JOptionPane.INFORMATION_MESSAGE);
@@ -222,7 +324,7 @@ public class DataView extends Frame {
 		add(commChoice);
 		
 		//添加波特率选项
-		bpsChoice.setBounds(526, 396, 200, 200);
+		bpsChoice.setBounds(526, 460, 200, 200);
 		bpsChoice.add("1200");
 		bpsChoice.add("2400");
 		bpsChoice.add("4800");
@@ -233,7 +335,7 @@ public class DataView extends Frame {
 		add(bpsChoice);
 		
 		//添加打开串口按钮
-		openSerialButton.setBounds(250, 490, 300, 50);
+		openSerialButton.setBounds(250, 530, 300, 50);
 		openSerialButton.setBackground(Color.lightGray);
 		openSerialButton.setFont(new Font("微软雅黑", Font.BOLD, 20));
 		openSerialButton.setForeground(Color.darkGray);
@@ -247,6 +349,7 @@ public class DataView extends Frame {
 				String commName = commChoice.getSelectedItem();			
 				//获取波特率
 				String bpsStr = bpsChoice.getSelectedItem();
+				
 				
 				//检查串口名称是否获取正确
 				if (commName == null || commName.equals("")) {
@@ -264,8 +367,9 @@ public class DataView extends Frame {
 							
 							//获取指定端口名及波特率的串口对象
 							serialPort = SerialTool.openPort(commName, bps);
+							CANTool tool = new CANTool(serialPort,tx1,tx2,tx3,tx4);
 							//在该串口对象上添加监听器
-							SerialTool.addListener(serialPort, new SerialListener(serialPort,new DataView(client)));
+							SerialTool.addListener(serialPort, new SerialListener(serialPort,tool));
 							//监听成功进行提示
 							JOptionPane.showMessageDialog(null, "监听成功，稍后将显示监测数据！", "提示", JOptionPane.INFORMATION_MESSAGE);
 							
@@ -312,17 +416,17 @@ public class DataView extends Frame {
 		g.setFont(new Font("微软雅黑", Font.BOLD, 22));
 		g.drawString(" 输入： ", 45, 310);
 		
-		/*g.setColor(Color.black);
-		g.setFont(new Font("微软雅黑", Font.BOLD, 25));
-		g.drawString(" 风向： ", 425, 310);*/
+		g.setColor(Color.black);
+		g.setFont(new Font("微软雅黑", Font.BOLD, 20));
+		g.drawString(" 文件选择： ", 45, 393);
 		
 		g.setColor(Color.gray);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 20));
-		g.drawString(" 串口选择： ", 45, 410);
+		g.drawString(" 串口选择： ", 45, 473);
 		
 		g.setColor(Color.gray);
 		g.setFont(new Font("微软雅黑", Font.BOLD, 20));
-		g.drawString(" 波特率： ", 425, 410);
+		g.drawString(" 波特率： ", 425, 473);
 		
 	}
 	
@@ -431,12 +535,13 @@ public class DataView extends Frame {
 		 */
 		    private SerialPort serialPort;
 		    private String buff;
-		    private DataView c;
-		    public SerialListener(SerialPort serialPort,DataView c)
+		    private CANTool tool;
+		    
+		    public SerialListener(SerialPort serialPort,CANTool tool)
 		    {
 		    	this.serialPort = serialPort;
 		    	buff = "";
-		    	this.c = c;
+		    	this.tool = tool;
 		    	
 		    }
 	    public void serialEvent(SerialPortEvent serialPortEvent) {
@@ -467,6 +572,7 @@ public class DataView extends Frame {
 	            case SerialPortEvent.DATA_AVAILABLE: // 1 串口存在可用数据
 	            	
 	            	System.out.println("found data");
+	            	//System.out.println(serialPort);
 	            	
 					/*byte[] data = null;
 					
@@ -529,31 +635,37 @@ public class DataView extends Frame {
 	            	byte[] data = null;
 	                
 	                try {
-	                    if (serialPort == null) {
+	                	
+	                   /* if (serialPort == null) {
 	                    	System.out.println("串口对象为空！监听失败");
 	                    }
 	                    else {
 	                    	data = SerialTool.readFromPort(serialPort);    //读取数据，存入字节数组
 	                        String dataString = new String(data);	//与缓冲区剩余数据合并
-	                        System.out.println(dataString);
+	                        //System.out.println(dataString);
+	                        System.out.println("牛批");
+	                        String[] dd = dataString.split("/r");
 	                        
+	                        
+	                        tool.readCommand(dd[0]);
 	                        //String dataValid = "";	//有效数据（用来保存原始数据字符串去除最开头*号以后的字符串）
 	                        if(dataString.length()>=24)
 	                        {
 	                        	String[] elements = null;	//用来保存按空格拆分原始字符串后得到的字符串数组	
-							elements = dataString.split(" ");
+	                        	elements = dataString.split(" ");
 							for (int i=0; i<elements.length; i++) {
 								System.out.println(i+"、"+elements[i]);
 							}
-							tx1.setText(elements[0]);
-							tx2.setText(elements[1]);
-							tx3.setText(elements[2]);
-							tx4.setText(elements[3]);
+							//tx1.setText(elements[0]);
+							//tx2.setText(elements[1]);
+							//tx3.setText(elements[2]);
+							//tx4.setText(elements[3]);
+							
 	                        }
 	                        
-	                        /*tx2.setText(dataString);
+	                        tx2.setText(dataString);
 	                        String aaa = c.tx2.getText();
-	                        System.out.println("aaa为："+dataString);*/
+	                        System.out.println("aaa为："+dataString);
 	                        else
 	                        {
 	                        	int len = dataString.length();
@@ -569,7 +681,7 @@ public class DataView extends Frame {
 		                        	else if((int)c1==7)
 		                        	{
 		                        		buff+="ERROR";
-		                        		tx2.setText(new String(buff));
+		                        		JOptionPane.showMessageDialog(null, buff, "错误", JOptionPane.ERROR_MESSAGE);
 		                        		buff="";
 		                        	}
 		                        	else {
@@ -580,15 +692,51 @@ public class DataView extends Frame {
 		                        
 		                        if(buff.length()>512)
 		                        {
-		                        	tx2.setText(new String("ERROR"));
+		                        	JOptionPane.showMessageDialog(null, buff, "错误", JOptionPane.ERROR_MESSAGE);
 		                        	buff="";
 		                        }
 	                        }
 	                        
 	                        
 	                    }
-	                    System.out.println(buff);
-	                    
+	                    //System.out.println(buff);
+*/	                    
+	                	if (serialPort == null) {
+	                    	System.out.println("串口对象为空！监听失败");
+	                    }
+	                    else {
+	                        data = SerialTool.readFromPort(serialPort);    //读取数据，存入字节数组
+	                        System.out.println("CanTool读取数据："+data);
+	                        String dataString = buff + new String(data);	//与缓冲区剩余数据合并
+	                        System.out.println(dataString);
+	                        
+	                        String[] elements = null;
+	                        elements = dataString.split("\r");
+	                        int len = elements.length;
+	                        System.out.println(len);
+	                        if(dataString.charAt(dataString.length()-1)!='\r')
+	                        {
+	                        	buff = elements[len-1];
+	                        	len--;
+	                        }
+	                        else
+	                        {
+	                        	buff = "";
+	                        }
+	                        for(int i=0;i<len;i++)
+	                        {
+	                        	elements[i] = elements[i] + "\r"; 
+	                        	tool.readCommand(elements[i]);
+	                        }
+	                        if(buff.length()>512)
+	                        {
+	                        	tool.returnTheInfo(0, "");
+	                        	buff = "";
+	                        }
+	                        //System.out.println(new String(data));
+	                        //JOptionPane.showInputDialog(new String(data));
+	                        //String dataOriginal = new String(data);    //将字节数组数据转换位为保存了原始数据的字符串
+	                    }                 
 	                } catch (Exception e) {
 	                    System.exit(0);
 	                }    

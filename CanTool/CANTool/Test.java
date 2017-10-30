@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Scanner;
 
+import gnu.io.CommPortIdentifier;
 import gnu.io.SerialPort;
 import serialPort.SerialTool;
 
@@ -13,10 +14,12 @@ public class Test {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		SerialPort serialPort = SerialTool.openPort("COM4", 115200);
-		CANTool tool = new CANTool(serialPort);
+		Icantool tool = new Icantool(serialPort);
 		SerialListener listener = new SerialListener(serialPort,tool);
 		tool.addListener(listener);
-		InputStream in1 = new FileInputStream(new File("test1.txt"));
+		String t = "test1";
+		String file = ""+t+".txt"; 
+		InputStream in1 = new FileInputStream(new File(file));
 		InputStream in2 = new FileInputStream(new File("test2.txt"));
 		InputStream in3 = new FileInputStream(new File("test3.txt"));
 		InputStream in4 = new FileInputStream(new File("test4.txt"));
@@ -39,8 +42,9 @@ public class Test {
 				for(int i=0;i<200;i++)
 				{
 					tempString=scan1.next()+"\r";
-					SerialTool.sendToPort(serialPort, tempString.getBytes());
+					//SerialTool.sendToPort(serialPort, tempString.getBytes());
 					thread.sleep(200);
+					System.out.println(tempString);
 				}
 			}
 			else if(temp==2)

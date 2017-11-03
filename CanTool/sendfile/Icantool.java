@@ -1,5 +1,6 @@
-package CANTool;
+package sendfile;
 
+import CanTool.SerialListener;
 import serialException.NoSuchPort;
 import serialException.NotASerialPort;
 import serialException.PortInUse;
@@ -33,8 +34,7 @@ public class Icantool {
 	}
 	
 	public void readCommand(String command)
-	{
-		if(command == null || command.length() == 0)
+	{		if(command == null || command.length() == 0)
 			returnTheInfo(0,"");
 		System.out.println(command);
 		char type = command.charAt(0);
@@ -118,7 +118,7 @@ public class Icantool {
 			data_2 = data_2 + Integer.toBinaryString(Integer.parseInt(data_16.substring(i,i+1), 16));
 		}
 		int time = Integer.parseInt(timeString, 16);
-		if(CheckFormat.check(id,Long.parseLong(data_16,16)))
+		/*if(CheckFormat.check(id,Long.parseLong(data_16,16)))
 		{
 			returnTheInfo(1,"");
 			if(time == 0)
@@ -144,7 +144,7 @@ public class Icantool {
 		else
 		{
 			returnTheInfo(0,"");
-		}
+		}*/
 		
 	}
 
@@ -189,7 +189,7 @@ public class Icantool {
 			data_2 = data_2 + Integer.toBinaryString(Integer.parseInt(data_16.substring(i,i+1), 16));
 		}
 		int time = Integer.parseInt(timeString, 16);
-		if(CheckFormat.check(id,Long.parseLong(data_16,16)))
+		/*if(CheckFormat.check(id,Long.parseLong(data_16,16)))
 		{
 			returnTheInfo(1,"");
 			if(time == 0)
@@ -216,7 +216,7 @@ public class Icantool {
 		{
 			returnTheInfo(0,"");
 		}
-		
+		*/
 		
 	}
 

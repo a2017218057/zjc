@@ -1,9 +1,10 @@
-﻿package CANTool;
+﻿package CanTool;
 import javax.swing.JOptionPane;
 
 import gnu.io.SerialPort;
 import gnu.io.SerialPortEvent;
 import gnu.io.SerialPortEventListener;
+import sendfile.Icantool;
 import serialPort.SerialTool;
 
 

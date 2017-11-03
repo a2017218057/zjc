@@ -1,20 +1,23 @@
-package test;
+ï»¿package mockito;
+
+import static org.junit.Assert.*;
+import gnu.io.SerialPort;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import gnu.io.SerialPort;
+
+import sendfile.Icantool;
 import serialPort.SerialTool;
 import static org.mockito.Mockito.*;  
-import CANTool.CANTool;
 
 public class CANToolTest {
-	private CANTool cantool,spy;
+	private Icantool cantool,spy;
 	private SerialPort Port;
 	@Before
 	public void setUp() throws Exception {
 		Port=mock(SerialPort.class);
-		cantool = new CANTool(Port);
+		cantool = new Icantool(Port);
 		spy = spy(cantool);
 		
 	}
@@ -23,7 +26,7 @@ public class CANToolTest {
 	public void tearDown() throws Exception {
 	}
 	
-	// Õı³£¿ª»ú
+	// æ­£å¸¸å¼€æœº
 	@Test
 	public void Test1() {
 		
@@ -36,7 +39,7 @@ public class CANToolTest {
 	}
 	
 	
-	// Õı³£¹Ø»ú
+	// æ­£å¸¸å…³æœº
 	@Test
 	public void Test2() {
 		
@@ -49,18 +52,18 @@ public class CANToolTest {
 		
 	}
 	
-	// ·µ»Ø°æ±¾ĞÅÏ¢
+	// è¿”å›ç‰ˆæœ¬ä¿¡æ¯
 	@Test
 	public void Test3() {
 		
-		doNothing().when(spy).returnTheInfo(1anyInt(),anyString());
+		doNothing().when(spy).returnTheInfo(anyInt(),anyString());
 		spy.readCommand("V\r");
 		verify(spy,times(1)).returnTheInfo(1,"SV2.5-HV2.0");
 		
 	}
 	
 
-	// Á¬Ğøµ÷½ÚËÙ¶È
+	// è¿ç»­è°ƒèŠ‚é€Ÿåº¦
 	@Test
 	public void Test4() {
 		
@@ -74,7 +77,7 @@ public class CANToolTest {
 	}
 	
 	
-        // ¹Ø»ú×´Ì¬ÏÂµ÷½ÚËÙ¶È
+        // å…³æœºçŠ¶æ€ä¸‹è°ƒèŠ‚é€Ÿåº¦
 	@Test
 	public void Test5() {
 		
@@ -85,7 +88,7 @@ public class CANToolTest {
 		
 	}
 	
-	// ¹Ø»ú×´Ì¬ÏÂµ÷½ÚËÙ¶È
+	// å…³æœºçŠ¶æ€ä¸‹è°ƒèŠ‚é€Ÿåº¦
 	@Test
 	public void Test6() {
 		
@@ -98,7 +101,7 @@ public class CANToolTest {
 		
 	}
 
-	// ·¢ËÍ1´ÎÀ©Õ¹Ö¡
+	// å‘é€1æ¬¡æ‰©å±•å¸§
 	@Test
 	public void Test7() {
 		
@@ -117,7 +120,7 @@ public class CANToolTest {
 		
 	}
 	
-	// ·¢ËÍÀ©Õ¹Ö¡´íÎó
+	// å‘é€æ‰©å±•å¸§é”™è¯¯
 	@Test
 	public void Test8() {
 		
@@ -136,7 +139,7 @@ public class CANToolTest {
 		
 	}
 	
-	// Î´¿ª»ú·¢ËÍÀ©Õ¹Ö¡´íÎó
+	// æœªå¼€æœºå‘é€æ‰©å±•å¸§é”™è¯¯
 	@Test
 	public void Test9() {
 		
@@ -154,7 +157,7 @@ public class CANToolTest {
 		
 	}
 	
-	// Î´¿ª»ú·¢ËÍ±ê×¼Ö¡´íÎó
+	// æœªå¼€æœºå‘é€æ ‡å‡†å¸§é”™è¯¯
 	@Test
 	public void Test10() {
 			
@@ -169,7 +172,7 @@ public class CANToolTest {
 		verify(spy,times(1)).returnTheInfo(0,"");			
 	}
 	
-	// ·¢ËÍÖ¸Áî´íÎó
+	// å‘é€æŒ‡ä»¤é”™è¯¯
 	@Test
 	public void Test11() {
 			
@@ -179,7 +182,7 @@ public class CANToolTest {
 			
 	}
 	
-	// ·¢ËÍ1´Î±ê×¼Ö¡
+	// å‘é€1æ¬¡æ ‡å‡†å¸§
 	@Test
 	public void Test12() {
 		
@@ -199,7 +202,7 @@ public class CANToolTest {
 	}
 
 	
-	// ·¢ËÍ±ê×¼Ö¡´íÎó
+	// å‘é€æ ‡å‡†å¸§é”™è¯¯
 	@Test
 	public void Test13() {
 		
@@ -218,7 +221,7 @@ public class CANToolTest {
 		
 	}
 	
-	// Î´¿ª»ú·¢ËÍ±ê×¼Ö¡
+	// æœªå¼€æœºå‘é€æ ‡å‡†å¸§
 	@Test
 	public void Test14() {
 		

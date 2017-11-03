@@ -1,4 +1,4 @@
-﻿package CANTool;
+﻿package CanTool;
 
 import java.awt.Font;
 import java.awt.Label;
@@ -15,7 +15,7 @@ import serialException.TooManyListeners;
 import serialPort.SerialTool;
 import gnu.io.SerialPort;
 
-public class CANTool {
+public class CanTool {
 	private SerialPort serialPort;
 	private int state;
 	private int speed;
@@ -24,7 +24,7 @@ public class CANTool {
 	public Label tx3;
 	public Label tx4;
 	
-	public CANTool(SerialPort serialPort, Label tx1, Label tx2, Label tx3, Label tx4)
+	public CanTool(SerialPort serialPort, Label tx1, Label tx2, Label tx3, Label tx4)
 	{
 		this.serialPort = serialPort;
 		state = 0;
@@ -155,33 +155,6 @@ public class CANTool {
 			returnResult(trans);
 		}
 		
-		/*if(CheckFormat.check(id,Long.parseUnsignedLong(data_16,16)))
-		{
-			//returnTheInfo(1,"");
-			if(time == 0)
-			{
-				System.out.println(idString+lenString+data_16);
-			}
-			else
-			{
-				Thread th = new Thread();
-				for(int i=0;i<100;i++)
-				{
-					System.out.println(idString+lenString+data_16);
-					try {
-						th.sleep(time);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
-				th.stop();
-			}
-		}
-		else
-		{
-			returnTheInfo(0,"else");
-		}*/
 		
 	}
 
@@ -226,36 +199,7 @@ public class CANTool {
 			data_2 = data_2 + Integer.toBinaryString(Integer.parseInt(data_16.substring(i,i+1), 16));
 		}
 		int time = Integer.parseInt(timeString, 16);
-		System.out.println("频率为"+time);
-		/*if(CheckFormat.check(id,Long.parseUnsignedLong(data_16,16)))
-		{
-			returnTheInfo(1,"");
-			if(time == 0)
-			{
-				System.out.println(idString+lenString+data_16);
-			}
-			else
-			{
-				Thread th = new Thread();
-				for(int i=0;i<100;i++)
-				{
-					System.out.println(idString+lenString+data_16);
-					try {
-						th.sleep(time);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
-				th.stop();
-			}
-		}
-		else
-		{
-			returnTheInfo(0,"");
-		}*/
-		
-		
+		System.out.println("频率为"+time);	
 	}
 
 	public void changeSpeed(char c) 

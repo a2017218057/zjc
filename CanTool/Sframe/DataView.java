@@ -30,7 +30,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-import CANTool.CANTool;
+import CanTool.CanTool;
 import gnu.io.SerialPort;
 import gnu.io.SerialPortEvent;
 import gnu.io.SerialPortEventListener;
@@ -367,7 +367,7 @@ public class DataView extends Frame {
 							
 							//获取指定端口名及波特率的串口对象
 							serialPort = SerialTool.openPort(commName, bps);
-							CANTool tool = new CANTool(serialPort,tx1,tx2,tx3,tx4);
+							CanTool tool = new CanTool(serialPort,tx1,tx2,tx3,tx4);
 							//在该串口对象上添加监听器
 							SerialTool.addListener(serialPort, new SerialListener(serialPort,tool));
 							//监听成功进行提示
@@ -535,9 +535,9 @@ public class DataView extends Frame {
 		 */
 		    private SerialPort serialPort;
 		    private String buff;
-		    private CANTool tool;
+		    private CanTool tool;
 		    
-		    public SerialListener(SerialPort serialPort,CANTool tool)
+		    public SerialListener(SerialPort serialPort,CanTool tool)
 		    {
 		    	this.serialPort = serialPort;
 		    	buff = "";

@@ -1,6 +1,7 @@
-﻿package CANTool;
+﻿package CanTool;
 
 import gnu.io.SerialPort;
+import sendfile.Icantool;
 import serialPort.SerialTool;
 
 public class Main {
